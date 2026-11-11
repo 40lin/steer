@@ -1,0 +1,308 @@
+{
+  "status": "independent_interpretation_after_frozen_main_analysis",
+  "primary": {
+    "method": "belief",
+    "reference": "fixed_1",
+    "revenue": {
+      "estimate": 51.005587499996636,
+      "ci95_low": 28.41198812499973,
+      "ci95_high": 71.71533812499909,
+      "one_sided95_low": 32.20068062499968,
+      "bootstrap_sd": 11.05011273958021
+    },
+    "revenue_gain_percent": {
+      "estimate": 3.7308598369845103,
+      "ci95_low": 2.076594408011617,
+      "ci95_high": 5.249200477533513,
+      "one_sided95_low": 2.3549277029234164,
+      "bootstrap_sd": 0.8090887727893125
+    },
+    "service_slack": {
+      "estimate": 21.2484687499998,
+      "ci95_low": 14.103607812499877,
+      "ci95_high": 29.556838281249984,
+      "one_sided95_low": 15.247010937499704,
+      "bootstrap_sd": 3.887964089302804
+    },
+    "all_ten_seed_gains": [
+      0.0,
+      0.0,
+      0.0,
+      72.58424999999875,
+      79.40687499999854,
+      58.52987499999949,
+      62.65312499999982,
+      82.97812499999873,
+      68.39499999999975,
+      85.50862499999812
+    ],
+    "coalition_subgroup_is_explanatory": true,
+    "revenue_criterion_passes": true,
+    "service_criterion_passes": true,
+    "joint_confirmatory_success": true
+  },
+  "units": "Per 400-round episode, p=1, one-hour slots; modeled net receipts, not real-world currency or measured business profit.",
+  "subgroup_and_behavior_diagnostics": {
+    "all": {
+      "revenue_gain_percent_vs_fixed": {
+        "estimate": 3.7308598369845103,
+        "ci95_low": 2.076594408011617,
+        "ci95_high": 5.249200477533513,
+        "one_sided95_low": 2.3549277029234164,
+        "bootstrap_sd": 0.8090887727893125
+      },
+      "underreport_rate_active_belief": 0.3577677241034309,
+      "underreport_rate_active_fixed": 0.45940197882563105,
+      "underreport_rate_change_percentage_points": {
+        "estimate": -10.163425472220016,
+        "ci95_low": -14.38094855603412,
+        "ci95_high": -5.619045697308282,
+        "one_sided95_low": -13.795959574963714,
+        "bootstrap_sd": 2.2511538996798524
+      },
+      "completed_jobs_belief": 666.3083125,
+      "completed_jobs_fixed": 677.24625,
+      "completed_jobs_difference": {
+        "estimate": -10.937937499999975,
+        "ci95_low": -17.158154687499902,
+        "ci95_high": -5.130498437500097,
+        "one_sided95_low": -16.093665624999733,
+        "bootstrap_sd": 3.087966358258079
+      },
+      "completed_value_difference": {
+        "estimate": -33.02605000000085,
+        "ci95_low": -51.59422812500075,
+        "ci95_high": -15.657048124999461,
+        "one_sided95_low": -48.60290875000039,
+        "bootstrap_sd": 9.224684435352259
+      },
+      "overreport_rate_active_belief": 0.1381042593329542,
+      "overreport_rate_active_fixed": 0.12778776605734732,
+      "exit_rate_belief": 0.117946171875,
+      "exit_rate_fixed": 0.11397890625000003
+    },
+    "coalition": {
+      "revenue_gain_percent_vs_fixed": {
+        "estimate": 1.459502159279077,
+        "ci95_low": 0.727774069137327,
+        "ci95_high": 2.2542018810785303,
+        "one_sided95_low": 0.8355800607344692,
+        "bootstrap_sd": 0.38947360652551627
+      },
+      "underreport_rate_active_belief": 0.4318812735634428,
+      "underreport_rate_active_fixed": 0.47770584561379925,
+      "underreport_rate_change_percentage_points": {
+        "estimate": -4.582457205035645,
+        "ci95_low": -6.985246470112693,
+        "ci95_high": -2.3069875700063243,
+        "one_sided95_low": -6.583129032019735,
+        "bootstrap_sd": 1.2000706815609217
+      },
+      "completed_jobs_belief": 671.201375,
+      "completed_jobs_fixed": 685.95125,
+      "completed_jobs_difference": {
+        "estimate": -14.749874999999975,
+        "ci95_low": -23.38590937500003,
+        "ci95_high": -6.761959375000055,
+        "one_sided95_low": -21.915300000000013,
+        "bootstrap_sd": 4.255187831996117
+      },
+      "completed_value_difference": {
+        "estimate": -48.041949999999815,
+        "ci95_low": -76.16727749999986,
+        "ci95_high": -22.289538125000384,
+        "one_sided95_low": -71.38414624999977,
+        "bootstrap_sd": 13.8185828349781
+      },
+      "overreport_rate_active_belief": 0.2017973154644597,
+      "overreport_rate_active_fixed": 0.19185127912058358,
+      "exit_rate_belief": 0.1229628125,
+      "exit_rate_fixed": 0.11688593750000001
+    },
+    "independent": {
+      "revenue_gain_percent_vs_fixed": {
+        "estimate": 5.986676459010363,
+        "ci95_low": 3.3513662363739467,
+        "ci95_high": 8.346215373468283,
+        "one_sided95_low": 3.8035917606578598,
+        "bootstrap_sd": 1.2795961690424615
+      },
+      "underreport_rate_active_belief": 0.2844924418525797,
+      "underreport_rate_active_fixed": 0.4412178290567644,
+      "underreport_rate_change_percentage_points": {
+        "estimate": -15.672538720418466,
+        "ci95_low": -21.943860976062215,
+        "ci95_high": -8.743483887211832,
+        "one_sided95_low": -21.045272314355557,
+        "bootstrap_sd": 3.375763902778914
+      },
+      "completed_jobs_belief": 661.41525,
+      "completed_jobs_fixed": 668.5412500000001,
+      "completed_jobs_difference": {
+        "estimate": -7.12600000000009,
+        "ci95_low": -11.10360625000016,
+        "ci95_high": -3.4068593749999057,
+        "one_sided95_low": -10.462656250000066,
+        "bootstrap_sd": 1.9776477560452077
+      },
+      "completed_value_difference": {
+        "estimate": -18.010150000000976,
+        "ci95_low": -28.649053124999273,
+        "ci95_high": -8.327761875000515,
+        "one_sided95_low": -26.860529999998743,
+        "bootstrap_sd": 5.15575117905724
+      },
+      "overreport_rate_active_belief": 0.07513160859014337,
+      "overreport_rate_active_fixed": 0.06414326242630697,
+      "exit_rate_belief": 0.11292953125,
+      "exit_rate_fixed": 0.11107187499999999
+    }
+  },
+  "coalition_loss_L_NC_minus_C": {
+    "fixed_0": 96.75675000000092,
+    "fixed_1": 9.386249999999563,
+    "belief": 71.62792499999887
+  },
+  "coalition_loss_reduction_vs_reference": {
+    "fixed_0": {
+      "estimate": 25.128825000002053,
+      "ci95_low": -2.2268362499983243,
+      "ci95_high": 55.26111687500132,
+      "one_sided95_low": 1.9844987500009557,
+      "bootstrap_sd": 14.490765852971023
+    },
+    "fixed_1": {
+      "estimate": -62.241674999999304,
+      "ci95_low": -87.16482499999974,
+      "ci95_high": -34.6817531249996,
+      "one_sided95_low": -83.93443499999994,
+      "bootstrap_sd": 13.484141574326609
+    }
+  },
+  "coalition_loss_note": "Prespecified diagnostic, explanatory. Reduction positive means smaller NC-minus-C gap. Bootstrap uses the same frozen crossed design; no extra confirmatory hypothesis is asserted.",
+  "strong_comparisons": [
+    {
+      "reference": "history",
+      "estimate": 7.180800000000545,
+      "ci95_low": -24.71794000000029,
+      "ci95_high": 45.03200750000014
+    },
+    {
+      "reference": "openloop",
+      "estimate": 18.79992500000003,
+      "ci95_low": 0.9508753124998806,
+      "ci95_high": 38.90943124999909
+    },
+    {
+      "reference": "schedule_best",
+      "estimate": -20.62353750000284,
+      "ci95_low": -43.73283281250026,
+      "ci95_high": -0.02120781250111429
+    },
+    {
+      "reference": "oracle_fixed",
+      "estimate": -31.009537500002352,
+      "ci95_low": -53.69064624999909,
+      "ci95_high": -10.683153437500298
+    },
+    {
+      "reference": "oracle_unconstrained",
+      "estimate": -77.68378750000124,
+      "ci95_low": -100.30250687499847,
+      "ci95_high": -57.308918124998684
+    }
+  ],
+  "schedule_caveat": {
+    "revenue": {
+      "estimate": 1438.756000000005,
+      "ci95_low": 1433.8518093750058,
+      "ci95_high": 1443.5221218750055,
+      "one_sided95_low": 1434.6840812500052,
+      "bootstrap_sd": 2.434396871311554
+    },
+    "service_slack": {
+      "estimate": -0.14159375000008367,
+      "ci95_low": -4.133441406249796,
+      "ci95_high": 3.914196093750246,
+      "one_sided95_low": -3.4549328125000103,
+      "bootstrap_sd": 2.038755020991823
+    },
+    "interpretation": "The strong preselected schedule earns more than belief on average, but misses the service criterion by a very small point margin and has a negative one-sided bound. This is not evidence that response-history control dominates strong schedules."
+  },
+  "seed_stability": {
+    "gains_all_ten": [
+      0.0,
+      0.0,
+      0.0,
+      72.58424999999875,
+      79.40687499999854,
+      58.52987499999949,
+      62.65312499999982,
+      82.97812499999873,
+      68.39499999999975,
+      85.50862499999812
+    ],
+    "zero_gain_seeds": [
+      0,
+      1,
+      2
+    ],
+    "positive_gain_seeds": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "interpretation": "Three policies exactly reproduce the selected fixed threshold on the test set; report all ten, not only seven successful fits."
+  },
+  "fixed_type_heterogeneity": {
+    "A_and_C": "All eight A/C type cells improve revenue versus fixed .5.",
+    "B_and_D": "All eight B/D type cells reduce revenue versus fixed .5; all four B cells fail the type-specific 95% service point condition.",
+    "scope": "The registered constraint is population-mean service, not per-type or per-user service."
+  },
+  "independent_group_share_of_overall_gain": 0.8050728265800459,
+  "verified_restricted_dynamic_attack": {
+    "source": "attack_summary.json#concrete_profitable_attack",
+    "source_sha256": "8c2845b75c47630b43509d1b8fa1cf9cc794a990fc69f5a23459491b658807b0",
+    "platform_seed": 9,
+    "market": "C",
+    "template": {
+      "name": "constant_01_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    "reference_revenue": 1343.9999999999945,
+    "attack_revenue": 964.0000000000068,
+    "platform_revenue_change": {
+      "mean": -379.9999999999872,
+      "ci95": [
+        -379.9999999999872,
+        -379.9999999999872
+      ]
+    },
+    "coalition_utility_gain": {
+      "mean": 80.00000000000364,
+      "ci95": [
+        80.00000000000364,
+        80.00000000000364
+      ]
+    },
+    "completed_jobs_reference": 800.0,
+    "completed_jobs_attack": 740.0,
+    "scope": "One preselected frozen platform seed and one market under a validation-selected finite attack-template family, independently tested. This is a concrete counterexample to universal anti-collusion protection, not an estimate for all ten trained policies."
+  },
+  "supported_claim": "In the specified finite catalogue of bounded-learning buyers, dynamic threshold control improves expected receipts over the validation-selected global fixed threshold while satisfying the prespecified aggregate service criterion.",
+  "unsupported_claims": [
+    "Posterior inference is proven superior to direct history GRU.",
+    "Dynamic control dominates strong preplanned schedules or type-informed fixed rules.",
+    "Every market type benefits or every user retains 95% service.",
+    "The platform breaks coalitions, induces truthfulness, or prevents arbitrary strategic revenue harm."
+  ],
+  "frozen_script_unchanged": true
+}

@@ -1,0 +1,104 @@
+{
+  "physics": {
+    "buyers": 2,
+    "vm_capacities": [
+      3,
+      2
+    ],
+    "slot_hours": 1,
+    "maximum_report": 3,
+    "optout_code": 0,
+    "positive_reports": [
+      1,
+      2,
+      3
+    ],
+    "overreporting_allowed": true,
+    "one_vm_per_account": true,
+    "job_splitting_across_vms": false,
+    "coalition_colocation_allowed": true,
+    "migration_cost": 0,
+    "registered_identities_fixed": true
+  },
+  "mechanism": {
+    "price_per_core_hour": "1",
+    "alpha": "1/5",
+    "rho_menu": [
+      "0",
+      "1/2",
+      "2/3",
+      "4/5",
+      "1"
+    ],
+    "kappa_menu": [
+      "0",
+      "1/20",
+      "1/10"
+    ],
+    "eligibility": "0 < b <= c and b >= rho*c",
+    "allocation_objective": "maximum_total_allocated_capacity",
+    "tie_rule": "uniform_among_all_optimal_matchings",
+    "uniform_sampler": "optimal_value_and_count_DP_over_VM_index_and_used_buyer_bitmask",
+    "rebate": "kappa*price*slot_hours*report_if_allocated",
+    "advertisement_mask": "kappa <= 1-alpha and kappa*price*slot_hours*sum(capacities) <= remaining_budget"
+  },
+  "budget": {
+    "initial_cash": "50",
+    "reference": "5_percent_of_200*5*1_preannounced_full_price_supply_revenue",
+    "budget_scope": "entire_episode_pathwise_cap",
+    "operating_cost_per_core_hour": "0",
+    "switching_cost": "0"
+  },
+  "horizon": {
+    "intervention_rounds": 200,
+    "hold_rounds": 200,
+    "main_hold_rule": "rho=frozen_last_intervention_rho,kappa=0,buyers_continue_learning"
+  },
+  "hidden_market_catalog": [
+    {
+      "id": "A",
+      "m": [
+        3,
+        2
+      ],
+      "v": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "B",
+      "m": [
+        3,
+        2
+      ],
+      "v": [
+        2.4,
+        1.6
+      ]
+    },
+    {
+      "id": "C",
+      "m": [
+        2,
+        2
+      ],
+      "v": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "D",
+      "m": [
+        1,
+        3
+      ],
+      "v": [
+        2,
+        8
+      ]
+    }
+  ],
+  "purpose": "Independent exact-response diagnostic; not the GRU training configuration. One-round probing has a different control cadence from the main 10-round experiment."
+}

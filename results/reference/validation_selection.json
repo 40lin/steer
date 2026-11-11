@@ -1,0 +1,71 @@
+{
+  "fixed_records": [
+    {
+      "action": 0,
+      "rho": 0.0,
+      "revenue": 1300.8168750000038,
+      "volume": 1787.864375
+    },
+    {
+      "action": 1,
+      "rho": 0.5,
+      "revenue": 1369.8532500000056,
+      "volume": 1727.28375
+    },
+    {
+      "action": 2,
+      "rho": 0.6666666666666666,
+      "revenue": 1353.3417500000037,
+      "volume": 1483.66875
+    },
+    {
+      "action": 3,
+      "rho": 1.0,
+      "revenue": 1344.674375,
+      "volume": 1344.674375
+    }
+  ],
+  "best_fixed_action": 1,
+  "best_unconstrained_action": 1,
+  "target_volume": 1698.47115625,
+  "target_volume_fraction_per_step": 0.849235578125,
+  "original_volume": 1787.864375,
+  "oracle_per_type_actions": [
+    3,
+    3,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+  ],
+  "worlds_per_model": 100,
+  "stream_seed": 300017,
+  "oracle_unconstrained_actions": [
+    3,
+    3,
+    3,
+    3,
+    0,
+    1,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    1,
+    3
+  ]
+}

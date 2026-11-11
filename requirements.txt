@@ -1,0 +1,3 @@
+# CPU-only PyTorch wheels may be installed from the official CPU index first.
+numpy==2.4.4
+torch==2.5.1

@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-11",
+  "stage": "before opening or generating main held-out tests",
+  "preliminary_data_seen": "Static validation and a seed-0 engineering smoke training using 10 validation worlds/type. Its checkpoint is discarded and seed 0 rerun using all 100 validation worlds/type.",
+  "main_platform": "GRU PPO with exact finite-catalogue Bayesian posterior plus public block summaries",
+  "ablations": ["same GRU PPO on public history without posterior", "same GRU PPO on time only"],
+  "training_seeds_each": [0,1,2,3,4,5,6,7,8,9],
+  "actual_market_training_steps_per_seed": 1996800,
+  "training_rollouts_per_seed": 4992,
+  "total_main_training_steps": 59904000,
+  "validation_seed": 300017,
+  "test_seed": 800021,
+  "worlds_per_type_validation_and_test": 100,
+  "deployment_action": "argmax, fixed before test",
+  "service_checkpoint_rule": "validation average Q >= 0.95 validation original Q, maximize R among eligible checkpoints; if none, maximize Q then R",
+  "additional_fixed_reference": "unconstrained per-type validation-best fixed rule, to avoid treating a stricter per-type-service oracle as a general static upper bound",
+  "statistical_analysis": "10000 paired crossed bootstrap draws, train-seed resampling and within-fixed-type world resampling; all seed results retained",
+  "exploratory_stress_tests": [
+    "all 10 frozen main policies against exact myopic grand coalition",
+    "all 10 frozen main policies with tabular economic-class Q learners and correctly specified candidate replay, without platform retraining",
+    "all 10 frozen main policies with raw-rho feature learners and correctly specified candidate replay, without platform retraining",
+    "all 10 frozen main policies with hold extended from 200 to 1000 rounds",
+    "platform seeds 0,4,9 against an independently selected finite class of forward-looking coalition imitation attacks"
+  ],
+  "not_claimed": [
+    "universal coalition-proofness",
+    "truthful demand revelation",
+    "real-world profit after operational/switching costs",
+    "all reinforcement-learning attackers optimally solved",
+    "unseen-type generalization",
+    "per-path or per-type 95 percent service guarantee"
+  ],
+  "runtime_equivalence_optimization": "After round 200, evaluation stops updating the unused hypothesis bank, because the last threshold is irrevocably held. Revenue, allocations, buyer learning and all later cash flows still run. Training continues full posterior updates for the critic. Saved evaluation posterior is therefore the round-200 posterior."
+}

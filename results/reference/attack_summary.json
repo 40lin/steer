@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "predeclared_platform_seeds": [
+    0,
+    4,
+    9
+  ],
+  "selection_rule": "89 templates; selected per market and platform seed using mean coalition total utility on 8 attack-validation worlds; 64 new test worlds; no test-based reselection",
+  "stage_BR_tie": "maximize coalition stage utility; among indifferent actions choose platform-pessimistic expected revenue then lexicographic report, matching the predeclared reference",
+  "uniform_market_seed_mean_attack_revenue": 1190.3385416666695,
+  "uniform_market_seed_mean_reference_revenue": 1230.6666666666686,
+  "uniform_market_seed_mean_coalition_gain": 31.557291666667282,
+  "by_platform_seed": [
+    {
+      "seed": 0,
+      "attack_revenue": 1360.000000000004,
+      "reference_revenue": 1360.000000000004,
+      "coalition_gain": 0.0
+    },
+    {
+      "seed": 4,
+      "attack_revenue": 1139.390625000001,
+      "reference_revenue": 1156.000000000001,
+      "coalition_gain": 46.609375000000725
+    },
+    {
+      "seed": 9,
+      "attack_revenue": 1071.6250000000036,
+      "reference_revenue": 1176.0000000000007,
+      "coalition_gain": 48.06250000000112
+    }
+  ],
+  "frozen_hash_checks": {
+    "code/adaptive_coalition_attack.py": true,
+    "code/steering_env.py": true,
+    "code/belief_baselines.py": true,
+    "code/run_threshold_experiment.py": true,
+    "experiments/dynamic_threshold/checkpoints/belief_0.pt": true,
+    "experiments/dynamic_threshold/checkpoints/belief_4.pt": true,
+    "experiments/dynamic_threshold/checkpoints/belief_9.pt": true
+  },
+  "seed0_validation_local_action_support": {
+    "0": [
+      1
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      1
+    ],
+    "3": [
+      1
+    ]
+  },
+  "concrete_profitable_attack": {
+    "seed": 9,
+    "market": "C",
+    "prefix_report": [
+      0,
+      1
+    ],
+    "prefix_rounds": 40,
+    "baseline_loose_threshold_starts_round": 191,
+    "attacked_loose_threshold_starts_round": 21,
+    "loose_threshold": 0,
+    "baseline_revenue": 1344,
+    "attack_revenue": 964,
+    "revenue_difference": -380,
+    "coalition_utility_gain": 80,
+    "revenue_identity": "baseline 190*4.2+210*2.6=1344; attack 20*0+20*1.4+360*2.6=964",
+    "utility_identity": "baseline 190*(10-4.2)+210*(10-2.6)=2656; attack 20*0+20*(5-1.4)+360*(10-2.6)=2736",
+    "scope": "This template was selected on independent attack validation, and its exact trajectory occurred in all 64 fresh test worlds; this is conditional evidence, not universal uncertainty elimination."
+  },
+  "limitations": [
+    "Only three predeclared trained-policy seeds and four fixed markets were attacked.",
+    "Finite template search supplies profitable-deviation witnesses and a lower bound, not a complete dynamic equilibrium or robustness proof.",
+    "Market D improves coalition utility and platform revenue together under the selected deviations, so coalition gain is not synonymous with platform damage.",
+    "Zero-width within-case intervals may arise from deterministic histories; they do not cover broader type/model/training uncertainty."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "method": "belief",
+  "reference": "fixed_1",
+  "revenue": {
+    "estimate": 51.005587499996636,
+    "ci95_low": 28.41198812499973,
+    "ci95_high": 71.71533812499909,
+    "one_sided95_low": 32.20068062499968,
+    "bootstrap_sd": 11.05011273958021
+  },
+  "revenue_gain_percent": {
+    "estimate": 3.7308598369845103,
+    "ci95_low": 2.076594408011617,
+    "ci95_high": 5.249200477533513,
+    "one_sided95_low": 2.3549277029234164,
+    "bootstrap_sd": 0.8090887727893125
+  },
+  "service_slack": {
+    "estimate": 21.2484687499998,
+    "ci95_low": 14.103607812499877,
+    "ci95_high": 29.556838281249984,
+    "one_sided95_low": 15.247010937499704,
+    "bootstrap_sd": 3.887964089302804
+  },
+  "all_ten_seed_gains": [
+    0.0,
+    0.0,
+    0.0,
+    72.58424999999875,
+    79.40687499999854,
+    58.52987499999949,
+    62.65312499999982,
+    82.97812499999873,
+    68.39499999999975,
+    85.50862499999812
+  ],
+  "coalition_subgroup_is_explanatory": true,
+  "revenue_criterion_passes": true,
+  "service_criterion_passes": true,
+  "joint_confirmatory_success": true
+}

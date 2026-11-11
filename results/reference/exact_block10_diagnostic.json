@@ -1,0 +1,230 @@
+{
+  "status": "completed_exact_analytic_diagnostic_matched_10_round_control_cadence",
+  "source": "Independent exact rational calculation; frozen source and prior results were not changed.",
+  "assumptions": {
+    "markets": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "prior": "uniform",
+    "all_buyers_in_grand_coalition": true,
+    "vm_capacities": [
+      3,
+      2
+    ],
+    "price": 1,
+    "alpha": "1/5",
+    "rebates": 0,
+    "operating_cost": 0,
+    "horizon_rounds": 400,
+    "control_block_rounds": 10,
+    "control_rounds": 200,
+    "hold_rounds": 200,
+    "probe_rho": "4/5",
+    "probe_rounds": 10,
+    "later_rho": "4/5 for inferred A/C; 1/2 for inferred B/D",
+    "hold_protocol_compatible": true,
+    "response_model": "Exact myopic coalition utility best response with platform-pessimistic expected-revenue ties; this is not the trained buyer-learning environment."
+  },
+  "best_common_fixed": {
+    "rho": "1/2",
+    "per_round_revenue": {
+      "exact": "17/5",
+      "decimal": 3.4
+    },
+    "total_revenue": {
+      "exact": "1360",
+      "decimal": 1360.0
+    },
+    "core_hours": {
+      "exact": "2000",
+      "decimal": 2000.0
+    }
+  },
+  "known_type_fixed_oracle": {
+    "mean_per_round_revenue": {
+      "exact": "21/5",
+      "decimal": 4.2
+    },
+    "mean_total_revenue": {
+      "exact": "1680",
+      "decimal": 1680.0
+    }
+  },
+  "honest_myopic_probe": {
+    "revenue_formula": "10*(5+0+5+3)/4 + 390*(5+3.4+5+3.4)/4 = 1670.5",
+    "volume_formula": "10*(5+0+5+3)/4 + 390*5 = 1982.5",
+    "by_market_revenue": {
+      "A": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "B": {
+        "exact": "1326",
+        "decimal": 1326.0
+      },
+      "C": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "D": {
+        "exact": "1356",
+        "decimal": 1356.0
+      }
+    },
+    "by_market_core_hours": {
+      "A": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "B": {
+        "exact": "1950",
+        "decimal": 1950.0
+      },
+      "C": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "D": {
+        "exact": "1980",
+        "decimal": 1980.0
+      }
+    },
+    "by_market_coalition_utility": {
+      "A": {
+        "exact": "3600",
+        "decimal": 3600.0
+      },
+      "B": {
+        "exact": "234",
+        "decimal": 234.0
+      },
+      "C": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "D": {
+        "exact": "2624",
+        "decimal": 2624.0
+      }
+    },
+    "mean_revenue": {
+      "exact": "3341/2",
+      "decimal": 1670.5
+    },
+    "mean_core_hours": {
+      "exact": "3965/2",
+      "decimal": 1982.5
+    },
+    "gain_vs_common_fixed": {
+      "exact": "621/2",
+      "decimal": 310.5
+    },
+    "regret_vs_type_oracle": {
+      "exact": "19/2",
+      "decimal": 9.5
+    }
+  },
+  "forward_looking_on_support_mimicry": {
+    "attack": "A/C deliberately report (0,3) throughout the first strict block, receive one 3-core VM and mimic D. B opts out at the strict probe. D uses its ordinary one-VM strict best response. Thereafter all types use exact BR to rho=1/2.",
+    "future_observational_compatibility": "At rho=1/2, A/B/C/D have the same pessimistic report support {(1,2),(2,1)}. The false D posterior cannot correct itself from these future reports.",
+    "revenue_formula": "10*(3+0+3+3)/4 + 390*3.4 = 1348.5",
+    "volume_formula": "10*(3+0+3+3)/4 + 390*5 = 1972.5",
+    "by_market_revenue": {
+      "A": {
+        "exact": "1356",
+        "decimal": 1356.0
+      },
+      "B": {
+        "exact": "1326",
+        "decimal": 1326.0
+      },
+      "C": {
+        "exact": "1356",
+        "decimal": 1356.0
+      },
+      "D": {
+        "exact": "1356",
+        "decimal": 1356.0
+      }
+    },
+    "by_market_core_hours": {
+      "A": {
+        "exact": "1980",
+        "decimal": 1980.0
+      },
+      "B": {
+        "exact": "1950",
+        "decimal": 1950.0
+      },
+      "C": {
+        "exact": "1980",
+        "decimal": 1980.0
+      },
+      "D": {
+        "exact": "1980",
+        "decimal": 1980.0
+      }
+    },
+    "by_market_coalition_utility": {
+      "A": {
+        "exact": "4194",
+        "decimal": 4194.0
+      },
+      "B": {
+        "exact": "234",
+        "decimal": 234.0
+      },
+      "C": {
+        "exact": "2594",
+        "decimal": 2594.0
+      },
+      "D": {
+        "exact": "2624",
+        "decimal": 2624.0
+      }
+    },
+    "by_market_coalition_utility_gain": {
+      "A": {
+        "exact": "594",
+        "decimal": 594.0
+      },
+      "B": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "C": {
+        "exact": "594",
+        "decimal": 594.0
+      },
+      "D": {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    },
+    "mean_revenue": {
+      "exact": "2697/2",
+      "decimal": 1348.5
+    },
+    "mean_core_hours": {
+      "exact": "3945/2",
+      "decimal": 1972.5
+    },
+    "difference_vs_common_fixed": {
+      "exact": "-23/2",
+      "decimal": -11.5
+    },
+    "mean_utility_gain": {
+      "exact": "297",
+      "decimal": 297.0
+    }
+  },
+  "interpretation": [
+    "Market identification alone can create a large adaptive-versus-fixed gap without breaking a coalition.",
+    "The finite myopic type model is strategically manipulable; this explicit on-support attack sacrifices current service to obtain a favorable persistent rule.",
+    "This is a separate exact-model diagnostic, not an evaluation of a trained checkpoint or a certificate about every forward-looking strategy.",
+    "Use these 10-round-block figures in the main comparison; the prior 1-round probe result 1679.05 is an appendix diagnostic with a different decision cadence."
+  ]
+}
