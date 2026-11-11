@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-11T13:19:59.787738+00:00",
+  "status": "design_frozen_before_v5_validation_and_test",
+  "files": {
+    "docs/v5_conditional_protocol.md": "31af5f524118c3ee6ee80e8c8c850b209dae082652f6c5afc492e51c9f6b17d2",
+    "docs/v4_incentive_protocol.md": "346c9e5d9245e10a6d37df944964bf8081ba72fca03289862b6f836be4f1e235",
+    "docs/v4_technical_design.md": "bda2d0b4bed3a5e8c9bc274a8ba90f3e94bfd1fd25c8a72a7caa8e7ac104502b"
+  },
+  "v4_results_preserved": true,
+  "v4_statistical_audit_is_living_review_not_hashed": true
+}

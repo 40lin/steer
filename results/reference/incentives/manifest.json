@@ -1,0 +1,1877 @@
+{
+  "studies": {
+    "v4": {
+      "status": "complete_compact_publication",
+      "source_directory": "experiments/v4_incentive",
+      "group_filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+      "type_filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+      "phase_policy": "Retain full, control and withdraw; do not filter metrics or signs.",
+      "artifacts": [
+        {
+          "source_file": "experiments/v4_incentive/analysis/primary.json",
+          "published_file": "v4/analysis/primary.json",
+          "source_sha256": "0074dd415881123b531d4981d0d75d6a9b0d8fc19782499e8490ad16f0ca528d",
+          "published_sha256": "5cf18b684d477bdd7a17df84c3b2e59632076b770a55b8ae63be1e28df46961b",
+          "source_bytes": 310556,
+          "published_bytes": 202911,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/cost_frontier.csv",
+          "published_file": "v4/analysis/cost_frontier.csv",
+          "source_sha256": "4d2ed2994e9af4d3007f22c4057b6025e46ff94801e110417cccb3fb18cc9205",
+          "published_sha256": "001c054b304bb695e0e5222c5f2d41b157a41a6bfd520b1d4ee5474e462eaab2",
+          "source_bytes": 3582,
+          "published_bytes": 3554,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 24,
+          "published_rows": 24,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 25,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/path_audits.csv",
+          "published_file": "v4/analysis/path_audits.csv",
+          "source_sha256": "c4dcf4e09f3704e93d3883da7fa1c39e53df444781abd2fea36e15aa011e323e",
+          "published_sha256": "712037a33a3cb9eb9fbd0eb76d8591fb5996a16e0f8080547909e0965be76a45",
+          "source_bytes": 13715,
+          "published_bytes": 9871,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 96,
+          "published_rows": 96,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 97,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 96,
+          "path_sanitization": [
+            {
+              "field": "row[0]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[1]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[2]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[3]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[4]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[5]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[6]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[7]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[8]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[9]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[10]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[11]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[12]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[13]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[14]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[15]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[16]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[17]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[18]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[19]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[20]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[21]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[22]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[23]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[24]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[25]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[26]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[27]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[28]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[29]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[30]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[31]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[32]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[33]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[34]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[35]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[36]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[37]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[38]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[39]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[40]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[41]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[42]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[43]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[44]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[45]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[46]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[47]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[48]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[49]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[50]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[51]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[52]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[53]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[54]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[55]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[56]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[57]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[58]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[59]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[60]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[61]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[62]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[63]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[64]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[65]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[66]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[67]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[68]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[69]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[70]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[71]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[72]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[73]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[74]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[75]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[76]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[77]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[78]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[79]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[80]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[81]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[82]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[83]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[84]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[85]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[86]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[87]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[88]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[89]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[90]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[91]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[92]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[93]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[94]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[95]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            }
+          ]
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/summary.json",
+          "published_file": "v4/analysis/summary_selected.json",
+          "source_sha256": "f7fd4c9fb55ae3b94adf813ebee1249f29f03f651bb77264dc368b30f8d391cc",
+          "published_sha256": "ba0458c6cf89257b5a208f6621ebc1b6640f82ffb4a8aaf8ddbecafb619c38e3",
+          "source_bytes": 19491786,
+          "published_bytes": 2749539,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_group_records": 324,
+          "published_group_records": 84,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/summary.csv",
+          "published_file": "v4/analysis/summary_selected.csv",
+          "source_sha256": "c1283236d616d0f76efb2303ce91bacaabb761899ab5f4aa50c06ea0a08b20c5",
+          "published_sha256": "474052e3bcc8aab3873f4db457c9e70ec93d3fe644ecbefd45b0a790ea6e9a37",
+          "source_bytes": 2156352,
+          "published_bytes": 557834,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 14094,
+          "published_rows": 3654,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 14095,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/comparisons.csv",
+          "published_file": "v4/analysis/comparisons_selected.csv",
+          "source_sha256": "28b10339e69286f616e7a637a5c61b84feee4f839feffc7bed175ff41a6b64f9",
+          "published_sha256": "a55169c8ca44491fbce85dd2b813af4b162f9856cb6ae91081b1c3f59993466a",
+          "source_bytes": 5297766,
+          "published_bytes": 1378970,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 28404,
+          "published_rows": 7364,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 28405,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/buyer_summary.csv",
+          "published_file": "v4/analysis/buyer_summary_selected.csv",
+          "source_sha256": "dff6346629008d88dc4c68697377dceb4823c02ce0c92c95eb8295d2d1c18275",
+          "published_sha256": "8500fc229431c7838ae1abb60463b314368bef5296732da6a63312a16266b725",
+          "source_bytes": 5547626,
+          "published_bytes": 1421657,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 34020,
+          "published_rows": 8820,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 34021,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/buyer_comparisons.csv",
+          "published_file": "v4/analysis/buyer_comparisons_selected.csv",
+          "source_sha256": "d53ed0a876b6a0889a3f32be3973fb51394bbe8f8666f6a1e094e0051104f895",
+          "published_sha256": "7e023a87fb02b7fdb9e621c1f2c6cb44665de61dd1583ab04cdc543e54bf46a8",
+          "source_bytes": 2602282,
+          "published_bytes": 671413,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 14580,
+          "published_rows": 3780,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 14581,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/seed_results.csv",
+          "published_file": "v4/analysis/seed_results_selected.csv",
+          "source_sha256": "27e8019847a0801ea40d7044f5886da60c6f080515941caacc7108a8753b9db1",
+          "published_sha256": "18e413ed92bb96aecaf4cdcdd28b43d00c70edd72d48bd0196730f61aab55193",
+          "source_bytes": 948618,
+          "published_bytes": 254395,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 1944,
+          "published_rows": 504,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 1945,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/type_results.csv",
+          "published_file": "v4/analysis/type_results_bounded_b50.csv",
+          "source_sha256": "81cfeeb6a7d9ec3ec814b936db2dfeee2e63b4299c8969d56b199dcda03d24cd",
+          "published_sha256": "88fbb5eb207c81e0b682771ca30c7330044c2435a58d13673807d2788124591f",
+          "source_bytes": 6815349,
+          "published_bytes": 926173,
+          "filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+          "source_rows": 46980,
+          "published_rows": 6264,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 46981,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis/buyer_type_results.csv",
+          "published_file": "v4/analysis/buyer_type_results_bounded_b50.csv",
+          "source_sha256": "2a1514b02f5d0103083506b37a5c2d4751a48b5152385707cc7d56e66b238b54",
+          "published_sha256": "4538dd807b207cf4a49589382772b5c63782e6dcdf585b4cdb1b6626af2293c9",
+          "source_bytes": 1086774,
+          "published_bytes": 146536,
+          "filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+          "source_rows": 4860,
+          "published_rows": 648,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 4861,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/protocol.json",
+          "published_file": "v4/protocol.json",
+          "source_sha256": "f374390aea7018acdfb306c488da37c6cc217a5e23546ac8d5eeb067d8e4d569",
+          "published_sha256": "1baae21b882bf2674eab6aab39d336c4b3da1679e162797fc9795913df53a335",
+          "source_bytes": 7164,
+          "published_bytes": 4742,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/selection.json",
+          "published_file": "v4/selection.json",
+          "source_sha256": "aa5fde1886020d76e5664c74ead2966dc608c49b900db59cd7951879ee12c510",
+          "published_sha256": "17e19af2086c4129c4b0523b6dc226beceb9d441d950ae6febb5427c7bbac257",
+          "source_bytes": 81039,
+          "published_bytes": 58771,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/pretest_freeze.json",
+          "published_file": "v4/pretest_freeze.json",
+          "source_sha256": "10731b14ba45ad82ebff93d1ee02de1fdb86686caa4630907548b2a4da5a3d65",
+          "published_sha256": "4b17d63a13e820b8f71f209c2c405e50c0daccec38434569090572ee9eaa8c2f",
+          "source_bytes": 3715,
+          "published_bytes": 3518,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/analysis_freeze.json",
+          "published_file": "v4/analysis_freeze.json",
+          "source_sha256": "71598b6d28290b190f6dc1b69b8325a5bf47c1cf05bdd03d169c8eb679ab7e6e",
+          "published_sha256": "0a83583a25c1ceb5af87f5ed236735a1e38755f44e10038fdc9464127585ff29",
+          "source_bytes": 3312,
+          "published_bytes": 2813,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/protocol.json",
+          "published_file": "v4/exact_audit/protocol.json",
+          "source_sha256": "b300ccee284408b58533facbae88470373729daf2f61dbb7dc9a6a1ea19770c7",
+          "published_sha256": "7c25c87a6160ce535bc6f81c23028f23ea28b003f974bf3d51e8397e7c0ae98a",
+          "source_bytes": 3254,
+          "published_bytes": 2862,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 71,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/summary.json",
+          "published_file": "v4/exact_audit/summary.json",
+          "source_sha256": "fe63afba655166236464ef62f523724bb0fdae02a577bd4ff82fd5bea5e4b0f8",
+          "published_sha256": "fd31e944d679d0381308c4a5e762ddc877f7e427c885d8859473fc0a9250c4c7",
+          "source_bytes": 647348,
+          "published_bytes": 481113,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 18667,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/stage_summary.csv",
+          "published_file": "v4/exact_audit/stage_summary.csv",
+          "source_sha256": "6e8b5a3a761810d20138acdc0f26ed9cc7789ebe44a1fb54f8ea265b0402fa34",
+          "published_sha256": "0f649c3bf4cfeccd2f76e942fa62d43196cc73c5755e0dced97b33e18de4b3d4",
+          "source_bytes": 101191,
+          "published_bytes": 100611,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 576,
+          "published_rows": 576,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 577,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/pure_nash.csv",
+          "published_file": "v4/exact_audit/pure_nash.csv",
+          "source_sha256": "92fc1250ff126d4f67bc11db09afed689155e98b8538febf8ed4efd14226f3e0",
+          "published_sha256": "68a9a5df71232ec98ee5bf63e357025a83fd032ba75ac9bc271c08d03b709ef6",
+          "source_bytes": 416841,
+          "published_bytes": 414041,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 2796,
+          "published_rows": 2796,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 2797,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/completion_audit.json",
+          "published_file": "v4/exact_audit/completion_audit.json",
+          "source_sha256": "94ebed1219b9083db6cac8012701d080e0f4385e3124d5928084bf25eb351a5a",
+          "published_sha256": "f01461c3726ec17ccb5e97589394164281cadd39d9352a799657d90bcc68a4de",
+          "source_bytes": 1025,
+          "published_bytes": 929,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 17,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/bonus_trade_effects.csv",
+          "published_file": "v4/exact_audit/bonus_trade_effects.csv",
+          "source_sha256": "512b3f372a7e73addb28f6b31e26a486a844b8a8b5728ccb28934e910aa24eb1",
+          "published_sha256": "86ffa26c2cebc606a3720a2795e241a39abd10a3e1211b464637d1b2fbd0bdee",
+          "source_bytes": 5170,
+          "published_bytes": 4986,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 180,
+          "published_rows": 180,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 181,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/withdrawal_oracles.json",
+          "published_file": "v4/exact_audit/withdrawal_oracles.json",
+          "source_sha256": "83fbc3b99526049afbda9775807537e65c49426768e500c4ffcb2871574e69d5",
+          "published_sha256": "400e091ca30d79d0887b897ad945c421f20fbb161cd3ecc6a0d03cefbcc73b76",
+          "source_bytes": 42663,
+          "published_bytes": 27974,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 1693,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/witnesses.json",
+          "published_file": "v4/exact_audit/witnesses.json",
+          "source_sha256": "c87f0e0f52c3b59e5bfd8997ba0be907ac9ec5a1880a124915960b170bd1710d",
+          "published_sha256": "88c08be4e4865fc1de50b5ca6d9b6da8d15b3ef8823f6b914ce770a349c0d9bb",
+          "source_bytes": 132147,
+          "published_bytes": 79863,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 5665,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/economic_findings.json",
+          "published_file": "v4/exact_audit/economic_findings.json",
+          "source_sha256": "b5dc8b2c94c962836f52896e2c06b73f1af5708940efccc22a634a0a4c252b22",
+          "published_sha256": "11d968068985188ad50b6f9a88c64b8094b6a41d302a6236d53f638d877eec0f",
+          "source_bytes": 1221,
+          "published_bytes": 1077,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 26,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v4_incentive/environment_design_audit.json",
+          "published_file": "v4/environment_design_audit.json",
+          "source_sha256": "5f07ab7543ce0a166b48f18d3b95aa1e283ac8c8af1c81ec7c21119ee416643c",
+          "published_sha256": "22efa6d32672a9caf403ec35ce3ebd2237472a92212afafba03f5f38b5a8ea64",
+          "source_bytes": 2886,
+          "published_bytes": 2116,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 97,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        }
+      ],
+      "omitted_large_artifacts": [
+        {
+          "source_file": "experiments/v4_incentive/exact_audit/stage_details.json",
+          "source_sha256": "ec23d808336567e84fd29196bdd32fb314b37bca963f28e30dddaa01562af070",
+          "source_bytes": 1638347,
+          "reason": "Large per-configuration detailed arrays; full summaries, NE tables and witnesses retained."
+        }
+      ],
+      "raw_trajectory_policy": "NPZ test/validation trajectories and checkpoints remain local and reproducible; their source hashes remain in original analysis/pretest manifests."
+    },
+    "v5": {
+      "status": "complete_compact_publication",
+      "source_directory": "experiments/v5_conditional_incentive",
+      "group_filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+      "type_filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+      "phase_policy": "Retain full, control and withdraw; do not filter metrics or signs.",
+      "artifacts": [
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/primary.json",
+          "published_file": "v5/analysis/primary.json",
+          "source_sha256": "8b232c323a365e47e9956151787b90420b51bc2f0e2f9e0d6bc8f715be8cfbd4",
+          "published_sha256": "55e133e953d2dc98a00689abc37de10271cb48a1ef81f90d5c28ba4d6893f7dd",
+          "source_bytes": 311783,
+          "published_bytes": 204044,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/cost_frontier.csv",
+          "published_file": "v5/analysis/cost_frontier.csv",
+          "source_sha256": "aea6c23cc8656e5cb4e0d62fcb49519765223d5dfbafb367ce8938214b33cbbf",
+          "published_sha256": "757d33028e5d6cca1dd82a7ce7a2a7c2214d1d2bec051b7a6feee3a78d26b637",
+          "source_bytes": 3438,
+          "published_bytes": 3410,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 24,
+          "published_rows": 24,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 25,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/path_audits.csv",
+          "published_file": "v5/analysis/path_audits.csv",
+          "source_sha256": "5a6352b90115883b668c1b55d0a69ef7ef58bd187e4bd8ba4c4e398488ee6687",
+          "published_sha256": "7f288e5ac6cf9e985afec5c948bd7f606a5f639bd21ffb5dcea4ca0989db1219",
+          "source_bytes": 14843,
+          "published_bytes": 10999,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 96,
+          "published_rows": 96,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 97,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 96,
+          "path_sanitization": [
+            {
+              "field": "row[0]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[1]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[2]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[3]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[4]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[5]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[6]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[7]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[8]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[9]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[10]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[11]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[12]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[13]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[14]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[15]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[16]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[17]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[18]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[19]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[20]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[21]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[22]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[23]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[24]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[25]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[26]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[27]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[28]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[29]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[30]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[31]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[32]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[33]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[34]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[35]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[36]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[37]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[38]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[39]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[40]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[41]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[42]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[43]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[44]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[45]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[46]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[47]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[48]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[49]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[50]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[51]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[52]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[53]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[54]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[55]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[56]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[57]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[58]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[59]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[60]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[61]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[62]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[63]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[64]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[65]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[66]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[67]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[68]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[69]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[70]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[71]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[72]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[73]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[74]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[75]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[76]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[77]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[78]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[79]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[80]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[81]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[82]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[83]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[84]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[85]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[86]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[87]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[88]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[89]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[90]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[91]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[92]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[93]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[94]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            },
+            {
+              "field": "row[95]/file",
+              "rule": "replace local checkout prefix with repository-relative suffix"
+            }
+          ]
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/summary.json",
+          "published_file": "v5/analysis/summary_selected.json",
+          "source_sha256": "2bb29cd6afedc8fe96aa11c9d77132323168bb351d4d72c8a04b0f370291b918",
+          "published_sha256": "19cb8c2f8b1c0d9d065f5785898a08b3560d502a02d9eef99d90f21e385fb075",
+          "source_bytes": 19491746,
+          "published_bytes": 2755000,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_group_records": 324,
+          "published_group_records": 84,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/summary.csv",
+          "published_file": "v5/analysis/summary_selected.csv",
+          "source_sha256": "c6aed6cf905acf4661df69c534cfc9f67e09d2a7d9207f04d98224c2b800c305",
+          "published_sha256": "8f29be7a052b6056e1f750bd328dd9f9b17d5ed748a4d57f064d70b23cf7a41f",
+          "source_bytes": 2154617,
+          "published_bytes": 557419,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 14094,
+          "published_rows": 3654,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 14095,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/comparisons.csv",
+          "published_file": "v5/analysis/comparisons_selected.csv",
+          "source_sha256": "9093abe286cd6b7214fc708a14d57229c012b9604df7e31ac4fe0db5dd20222f",
+          "published_sha256": "165216cd36a1eae70c71e30607aeaa1c814c9dc4043796f70904c2407582896f",
+          "source_bytes": 5297409,
+          "published_bytes": 1383052,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 28404,
+          "published_rows": 7364,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 28405,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/buyer_summary.csv",
+          "published_file": "v5/analysis/buyer_summary_selected.csv",
+          "source_sha256": "53a0a9e33d393eb3c9f24080792c32363e6c9ecaa3c5d052ed88ec2f8e4e18e4",
+          "published_sha256": "a7ff0d8911a430c70fad636d6e646846a38ee72efb5af57c54f4772d17b59f0f",
+          "source_bytes": 5528514,
+          "published_bytes": 1417256,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 34020,
+          "published_rows": 8820,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 34021,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/buyer_comparisons.csv",
+          "published_file": "v5/analysis/buyer_comparisons_selected.csv",
+          "source_sha256": "4ee59c8280f3d5e48f30db05cec9ee5a298ad114fc1d08631bb0e675703bf914",
+          "published_sha256": "b6558d114c218beb6852dfe7255c40871bb32eb0371af9a48cc43fe52243b421",
+          "source_bytes": 2574560,
+          "published_bytes": 665577,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 14580,
+          "published_rows": 3780,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 14581,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/seed_results.csv",
+          "published_file": "v5/analysis/seed_results_selected.csv",
+          "source_sha256": "ef0cba9a29ab916aff455d7eea85b74989c32472510c8ec652e0780ff3d5bf18",
+          "published_sha256": "965e3ecb543927f3ab87db0f824b939042e57b2510c0e2e029b6eab22440710c",
+          "source_bytes": 945300,
+          "published_bytes": 250052,
+          "filter": "Keep every case/budget group=all, plus bounded budget=50 family_A..D and eta_0.05/eta_0.2. Keep every method/comparison, metric, buyer/role and full/control/withdraw phase. No outcome-based filtering.",
+          "source_rows": 1944,
+          "published_rows": 504,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 1945,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/type_results.csv",
+          "published_file": "v5/analysis/type_results_bounded_b50.csv",
+          "source_sha256": "4f259402945027b9a12262d9966feaa54b590b7a92a91562994e8a92cbe1500f",
+          "published_sha256": "8c30a727606cdc3cd83ca21d17fe33f4abc80c778769b325851927754501ac64",
+          "source_bytes": 6775117,
+          "published_bytes": 920497,
+          "filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+          "source_rows": 46980,
+          "published_rows": 6264,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 46981,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis/buyer_type_results.csv",
+          "published_file": "v5/analysis/buyer_type_results_bounded_b50.csv",
+          "source_sha256": "cf7a683dc94fe6a466da24c876d5bb31ea6ba2ad85f723561a435247d1a39655",
+          "published_sha256": "d40f61868776c8e6472e609b429a457a13726d35ef0092c2b0e7384ace804fd2",
+          "source_bytes": 1078809,
+          "published_bytes": 144867,
+          "filter": "Keep case=bounded and budget=50, all 24 model types, all methods/buyers/metrics and full/control/withdraw phases.",
+          "source_rows": 4860,
+          "published_rows": 648,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 4861,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/protocol.json",
+          "published_file": "v5/protocol.json",
+          "source_sha256": "081ff260b4baa9bbda6635e2a5065328f87da8982969f25abc842edcedc8686b",
+          "published_sha256": "09333dc415dadd20e3ea5ddf4a48d49c4fc472eb01d5b7e4a9e4969e4b374db5",
+          "source_bytes": 17617,
+          "published_bytes": 10992,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/selection.json",
+          "published_file": "v5/selection.json",
+          "source_sha256": "2284a4927b45e0e40174b4ede93bd363480cbe26b4672c12783d5543bf5bb634",
+          "published_sha256": "4aca257d2cc91ef3433a2fdfd098fb01393c12aca51be310092193166bef2599",
+          "source_bytes": 210294,
+          "published_bytes": 152304,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/pretest_freeze.json",
+          "published_file": "v5/pretest_freeze.json",
+          "source_sha256": "8174d4e68c938017a785081488bfb0688c287568ca811a7ea228a382f51cb31a",
+          "published_sha256": "726645e55e7fd16ace89e85762a3b4b856d97fce65c53ca4bb5a68246dd51fa6",
+          "source_bytes": 4338,
+          "published_bytes": 4123,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/analysis_freeze.json",
+          "published_file": "v5/analysis_freeze.json",
+          "source_sha256": "c09e71b8ae6ee6618ee853552a09556f48f0437835576ff0c2d770a53400ed30",
+          "published_sha256": "9390a2316a00abe68c08d5425774aedcfd94b66ad2cd16b5f7be577be387d0b7",
+          "source_bytes": 3779,
+          "published_bytes": 3256,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/protocol.json",
+          "published_file": "v5/exact_audit/protocol.json",
+          "source_sha256": "454141323d03d15860db7bf7f1ae0f617d82d075c57ba9441b1510497b40c6a4",
+          "published_sha256": "221ffa317672bc59f3e5dfb98e016ffdda7ecaf9fdd436f9161120b8e9461a60",
+          "source_bytes": 2709,
+          "published_bytes": 2435,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 50,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/summary.json",
+          "published_file": "v5/exact_audit/summary.json",
+          "source_sha256": "1bd187c3614506719f34e652d69428c3aac4cb8890c1bc06da84733f00b4bdec",
+          "published_sha256": "5f6f5c524c3e964cf41747bddc21daab4200ddffa28ddae1ce45f3bf2e127479",
+          "source_bytes": 2089630,
+          "published_bytes": 1534704,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 63042,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/stage_summary.csv",
+          "published_file": "v5/exact_audit/stage_summary.csv",
+          "source_sha256": "ffd96bf2f901f2287df862cb8206993a9499ab23181d702f0d9d3bb966866d58",
+          "published_sha256": "7320f452a126390bdc1567a0e8df4965eb67b1998b05a50ee58640ca799d95cb",
+          "source_bytes": 333968,
+          "published_bytes": 332524,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 1440,
+          "published_rows": 1440,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 1441,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/pure_nash.csv",
+          "published_file": "v5/exact_audit/pure_nash.csv",
+          "source_sha256": "eafec4520190f8c10d17f78cbb1bacf0a98b41aa2f33da7934e190b701e4dc0c",
+          "published_sha256": "2769024f5cc8ea132113aa6384066758bf4740372fe04d8903a717be10d33fa5",
+          "source_bytes": 1048158,
+          "published_bytes": 1040981,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 7173,
+          "published_rows": 7173,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 7174,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/completion_audit.json",
+          "published_file": "v5/exact_audit/completion_audit.json",
+          "source_sha256": "7e3da4b922d430bf3a2bc66492bf01f96b235e41b4ff961ecbcbff407b1aaadc",
+          "published_sha256": "05ee5db5f17ef28b18716f11f0d2e5358627a7cfddb9f4ca085f87da11bbd477",
+          "source_bytes": 207,
+          "published_bytes": 176,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 7,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/fullpool_summary.csv",
+          "published_file": "v5/exact_audit/fullpool_summary.csv",
+          "source_sha256": "47341015173b2596675fcc2e977101b431fd73b60d11852bc5f0a5fb2afa4ce8",
+          "published_sha256": "344b7573f0847953881bb8160fa5a3116d66ea0f60fa138c1cde648763c51a24",
+          "source_bytes": 69013,
+          "published_bytes": 68529,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 480,
+          "published_rows": 480,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 481,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/minimum_menu_thresholds.csv",
+          "published_file": "v5/exact_audit/minimum_menu_thresholds.csv",
+          "source_sha256": "20a29730aa26e7c73f7c9957661ce8d260a93d2936702e481d007fd4f9fab897",
+          "published_sha256": "4b4359becaf375c3192e092ec74ef2e9f042ed96235a231bcdafd6ff1b45705b",
+          "source_bytes": 5637,
+          "published_bytes": 5489,
+          "filter": "All CSV rows and columns; only local paths and text formatting normalized.",
+          "source_rows": 144,
+          "published_rows": 144,
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": true,
+            "source_CRLF_sequences": 145,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/overreport_reward_swap_witness.json",
+          "published_file": "v5/exact_audit/overreport_reward_swap_witness.json",
+          "source_sha256": "848dc7ac806ab805b00f1c6aaa7fb1c73965bda09dc592d2fa21a65856470a11",
+          "published_sha256": "6a51931414fd6e480770f60ae17395eff33de4770df4eed5a2a07576c1d16f89",
+          "source_bytes": 3945,
+          "published_bytes": 2162,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 207,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/economic_findings.json",
+          "published_file": "v5/exact_audit/economic_findings.json",
+          "source_sha256": "d5f28818a26454712ebd6911483c75b97ec2dff6d1c27dd748cf8dc6ff6466a3",
+          "published_sha256": "5acb80f1664e500e1ed69d92f9a298b2864424eabe23af56cab387bf2af6b739",
+          "source_bytes": 1444,
+          "published_bytes": 1194,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 40,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/fullpool_replay/protocol.json",
+          "published_file": "v5/fullpool_replay/protocol.json",
+          "source_sha256": "b20a690a182dd7e12426a69983b77ae3d8d5bd77b26abb0c6fa2f4a474c57cda",
+          "published_sha256": "1eef88cb266e861d9e5b9c1b13d2c5a550a361334d94b0336ef04cec42f602fa",
+          "source_bytes": 3432,
+          "published_bytes": 3223,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        },
+        {
+          "source_file": "experiments/v5_conditional_incentive/fullpool_replay/summary.json",
+          "published_file": "v5/fullpool_replay/summary.json",
+          "source_sha256": "6f6e853c6620ec3b585485bcf92537e573c8d66bdefb66b76636130a37778909",
+          "published_sha256": "13d64c0698f7366853e9b84106da15795abed2ae3648123c2636b5654084f198",
+          "source_bytes": 47827,
+          "published_bytes": 30971,
+          "filter": "Complete JSON object; only path/encoding/line-ending/whitespace normalization.",
+          "numeric_values_changed": false,
+          "formatting": {
+            "published_encoding": "UTF-8 without BOM",
+            "published_line_endings": "LF",
+            "source_has_UTF8_BOM": false,
+            "source_CRLF_sequences": 0,
+            "JSON_whitespace": "compact; object content otherwise retained under declared filter"
+          },
+          "path_sanitization_count": 0,
+          "path_sanitization": []
+        }
+      ],
+      "omitted_large_artifacts": [
+        {
+          "source_file": "experiments/v5_conditional_incentive/exact_audit/stage_details.json",
+          "source_sha256": "282ff9253b6f8526326ad8dc6e478d7b41a4f02d6c5cfabc4d6819d7cb6e287e",
+          "source_bytes": 4058490,
+          "reason": "Large per-configuration detailed arrays; full summaries, NE tables and witnesses retained."
+        }
+      ],
+      "raw_trajectory_policy": "NPZ test/validation trajectories and checkpoints remain local and reproducible; their source hashes remain in original analysis/pretest manifests."
+    }
+  },
+  "schema": 1,
+  "created_utc": "2026-11-11T13:33:50.970417+00:00",
+  "status": "compact_reference_publication",
+  "source_vs_publication": "source_sha256/source_bytes describe unmodified local originals; published_sha256/published_bytes describe the selected, sanitized UTF-8/LF copies. These hashes must not be conflated.",
+  "selection_policy": "Identity-based filters fixed in the packaging program; negative and positive results retained equally.",
+  "numeric_policy": "JSON numeric values remain parsed numbers without arithmetic/rounding; CSV numeric cells remain source strings.",
+  "packaging_script": "scripts/package_incentive_results.py",
+  "published_code_sha256": {
+    "code/adaptive_coalition_attack.py": "86477145b5d1d89295e1f20f17541bd6ace11ea8a6df46679f1b1e8064aa11fa",
+    "code/analyze_capacity_billing.py": "0ef270aa642178049bc1577e8f0f4b7ada91b447a50506eda069a2cdb38eb15a",
+    "code/analyze_conditional_incentive.py": "c54fbc2dfc610065d28ce97847269126f09d5d684d2091d94490078d202da413",
+    "code/analyze_incentive_steering.py": "67b94667e784d5018d19f384666f7f6d586190f6f55fe84b674577d510fc36a0",
+    "code/analyze_threshold_experiment.py": "504db4864bcec634cc5e9c03e0a36b59bf91fd7b5236aa1b5e353c2ca45450b0",
+    "code/belief_baselines.py": "2d549a4ea50240fdba9ac6e789d718ff269074ee7dd32f42cab3668b76260712",
+    "code/capacity_allocation_steering.py": "3b8d321eba1f0a6bcf74211524c96e0bb2b8002ce7cf09672f4698cfbc5eb74b",
+    "code/capacity_billing_attacks.py": "84e888bd53fc17b8df13ab74ba51a80ffacc040f530537d6619fc1b49954a290",
+    "code/capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "code/conditional_incentive_market.py": "cd3ab7b200ae0df1b8cba23c34faa514d90d83f8f00e70698a261bf57cd4e944",
+    "code/conditional_incentive_stress.py": "5def1abe84d003aea1dacc6cd47048bd2ee0ac34e837319b287c004eaa09d434",
+    "code/evaluate_fullpool_incentives.py": "68ee47531ff42b70c8a71b6ce6acbadb7b8d97a59c854c056004d508e8cf9b8f",
+    "code/exact_threshold_stress.py": "f0d68d1e6546a9cc2b783c6cfe27bbca575a341cc73d317e3e62be67dc80a903",
+    "code/incentive_market.py": "817453bd42778d17763e238e4739d3c8e0be14e950e14b97adfd81062e6bc524",
+    "code/incentive_stress.py": "7111e5ee13fb31418d7fedc9d4c47956caa0486de92ea8486aad62f0165a6ba6",
+    "code/make_threshold_figures.py": "4c6d179aec85cc1cbb7bd8f89ba54835da21c47423c1136e7ec4833fac687219",
+    "code/run_capacity_billing.py": "65d595e167561e8f56a7fa5634a2ec7defbf987844206d1358300d0f05e9004d",
+    "code/run_conditional_incentive.py": "456a4d41366f36c3adb545a27ef296b965c1f3a9e00e65e1d1554c6e0dcde152",
+    "code/run_evaluation_grid.py": "785e9d2f6647d36852cc29ccc92829277ce59c0553c4185feefc26e19b3205f6",
+    "code/run_incentive_steering.py": "cb4bd5220ac4464acc9bd84fcfad296f818156977b6ceb717a0a4cf7be10adef",
+    "code/run_stress_evaluation.py": "fa3edeab9d03fcc19ec7910298a3aed98b64196290ad9dab6bf786d90cef57d2",
+    "code/run_threshold_experiment.py": "abf66d06273940011664381575db2d39af83e13acf0c617282a1dd9c932c38ca",
+    "code/run_training_grid.py": "7bf668b682b6dbc4a777972c6f27d530545739840d560e1f6d4ecfadd93ee626",
+    "code/schedule_baselines.py": "91604fffc892faf04aa9a16bfbd406f5bfc35d959ad0cd07d89749badec71076",
+    "code/steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "code/stress_batch_and_summary.py": "95cb15c5b47ff58c46d7ea80586dff121bdb77656cd2366769fe95f69f6eb5bb",
+    "code/v2_mechanism_audit.py": "3b6c851473e894e65dbbc65f27d6877725c17ac4e813a1d0cd5fa0c337abc8e6",
+    "code/v2_threshold_constraints.py": "4530e765b667c008213ef0e83d5f7a52a6e86d8d9ccc862cebe382329b5f2001",
+    "code/validate_micro_model.py": "84affb1f41cf5510bdd910904a7f9e00f8805800128d30baf3a43c2e06627636",
+    "scripts/package_incentive_results.py": "a79c25a2bea2a1938b14781752cf75a0ec074d850551a93a57cda0ea53967486",
+    "scripts/run_experiment.py": "3a41fa98dd9edfc410e01284473258b07e07516cb881a33395b6f5df25850257",
+    "scripts/run_v2_capacity.py": "59863d38e2e7eb26f4ab86bfed83cdfd6b6a74ebdcfb21f8c2429d6355ecbfe9",
+    "scripts/run_v4_incentives.py": "d5ebe5ba3acb9a788afbcf25caffbf82196ec9a3b41ce0b2d84196415b8b4370",
+    "scripts/run_v5_incentives.py": "5fe221db54ac8e4baa30a5d1d6646cbbce769541dbbddd77fe869e8eea03aa6f"
+  },
+  "published_code_scope": "Current publication-time Python source provenance, including shared original logic. This is not a retrospective pretest dependency lock; use each original freeze for that claim."
+}
