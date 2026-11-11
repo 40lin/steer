@@ -102,4 +102,4 @@ V5新增24个条件奖励后，部分全报1均衡可以被打破，但在受限
 - [V4参考数据](../results/reference/incentives/v4/)、[V5参考数据](../results/reference/incentives/v5/)、[公开副本与原始来源清单](../results/reference/incentives/manifest.json)。公开51个结果文件，保留主结果、所有预算/响应、主预算所有价值族/学习率、买方角色、24类型与阶段审计；筛选不按结果正负。
 - [V4统计审查](v4_statistical_audit.md)、[V5统计审查](v5_statistical_audit.md)、[复现和发布审查](incentive_reproduction_audit.md)。完整原始轨迹与权重本地保留，按README命令可重新生成；公开副本的格式规范化哈希与原始哈希分别记录。
 - 2024：Li 等，*Harvesting Game: Strategic User Modeling, Mechanism Design and Equilibrium Analysis for Harvesting Resource*，[原文](https://openreview.net/pdf?id=1cId3JA47F)。本项目使用提供的全文解释一般分配、低报风险与交易动机，没有将补全模型冒充原文算法。
-- 2025：Huang 等，*Learning to Steer Markovian Agents under Model Uncertainty*，ICLR 2025，[正式版原文](https://openreview.net/pdf?id=VqEZ7qEG7P)。借用历史依赖的非负收益引导思想，没有把原文条件性结果当作本场景的低成本或撤奖稳定保证。
+- 2025：Huang 等，*Learning to Steer Markovian Agents under Model Uncertainty*，ICLR 2025，[正式版原文](https://openreview.net/pdf?id=IzYczpPqKq)。借用历史依赖的非负收益引导思想，没有把原文条件性结果当作本场景的低成本或撤奖稳定保证。
