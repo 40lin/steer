@@ -1,0 +1,245 @@
+{
+  "scope": "Additional explanatory check against the original v1 service definition; no controller selection or retraining",
+  "records": [
+    {
+      "case": "exact",
+      "mode": "original",
+      "q0": 2000.0,
+      "retained_q_percent": 98.3,
+      "service_slack": {
+        "estimate": 66.0,
+        "ci95_low": 42.99999999999977,
+        "ci95_high": 86.99999999999949,
+        "one_sided95_low": 46.00000000000017,
+        "bootstrap_sd": 11.412724834096972
+      },
+      "revenue_change_vs_original": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "one_sided95_low": 0.0,
+        "bootstrap_sd": 0.0
+      }
+    },
+    {
+      "case": "exact",
+      "mode": "floor",
+      "q0": 2000.0,
+      "retained_q_percent": 98.25,
+      "service_slack": {
+        "estimate": 65.0,
+        "ci95_low": 41.00000000000006,
+        "ci95_high": 86.0,
+        "one_sided95_low": 44.000000000000455,
+        "bootstrap_sd": 11.854189072638285
+      },
+      "revenue_change_vs_original": {
+        "estimate": 85.51500000000283,
+        "ci95_low": 21.200000000000784,
+        "ci95_high": 150.31202500000478,
+        "one_sided95_low": 41.44990000000142,
+        "bootstrap_sd": 32.942390909429776
+      }
+    },
+    {
+      "case": "exact",
+      "mode": "floor_down_only",
+      "q0": 2000.0,
+      "retained_q_percent": 98.3,
+      "service_slack": {
+        "estimate": 66.0,
+        "ci95_low": 42.99999999999977,
+        "ci95_high": 86.99999999999949,
+        "one_sided95_low": 46.00000000000017,
+        "bootstrap_sd": 11.412724834096972
+      },
+      "revenue_change_vs_original": {
+        "estimate": 86.11500000000274,
+        "ci95_low": 21.30500000000119,
+        "ci95_high": 151.02605000000517,
+        "one_sided95_low": 42.40000000000117,
+        "bootstrap_sd": 33.167473172224724
+      }
+    },
+    {
+      "case": "exact",
+      "mode": "floor_up_only",
+      "q0": 2000.0,
+      "retained_q_percent": 86.35,
+      "service_slack": {
+        "estimate": -173.0,
+        "ci95_low": -289.9999999999999,
+        "ci95_high": -55.99999999999966,
+        "one_sided95_low": -250.99999999999966,
+        "bootstrap_sd": 55.960388278277904
+      },
+      "revenue_change_vs_original": {
+        "estimate": 15.306000000004587,
+        "ci95_low": -40.82024999999728,
+        "ci95_high": 71.4000000000047,
+        "one_sided95_low": -30.73104999999532,
+        "bootstrap_sd": 29.070621632263833
+      }
+    },
+    {
+      "case": "canonical",
+      "mode": "original",
+      "q0": 1786.800625,
+      "retained_q_percent": 96.2153269058768,
+      "service_slack": {
+        "estimate": 21.7154687499999,
+        "ci95_low": 14.611645312500107,
+        "ci95_high": 29.712159375000052,
+        "one_sided95_low": 15.667692187500073,
+        "bootstrap_sd": 3.8766377390741606
+      },
+      "revenue_change_vs_original": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "one_sided95_low": 0.0,
+        "bootstrap_sd": 0.0
+      }
+    },
+    {
+      "case": "canonical",
+      "mode": "floor",
+      "q0": 1786.800625,
+      "retained_q_percent": 95.24025309203145,
+      "service_slack": {
+        "estimate": 4.2928437499999745,
+        "ci95_low": -10.823615624999979,
+        "ci95_high": 18.220284375000176,
+        "one_sided95_low": -8.358973437499925,
+        "bootstrap_sd": 7.470653876099406
+      },
+      "revenue_change_vs_original": {
+        "estimate": -0.7627249999998185,
+        "ci95_low": -1.7463087499995376,
+        "ci95_high": -0.09150249999963546,
+        "one_sided95_low": -1.5367631249993092,
+        "bootstrap_sd": 0.42640344373029054
+      }
+    },
+    {
+      "case": "canonical",
+      "mode": "floor_down_only",
+      "q0": 1786.800625,
+      "retained_q_percent": 95.31924553697758,
+      "service_slack": {
+        "estimate": 5.7042812499998945,
+        "ci95_low": -8.923207812499895,
+        "ci95_high": 19.143449218749936,
+        "one_sided95_low": -6.502043750000128,
+        "bootstrap_sd": 7.240397242899287
+      },
+      "revenue_change_vs_original": {
+        "estimate": -2.216837499999656,
+        "ci95_low": -3.879947499999534,
+        "ci95_high": -0.8581512499996232,
+        "one_sided95_low": -3.563741874999393,
+        "bootstrap_sd": 0.7775305536970142
+      }
+    },
+    {
+      "case": "canonical",
+      "mode": "floor_up_only",
+      "q0": 1786.800625,
+      "retained_q_percent": 88.71420321447447,
+      "service_slack": {
+        "estimate": -112.3146562500001,
+        "ci95_low": -173.36010156249995,
+        "ci95_high": -45.88872578124991,
+        "one_sided95_low": -164.3674953124999,
+        "bootstrap_sd": 32.744679800618194
+      },
+      "revenue_change_vs_original": {
+        "estimate": -55.721325000001116,
+        "ci95_low": -80.59357000000038,
+        "ci95_high": -29.623679687500545,
+        "one_sided95_low": -77.06421875000085,
+        "bootstrap_sd": 13.168511596381881
+      }
+    },
+    {
+      "case": "tabular",
+      "mode": "original",
+      "q0": 1786.800625,
+      "retained_q_percent": 95.75010992062977,
+      "service_slack": {
+        "estimate": 13.4029687499999,
+        "ci95_low": 5.374877343750217,
+        "ci95_high": 21.46347499999995,
+        "one_sided95_low": 6.687100000000114,
+        "bootstrap_sd": 4.153228354028422
+      },
+      "revenue_change_vs_original": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "one_sided95_low": 0.0,
+        "bootstrap_sd": 0.0
+      }
+    },
+    {
+      "case": "tabular",
+      "mode": "floor",
+      "q0": 1786.800625,
+      "retained_q_percent": 94.73774879052328,
+      "service_slack": {
+        "estimate": -4.685906250000016,
+        "ci95_low": -21.854735156249863,
+        "ci95_high": 12.281917968750047,
+        "one_sided95_low": -19.233756249999896,
+        "bootstrap_sd": 8.835806401940069
+      },
+      "revenue_change_vs_original": {
+        "estimate": 17.336825000001,
+        "ci95_low": 4.408151250000293,
+        "ci95_high": 30.926550937502345,
+        "one_sided95_low": 7.072557500000674,
+        "bootstrap_sd": 6.7937815616944155
+      }
+    },
+    {
+      "case": "tabular",
+      "mode": "floor_down_only",
+      "q0": 1786.800625,
+      "retained_q_percent": 94.81183721882792,
+      "service_slack": {
+        "estimate": -3.3620937499999854,
+        "ci95_low": -20.344304687499932,
+        "ci95_high": 13.199135937499978,
+        "one_sided95_low": -17.61358749999998,
+        "bootstrap_sd": 8.681272317585567
+      },
+      "revenue_change_vs_original": {
+        "estimate": 17.671487500001376,
+        "ci95_low": 4.549562812500345,
+        "ci95_high": 31.497521875002203,
+        "one_sided95_low": 7.358342500000596,
+        "bootstrap_sd": 6.8789388771263065
+      }
+    },
+    {
+      "case": "tabular",
+      "mode": "floor_up_only",
+      "q0": 1786.800625,
+      "retained_q_percent": 88.92462120668891,
+      "service_slack": {
+        "estimate": -108.55490624999993,
+        "ci95_low": -168.4923375000001,
+        "ci95_high": -44.176056249999974,
+        "one_sided95_low": -159.77275,
+        "bootstrap_sd": 31.87684668381869
+      },
+      "revenue_change_vs_original": {
+        "estimate": 4.530174999999872,
+        "ci95_low": -6.742320312499723,
+        "ci95_high": 18.2979296875,
+        "one_sided95_low": -5.150965624999892,
+        "bootstrap_sd": 6.428678356094542
+      }
+    }
+  ]
+}

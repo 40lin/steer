@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "protocol_sources_match": true,
+  "predeclared_platform_seeds": [
+    0,
+    4,
+    9
+  ],
+  "all_selected_platforms_are_identical_fixed_action0": true,
+  "selected_attack_all_cases": "exact_myopic_BR",
+  "maximum_validation_utility_gain_over_BR": 0.0,
+  "test_revenue_per_400_rounds": 1560,
+  "test_completed_jobs": 800,
+  "test_utility_gain": 0,
+  "validation_market_steps": 3417600,
+  "paired_test_market_steps": 614400,
+  "replication_note": "The three training seeds select the same fixed policy; deterministic repetitions are not three independent mechanisms or broader type evidence."
+}

@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-11-11T12:14:25.739134+00:00",
+  "status": "exploratory_new_hypothesis_after_v2_results",
+  "relation_to_v2": "Separate exploratory evidence; V2 primary p=.78 judgment remains unchanged.",
+  "source_hashes": {
+    "code/capacity_allocation_steering.py": "3b8d321eba1f0a6bcf74211524c96e0bb2b8002ce7cf09672f4698cfbc5eb74b",
+    "code/capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "code/steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "code/belief_baselines.py": "2d549a4ea50240fdba9ac6e789d718ff269074ee7dd32f42cab3668b76260712",
+    "code/analyze_threshold_experiment.py": "504db4864bcec634cc5e9c03e0a36b59bf91fd7b5236aa1b5e353c2ca45450b0"
+  },
+  "unit_price": 0.78,
+  "capacity_weight": 1.0,
+  "dynamic_rho": 0.0,
+  "dynamic_horizon": 400,
+  "matching_rule": "Among maximum-capacity matchings, maximize current-report-updated posterior expected completed jobs; break ties by expected completed value; remaining ties use shared u2.",
+  "posterior": "Uniform prior on 16 fixed models; CapacityBeliefTracker public report/owner replay; no true service/private utilities in actor.",
+  "update_order": "Sample reports privately; temporary report likelihood posterior; choose matching; realize; observe once to update posterior and all hypothetical learner states.",
+  "static_candidates": [
+    "uniform_r0",
+    "uniform_r1",
+    "uniform_r2",
+    "uniform_r3",
+    "priority0_r0",
+    "priority0_r1",
+    "priority0_r2",
+    "priority0_r3",
+    "priority1_r0",
+    "priority1_r1",
+    "priority1_r2",
+    "priority1_r3"
+  ],
+  "static_priority_definition": "Prefer buyer 0 or buyer 1 as owner of 3-unit VM when feasible among maximum-capacity outcomes; otherwise random among remaining ties.",
+  "validation_seed": 720031,
+  "test_seed": 720041,
+  "worlds_per_fixed_type": 100,
+  "test_cases": [
+    "canonical",
+    "tabular",
+    "exact"
+  ],
+  "validation_case": "canonical only; one selected global static used for all test cases",
+  "static_selection": "Max revenue among 12 candidates whose validation mean R/J/V all >= old fixed .5; deterministic candidate order breaks ties. If none feasible, retain the candidate with largest minimum normalized R/J/V slack and flag infeasible; never reselect on test.",
+  "test_methods": [
+    "dynamic",
+    "old_fixed",
+    "validation-selected best static",
+    "uniform_r0",
+    "priority0_r0",
+    "priority1_r0"
+  ],
+  "sampling": "All methods share within-case exogenous (report, matching) uniforms; 16 equally weighted fixed types, or 4 fixed markets for exact grand.",
+  "training": "No training; no training seeds or artificial seed replication.",
+  "primary_exploratory_comparisons": [
+    "dynamic minus selected best static",
+    "dynamic minus old fixed"
+  ],
+  "endpoints": [
+    "revenue",
+    "completed_jobs",
+    "completed_value"
+  ],
+  "joint_criterion": "Each contrast requires R one-sided 95% lower > 0 and J/V one-sided 95% lower >= 0; numerical tolerance 1e-9 only.",
+  "bootstrap": "10,000 paired resamples of worlds within every fixed type; same draws shared across methods; no type or training-seed resampling.",
+  "bootstrap_seed_base": 720051,
+  "bootstrap_replicates": 10000,
+  "groups": "all, independent, coalition, each market, each fixed type; subgroup claims exploratory",
+  "limits": [
+    "No reproduction of a trained 2025 steering algorithm.",
+    "Finite and correctly specified learning-model catalogue; exact-grand filter is deliberately misspecified.",
+    "Because each tested rule uses a constant rho, canonical and tabular learners are mathematically equivalent on the visited single eligibility state; these are reproducibility checks, not independent generalization evidence.",
+    "For grand pooling, ownership cannot alter one-stage utility; any added matching benefit is primarily independent-buyer coordination.",
+    "No truthfulness, model-free collusion resistance, or out-of-catalogue guarantee."
+  ],
+  "test_read_before_freeze": false
+}

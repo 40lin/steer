@@ -1,0 +1,462 @@
+{
+  "status": "complete",
+  "price": 0.78,
+  "capacity_weight": 1.0,
+  "predeclared_platform_seeds": [
+    0,
+    4,
+    9
+  ],
+  "validation_worlds": 8,
+  "test_worlds": 64,
+  "template_count": 89,
+  "results": [
+    {
+      "seed": 0,
+      "kind": "fixed",
+      "fixed_action": 0,
+      "selected_iteration": 0,
+      "checkpoint_sha256": "53579161cc699a7173b4f30c263f31322892d10460f6c1257a04bfbb3c7ee281",
+      "pretest_freeze_sha256": "d52568bc142c3560c0890130d11ba1b247b1f130b98ff7985758c7f90a5df8b2",
+      "attack_protocol_sha256": "6253b4d72d784ecebaf2fd73890949f5ab3c79d0a98d90b4709fe90c8e5e516e",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 4039.9999999999745,
+          "myopic_utility": 4039.9999999999745,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "B",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 40.00000000000029,
+          "myopic_utility": 40.00000000000029,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "C",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "D",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        }
+      ],
+      "mean_attack_revenue": 1560.0000000000086,
+      "mean_myopic_revenue": 1560.0000000000086,
+      "mean_coalition_utility_gain": 0.0
+    },
+    {
+      "seed": 4,
+      "kind": "fixed",
+      "fixed_action": 0,
+      "selected_iteration": 0,
+      "checkpoint_sha256": "78fb0d024f4f33fcf676ab11cec34addfeb554517822181e1a96635693a726fc",
+      "pretest_freeze_sha256": "d52568bc142c3560c0890130d11ba1b247b1f130b98ff7985758c7f90a5df8b2",
+      "attack_protocol_sha256": "6253b4d72d784ecebaf2fd73890949f5ab3c79d0a98d90b4709fe90c8e5e516e",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 4039.9999999999745,
+          "myopic_utility": 4039.9999999999745,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "B",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 40.00000000000029,
+          "myopic_utility": 40.00000000000029,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "C",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "D",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        }
+      ],
+      "mean_attack_revenue": 1560.0000000000086,
+      "mean_myopic_revenue": 1560.0000000000086,
+      "mean_coalition_utility_gain": 0.0
+    },
+    {
+      "seed": 9,
+      "kind": "fixed",
+      "fixed_action": 0,
+      "selected_iteration": 0,
+      "checkpoint_sha256": "80863aca9395877c3fa7d641ab3cca5b5a92c368c95408283b9f5d30e6f53be6",
+      "pretest_freeze_sha256": "d52568bc142c3560c0890130d11ba1b247b1f130b98ff7985758c7f90a5df8b2",
+      "attack_protocol_sha256": "6253b4d72d784ecebaf2fd73890949f5ab3c79d0a98d90b4709fe90c8e5e516e",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 4039.9999999999745,
+          "myopic_utility": 4039.9999999999745,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "B",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 40.00000000000029,
+          "myopic_utility": 40.00000000000029,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "C",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        },
+        {
+          "market": "D",
+          "selected_template": "exact_myopic_BR",
+          "selected_template_index": 0,
+          "attack_revenue": 1560.0000000000086,
+          "myopic_revenue": 1560.0000000000086,
+          "attack_utility": 2439.999999999982,
+          "myopic_utility": 2439.999999999982,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "platform_revenue_change": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0,
+          "observed_local_actions": [
+            0
+          ]
+        }
+      ],
+      "mean_attack_revenue": 1560.0000000000086,
+      "mean_myopic_revenue": 1560.0000000000086,
+      "mean_coalition_utility_gain": 0.0
+    }
+  ],
+  "finite_catalogue_stage_bound": {
+    "scope": "Only the fixed four-market catalogue, p=.78, whole-VM pooling, two accounts, no outside transfers/subsidies",
+    "argument": "For every current threshold, full job completion attains the same maximum coalition stage utility. Summing the stage bounds yields a 400-round upper bound achieved by exact BR regardless of threshold history.",
+    "does_not_imply": "Truthful individual reports, no cooperation, or a guarantee for larger/different markets.",
+    "markets": [
+      {
+        "market": "A",
+        "maximum_stage_utility": 10.1,
+        "maximum_400_round_utility": 4040.0,
+        "myopic_revenue_400": 1560.0,
+        "stage_maxima_all_five_numerical_thresholds": [
+          10.1,
+          10.1,
+          10.1,
+          10.1,
+          10.1
+        ],
+        "all_jobs_completed": true
+      },
+      {
+        "market": "B",
+        "maximum_stage_utility": 0.10000000000000009,
+        "maximum_400_round_utility": 40.000000000000036,
+        "myopic_revenue_400": 1560.0,
+        "stage_maxima_all_five_numerical_thresholds": [
+          0.10000000000000009,
+          0.10000000000000009,
+          0.10000000000000009,
+          0.10000000000000009,
+          0.10000000000000009
+        ],
+        "all_jobs_completed": true
+      },
+      {
+        "market": "C",
+        "maximum_stage_utility": 6.1,
+        "maximum_400_round_utility": 2440.0,
+        "myopic_revenue_400": 1560.0,
+        "stage_maxima_all_five_numerical_thresholds": [
+          6.1,
+          6.1,
+          6.1,
+          6.1,
+          6.1
+        ],
+        "all_jobs_completed": true
+      },
+      {
+        "market": "D",
+        "maximum_stage_utility": 6.1,
+        "maximum_400_round_utility": 2440.0,
+        "myopic_revenue_400": 1560.0,
+        "stage_maxima_all_five_numerical_thresholds": [
+          6.1,
+          6.1,
+          6.1,
+          6.1,
+          6.1
+        ],
+        "all_jobs_completed": true
+      }
+    ]
+  },
+  "limitations": [
+    "The empirical search covers 89 fixed templates, not all dynamic strategies.",
+    "The separate stage bound covers only the four specified markets and fixed posted price.",
+    "Zero-width intervals can arise from deterministic histories and do not cover model/type uncertainty.",
+    "If the validation-selected platform is a fixed fallback, this is not evidence of successful learned steering."
+  ]
+}

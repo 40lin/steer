@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-11-11T12:03:54.975817+00:00",
+  "status": "analysis_frozen_before_main_test",
+  "script_sha256": "0ef270aa642178049bc1577e8f0f4b7ada91b447a50506eda069a2cdb38eb15a",
+  "input_sha256": {
+    "experiments/v2_capacity_billing/protocol.json": "fb45311bd78eff743766eab1472c22de67e4f7faf8a6cbe173fd8809e1248312",
+    "experiments/v2_capacity_billing/selection.json": "4e41461897fb587b037a4a8e76b996b8d1f825f58cff309bdfb1fff7699f9ea1"
+  },
+  "replicates": 10000,
+  "bootstrap_seed_base": 2026111301,
+  "mandatory_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "mandatory_cases": [
+    "canonical",
+    "tabular",
+    "exact"
+  ],
+  "methods": [
+    "old_fixed",
+    "fixed_0",
+    "fixed_1",
+    "fixed_2",
+    "fixed_3",
+    "dynamic"
+  ],
+  "primary_endpoints": [
+    "net receipts",
+    "completed jobs",
+    "completed job value"
+  ],
+  "strict_joint_rule": "R lower95 > 0, J lower95 >= 0, V lower95 >= 0",
+  "rounding_tolerance_only": 1e-09,
+  "reference_selection": "selection.json, from validation; no test reselection",
+  "attribution": [
+    "new fixed versus old fixed",
+    "dynamic versus old fixed",
+    "dynamic versus new fixed"
+  ],
+  "sampling": "paired crossed training-seed and within-fixed-type world bootstrap; types not resampled",
+  "test_data_read_to_freeze": false,
+  "other_methods_cases_groups": "All disaggregated effects reported; only primary canonical overall contrasts have the prespecified main interpretation. Stress and subgroup claims remain conditional/explanatory."
+}

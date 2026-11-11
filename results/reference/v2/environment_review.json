@@ -1,0 +1,43 @@
+{
+  "status": "independently_reviewed",
+  "gradient_derivation": "eta*(U_old/n-Q)*phi + eta*(pay_old-pay_new)/n*phi = eta*(U_new/n-Q)*phi, n=3 per individual and n=6 for grand coalition. No clipping or hidden reward renormalization is introduced.",
+  "executed_independent_tests": {
+    "fraction_payoff_comparisons": 3840,
+    "pricing_settings": [
+      [
+        1,
+        0.2
+      ],
+      [
+        0.78,
+        0.2
+      ],
+      [
+        0.65,
+        1
+      ],
+      [
+        0.78,
+        1
+      ],
+      [
+        0.8,
+        1
+      ],
+      [
+        0.82,
+        1
+      ]
+    ],
+    "coverage": "4 markets x 2 coalition states x 5 rho values x 16 joint reports, expected across all optimal matchings",
+    "arbitrary_nonzero_state_gradient_steps": 120,
+    "gradient_absolute_relative_tolerance": 2e-15,
+    "module_self_test": "passed"
+  },
+  "reviewed_source_sha256": {
+    "capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "v2_mechanism_audit.py": "3b6c851473e894e65dbbc65f27d6877725c17ac4e813a1d0cd5fa0c337abc8e6"
+  },
+  "limitation": "Inherited get_state does not record price/weight. clone preserves them explicitly; cross-config set_state is not a complete pricing-aware environment restore."
+}

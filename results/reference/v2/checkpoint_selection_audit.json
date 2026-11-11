@@ -1,0 +1,298 @@
+{
+  "derivation": "Extract scalar/list/dict checkpoint metadata; exclude no checkpoint fields because all selected records are fixed fallbacks. Check NPZ metrics with numpy.array_equal, not rounded means.",
+  "all_checkpoints": [
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_0.pt",
+      "source_sha256": "53579161cc699a7173b4f30c263f31322892d10460f6c1257a04bfbb3c7ee281",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 0,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_1.pt",
+      "source_sha256": "d6afc81f00d0e891584eb8af99167a2420f06e82a69d2819ae5d16412b363b2a",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 1,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_2.pt",
+      "source_sha256": "1eb34152a3deacf2365e2bc954a494d0d0672dc17d4c5e2f08707033a3946eed",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 2,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_3.pt",
+      "source_sha256": "ebd7bc3960838777c8777441ddd70684e557af9b687cf6ecdbabd24aded94f54",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 3,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_4.pt",
+      "source_sha256": "78fb0d024f4f33fcf676ab11cec34addfeb554517822181e1a96635693a726fc",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 4,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_5.pt",
+      "source_sha256": "762a605189ac65b9596d7715c7a39fbb94bc41de1b9ca380213ff5139f55d83a",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 5,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_6.pt",
+      "source_sha256": "7e0e209305b49702dc79fb2e7d957d1d3df602b464fc94f262b644d770a0b959",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 6,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_7.pt",
+      "source_sha256": "073b3fc7b2b8ab44930c2c1276ba18b2760bba0c2658b7fdcbc950613994378b",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 7,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_8.pt",
+      "source_sha256": "577102625d194ff541758dd905a03702fe4866c4cae541977f30662fcd841be4",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 8,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    },
+    {
+      "source_file": "experiments/v2_capacity_billing/checkpoints/dynamic_9.pt",
+      "source_sha256": "80863aca9395877c3fa7d641ab3cca5b5a92c368c95408283b9f5d30e6f53be6",
+      "metadata": {
+        "kind": "fixed",
+        "action": 0,
+        "seed": 9,
+        "selected_iteration": 0,
+        "validation": {
+          "action": 0,
+          "revenue": 1377.2854875000041,
+          "volume": 1765.750625,
+          "completed_jobs": 680.485625,
+          "completed_value": 3497.414375,
+          "total_user_utility": 2120.1288874999877,
+          "active_buyers": 706.408125,
+          "underreport_count_active": 253.62375,
+          "overreport_count": 123.005
+        },
+        "targets": [
+          677.77125,
+          3458.4573750000004
+        ]
+      }
+    }
+  ],
+  "all_dynamic_metrics_bitwise_equal_fixed_0_by_seed": {
+    "canonical": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "tabular": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "exact": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "canonical_tabular_fixed_metrics_equal": {
+    "old_fixed": true,
+    "fixed_0": true
+  },
+  "interpretation": "Ten training seeds selected the same fixed strategy and share paired test worlds. They are not ten independent experimental test samples. Dynamic adds no gain over the selected same-mechanism fixed rule."
+}

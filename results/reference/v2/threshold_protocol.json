@@ -1,0 +1,81 @@
+{
+  "stage": "frozen_before_new_tests",
+  "created_utc": "2026-11-11T11:55:21.120581+00:00",
+  "modes": [
+    "original",
+    "floor",
+    "floor_down_only",
+    "floor_up_only"
+  ],
+  "platform_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "cases": [
+    "exact",
+    "canonical",
+    "tabular"
+  ],
+  "canonical_and_tabular_worlds_per_fixed_type": 100,
+  "exact_worlds_per_four_physical_markets": 200,
+  "validation_stream": 420031,
+  "test_stream": 420041,
+  "policy_retraining": false,
+  "prices_changed": false,
+  "rebates": 0,
+  "default_comparison": "paired fixed rho=.5 on the same new stream",
+  "action_rules": {
+    "floor": "clamp proposed local action to at least1",
+    "floor_down_only": "first proposal clamped to>=1; later min(previous,clamped proposal)",
+    "floor_up_only": "first action1; later max(previous,clamped proposal)"
+  },
+  "attacks": {
+    "modes": [
+      "floor"
+    ],
+    "platform_seeds": [
+      0,
+      4,
+      9
+    ],
+    "templates": 89,
+    "validation_worlds": 8,
+    "test_worlds": 64,
+    "selection": "full horizon coalition utility; deterministic index tie",
+    "validation_stream_base": 520031,
+    "test_stream_base": 520041
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 1420041,
+    "fixed_strata": true,
+    "pairing": "crossed training-seed and within-type world resampling"
+  },
+  "checkpoint_sha256": {
+    "0": "66b1a3f2880dcfe71ad558b3ce0cc266e8cbc28c01193be22c2924c293c1194c",
+    "1": "a24c06c109f7a8273d52cfc9cae5724dd613bee784f84bec26efbd6f27d5a253",
+    "2": "eff836126247197d3369e58f4f4165fc425df2b9d1640f057226dc66e8b37d8c",
+    "3": "6a1ec31fea31e60cd8094d70ebf999924e89eeb2707edbd90916c20084475ee6",
+    "4": "abfc40ffa73e9ab2096c71754a7714d1bbbc6fa39f2eedc1ea7f780795a17cb1",
+    "5": "6016a2473ee36ae39ac6bd3e0e8ee45a24c7e060cb2da758f8f7d7d6a82b7b56",
+    "6": "f5154da6116ecd8410211dab48888d8b705e8690f37c4b2344b049cf84aa7bb5",
+    "7": "1c56f64c9cb999911b6ca0cf6971eeca167942d0eecebd0265b12a66bfc58abd",
+    "8": "b4305064f99b6b53285e34d1ed4fd94e883d21e5eeb9751c0f0663ca8e90831c",
+    "9": "694ba285cb3b2a4323646ade8506d1e16e4fdca74e39b06bb40843f7a4c72ffc"
+  },
+  "source_sha256": {
+    "v2_threshold_constraints.py": "35da8c5d2853904b128966b40fa3031cc2900bd0687e8e07c33682b66327bdc2",
+    "run_threshold_experiment.py": "abf66d06273940011664381575db2d39af83e13acf0c617282a1dd9c932c38ca",
+    "steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "belief_baselines.py": "2d549a4ea50240fdba9ac6e789d718ff269074ee7dd32f42cab3668b76260712",
+    "adaptive_coalition_attack.py": "86477145b5d1d89295e1f20f17541bd6ace11ea8a6df46679f1b1e8064aa11fa"
+  }
+}

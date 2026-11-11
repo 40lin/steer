@@ -1,0 +1,24 @@
+{
+  "status": "restricted_steering_candidate_audit_frozen",
+  "created_utc": "2026-11-11T12:01:19.950051+00:00",
+  "file": "steer/docs/v2_restricted_steering_addendum.md",
+  "sha256": "aacad6e57ac328124e99dc0a3d74b86ebc2e5ea3d0c709f4cfb301bc02162397",
+  "prior_documents": {
+    "v2_evaluation_protocol.md": "9280c75380bc74329b6edf67e125f0c5ed226417d3bb21bc5e18c37b67d95c59",
+    "v2_capacity_tariff_addendum.md": "cbbfd4c5e0c5bb47ef218cfc442b3a0feffbd4141204208748c0b8252215e5eb"
+  },
+  "v2_candidate_random_outputs_read": false,
+  "primary_price": 0.78,
+  "dynamic_rho_actions": [
+    0.5,
+    1
+  ],
+  "fixed_rho_baselines": [
+    0,
+    0.5,
+    0.6666666666666666,
+    1
+  ],
+  "training_seeds": 10,
+  "training_budget_per_seed": "about 2 million actual market rounds; exact count in execution manifest"
+}

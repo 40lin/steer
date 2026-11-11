@@ -1,0 +1,753 @@
+{
+  "candidate_stage": "frozen_before_attack_evaluation",
+  "platform_seeds": [
+    0,
+    4,
+    9
+  ],
+  "price": 0.78,
+  "capacity_weight": 1.0,
+  "price_committed_all_rounds": true,
+  "horizon": 400,
+  "control_rounds": 200,
+  "control_block_rounds": 10,
+  "actor_inputs": "public history with uniform posterior slots",
+  "dynamic_action_menu": [
+    0.5,
+    1.0
+  ],
+  "fixed_fallback_actions_allowed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "selection": "maximum mean full-horizon coalition utility, lowest template index for ties",
+  "templates": [
+    {
+      "name": "exact_myopic_BR",
+      "family": "exact",
+      "prefix": 0,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_00_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 0,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_01_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_02_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 2,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_03_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 3,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_10_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 4,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_11_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 5,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_12_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 6,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_13_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 7,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_20_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 8,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_21_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 9,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_22_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 10,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_23_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 11,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_30_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 12,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_31_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 13,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_32_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 14,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_33_first_10",
+      "family": "constant_prefix",
+      "prefix": 10,
+      "report_index": 15,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_00_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 0,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_01_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_02_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 2,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_03_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 3,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_10_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 4,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_11_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 5,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_12_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 6,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_13_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 7,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_20_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 8,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_21_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 9,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_22_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 10,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_23_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 11,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_30_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 12,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_31_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 13,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_32_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 14,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_33_first_40",
+      "family": "constant_prefix",
+      "prefix": 40,
+      "report_index": 15,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_00_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 0,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_01_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_02_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 2,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_03_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 3,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_10_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 4,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_11_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 5,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_12_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 6,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_13_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 7,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_20_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 8,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_21_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 9,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_22_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 10,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_23_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 11,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_30_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 12,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_31_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 13,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_32_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 14,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_33_first_100",
+      "family": "constant_prefix",
+      "prefix": 100,
+      "report_index": 15,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_00_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 0,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_01_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 1,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_02_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 2,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_03_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 3,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_10_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 4,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_11_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 5,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_12_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 6,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_13_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 7,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_20_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 8,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_21_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 9,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_22_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 10,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_23_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 11,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_30_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 12,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_31_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 13,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_32_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 14,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "constant_33_first_200",
+      "family": "constant_prefix",
+      "prefix": 200,
+      "report_index": 15,
+      "fake_market": -1,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_A_first_40",
+      "family": "foreign_exact_prefix",
+      "prefix": 40,
+      "report_index": -1,
+      "fake_market": 0,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_B_first_40",
+      "family": "foreign_exact_prefix",
+      "prefix": 40,
+      "report_index": -1,
+      "fake_market": 1,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_C_first_40",
+      "family": "foreign_exact_prefix",
+      "prefix": 40,
+      "report_index": -1,
+      "fake_market": 2,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_D_first_40",
+      "family": "foreign_exact_prefix",
+      "prefix": 40,
+      "report_index": -1,
+      "fake_market": 3,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_A_first_200",
+      "family": "foreign_exact_prefix",
+      "prefix": 200,
+      "report_index": -1,
+      "fake_market": 0,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_B_first_200",
+      "family": "foreign_exact_prefix",
+      "prefix": 200,
+      "report_index": -1,
+      "fake_market": 1,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_C_first_200",
+      "family": "foreign_exact_prefix",
+      "prefix": 200,
+      "report_index": -1,
+      "fake_market": 2,
+      "fake_model": -1
+    },
+    {
+      "name": "exact_market_D_first_200",
+      "family": "foreign_exact_prefix",
+      "prefix": 200,
+      "report_index": -1,
+      "fake_market": 3,
+      "fake_model": -1
+    },
+    {
+      "name": "emulate_learning_model_0_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 0
+    },
+    {
+      "name": "emulate_learning_model_1_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 1
+    },
+    {
+      "name": "emulate_learning_model_2_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 2
+    },
+    {
+      "name": "emulate_learning_model_3_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 3
+    },
+    {
+      "name": "emulate_learning_model_4_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 4
+    },
+    {
+      "name": "emulate_learning_model_5_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 5
+    },
+    {
+      "name": "emulate_learning_model_6_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 6
+    },
+    {
+      "name": "emulate_learning_model_7_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 7
+    },
+    {
+      "name": "emulate_learning_model_8_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 8
+    },
+    {
+      "name": "emulate_learning_model_9_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 9
+    },
+    {
+      "name": "emulate_learning_model_10_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 10
+    },
+    {
+      "name": "emulate_learning_model_11_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 11
+    },
+    {
+      "name": "emulate_learning_model_12_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 12
+    },
+    {
+      "name": "emulate_learning_model_13_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 13
+    },
+    {
+      "name": "emulate_learning_model_14_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 14
+    },
+    {
+      "name": "emulate_learning_model_15_all_400",
+      "family": "emulate_model",
+      "prefix": 400,
+      "report_index": -1,
+      "fake_market": -1,
+      "fake_model": 15
+    }
+  ],
+  "validation_worlds_per_market_template": 8,
+  "test_worlds_per_market_selected_attack": 64,
+  "validation_seed_base": 710031,
+  "test_seed_base": 710041,
+  "stream_formula": "base + seed*10000 + market*101",
+  "comparisons": "selected template vs exact myopic BR, paired streams within each policy and market",
+  "scope": "restricted 89-template empirical check, not a search over all dynamic strategies",
+  "independent_stage_bound": "finite-catalogue bound checked separately; no scope beyond the four markets",
+  "source_sha256": {
+    "capacity_billing_attacks.py": "84e888bd53fc17b8df13ab74ba51a80ffacc040f530537d6619fc1b49954a290",
+    "adaptive_coalition_attack.py": "86477145b5d1d89295e1f20f17541bd6ace11ea8a6df46679f1b1e8064aa11fa",
+    "capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13"
+  }
+}

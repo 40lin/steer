@@ -1,0 +1,294 @@
+{
+  "selection": "89-template utility-only validation search",
+  "scope": "restricted attack class lower bound; three predeclared seeds",
+  "results": [
+    {
+      "seed": 0,
+      "mode": "floor",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "exact_myopic_BR",
+          "attack_revenue": 1360.0000000000039,
+          "myopic_revenue": 1360.0000000000039,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "revenue_delta": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "B",
+          "selected_template": "exact_myopic_BR",
+          "attack_revenue": 1360.0000000000039,
+          "myopic_revenue": 1360.0000000000039,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "revenue_delta": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "C",
+          "selected_template": "exact_myopic_BR",
+          "attack_revenue": 1360.0000000000039,
+          "myopic_revenue": 1360.0000000000039,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "revenue_delta": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "D",
+          "selected_template": "exact_myopic_BR",
+          "attack_revenue": 1360.0000000000039,
+          "myopic_revenue": 1360.0000000000039,
+          "coalition_utility_gain": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "revenue_delta": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        }
+      ],
+      "mean_attack_revenue": 1360.0000000000039,
+      "mean_myopic_revenue": 1360.0000000000039
+    },
+    {
+      "seed": 4,
+      "mode": "floor",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "constant_32_first_10",
+          "attack_revenue": 1484.1250000000098,
+          "myopic_revenue": 1496.0000000000118,
+          "coalition_utility_gain": {
+            "mean": 11.875,
+            "ci95": [
+              10.875,
+              12.875
+            ]
+          },
+          "revenue_delta": {
+            "mean": -11.875000000002032,
+            "ci95": [
+              -12.875000000002146,
+              -10.875000000001918
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "B",
+          "selected_template": "constant_10_first_40",
+          "attack_revenue": 1236.000000000001,
+          "myopic_revenue": 1240.0000000000002,
+          "coalition_utility_gain": {
+            "mean": 19.999999999999886,
+            "ci95": [
+              19.999999999999886,
+              19.999999999999886
+            ]
+          },
+          "revenue_delta": {
+            "mean": -3.9999999999995453,
+            "ci95": [
+              -3.9999999999995453,
+              -3.9999999999995453
+            ]
+          },
+          "attack_jobs": 730.0,
+          "myopic_jobs": 700.0
+        },
+        {
+          "market": "C",
+          "selected_template": "constant_32_first_10",
+          "attack_revenue": 1484.75000000001,
+          "myopic_revenue": 1496.0000000000118,
+          "coalition_utility_gain": {
+            "mean": 11.250000000001549,
+            "ci95": [
+              10.3718750000015,
+              12.250000000001606
+            ]
+          },
+          "revenue_delta": {
+            "mean": -11.250000000001961,
+            "ci95": [
+              -12.250000000002075,
+              -10.250000000001847
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "D",
+          "selected_template": "constant_22_first_10",
+          "attack_revenue": 1308.0000000000027,
+          "myopic_revenue": 1240.0000000000002,
+          "coalition_utility_gain": {
+            "mean": 32.00000000000091,
+            "ci95": [
+              32.00000000000091,
+              32.00000000000091
+            ]
+          },
+          "revenue_delta": {
+            "mean": 68.00000000000227,
+            "ci95": [
+              68.00000000000227,
+              68.00000000000227
+            ]
+          },
+          "attack_jobs": 750.0,
+          "myopic_jobs": 700.0
+        }
+      ],
+      "mean_attack_revenue": 1378.218750000006,
+      "mean_myopic_revenue": 1368.000000000006
+    },
+    {
+      "seed": 9,
+      "mode": "floor",
+      "markets": [
+        {
+          "market": "A",
+          "selected_template": "constant_23_first_10",
+          "attack_revenue": 1505.0000000000123,
+          "myopic_revenue": 1512.0000000000136,
+          "coalition_utility_gain": {
+            "mean": 6.999999999999147,
+            "ci95": [
+              6.371874999999184,
+              7.624999999999112
+            ]
+          },
+          "revenue_delta": {
+            "mean": -7.000000000001478,
+            "ci95": [
+              -7.625000000001549,
+              -6.250000000001393
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "B",
+          "selected_template": "constant_00_first_40",
+          "attack_revenue": 1224.0000000000002,
+          "myopic_revenue": 1264.0000000000016,
+          "coalition_utility_gain": {
+            "mean": 7.999999999999972,
+            "ci95": [
+              7.999999999999972,
+              7.999999999999972
+            ]
+          },
+          "revenue_delta": {
+            "mean": -40.00000000000091,
+            "ci95": [
+              -40.00000000000091,
+              -40.00000000000091
+            ]
+          },
+          "attack_jobs": 720.0,
+          "myopic_jobs": 720.0
+        },
+        {
+          "market": "C",
+          "selected_template": "constant_23_first_10",
+          "attack_revenue": 1505.5000000000123,
+          "myopic_revenue": 1512.0000000000136,
+          "coalition_utility_gain": {
+            "mean": 6.499999999999545,
+            "ci95": [
+              5.749999999999545,
+              7.249999999999545
+            ]
+          },
+          "revenue_delta": {
+            "mean": -6.500000000001421,
+            "ci95": [
+              -7.250000000001506,
+              -5.750000000001336
+            ]
+          },
+          "attack_jobs": 800.0,
+          "myopic_jobs": 800.0
+        },
+        {
+          "market": "D",
+          "selected_template": "constant_22_first_10",
+          "attack_revenue": 1296.000000000002,
+          "myopic_revenue": 1264.0000000000016,
+          "coalition_utility_gain": {
+            "mean": 8.0,
+            "ci95": [
+              8.0,
+              8.0
+            ]
+          },
+          "revenue_delta": {
+            "mean": 32.00000000000068,
+            "ci95": [
+              32.00000000000068,
+              32.00000000000068
+            ]
+          },
+          "attack_jobs": 740.0,
+          "myopic_jobs": 720.0
+        }
+      ],
+      "mean_attack_revenue": 1382.6250000000068,
+      "mean_myopic_revenue": 1388.0000000000077
+    }
+  ]
+}

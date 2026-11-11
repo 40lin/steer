@@ -1,0 +1,580 @@
+{
+  "created_utc": "2026-11-11T12:14:45.352671+00:00",
+  "status": "published_compact_reference_results",
+  "scientific_scope": "Finite-catalogue synthetic experiments; frozen primary capacity-billing run, prespecified stress tests, and explicitly marked exploratory threshold, price, and allocation-matching diagnostics. Allocation matching was proposed after V2 primary results and remains a separate exploratory branch.",
+  "paths": "All source_file and published_file values are repository-relative. No absolute machine paths are retained.",
+  "sanitization_policy": "No absolute local paths are retained. Recursively strip known local checkout prefixes from JSON keys/string values if needed; reject unknown absolute paths. Normalize text line endings from CRLF to LF for repository publication. Keep original source SHA/bytes unchanged. These transformations do not change numerical values.",
+  "sanitization_summary": {
+    "files_requiring_path_cleaning": 0,
+    "numeric_values_changed": false,
+    "files_with_line_ending_normalization": 34
+  },
+  "release_source_adaptation": {
+    "file": "code/v2_threshold_constraints.py",
+    "change": "Publication-only --checkpoint-dir option replaces an absolute local checkpoint directory; the original threshold protocol retains the source hash actually used for experiments.",
+    "frozen_source_hash_is_current_source_claim": false,
+    "scientific_logic_change": false
+  },
+  "files": [
+    {
+      "published_file": "capacity_analysis_summary.json",
+      "source_file": "experiments/v2_capacity_billing/analysis/summary.json",
+      "source_sha256": "6a7bfb78e3a82da73ccceb36e24bb94257084398425714ae57ed12f7f1b5ca53",
+      "published_sha256": "8c109753104620fbc321a0b206e36128d8c0b7f88aef0e2727e13118bf83ee43",
+      "source_bytes": 473171,
+      "published_bytes": 460999,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 12172,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_primary.json",
+      "source_file": "experiments/v2_capacity_billing/analysis/primary.json",
+      "source_sha256": "5435971d40eaaec9f3594e782fbc907d0513579b6972b841d0fd083d4df2cd86",
+      "published_sha256": "46aadfa023c75c17068c164ffad4a009b307d0d56bbc3e4afbe196672a0a6bd0",
+      "source_bytes": 115857,
+      "published_bytes": 112591,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 3266,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_method_summary.csv",
+      "source_file": "experiments/v2_capacity_billing/analysis/method_summary.csv",
+      "source_sha256": "c9a73f51db5f361210bb3440334d37be0f9ffb6f0b446dd23052617d409a102f",
+      "published_sha256": "7980fb9d142919b7cc4b9322f64f43f5457242a17ca2f8fa1016aa926e368b07",
+      "source_bytes": 137191,
+      "published_bytes": 135990,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 1201,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_comparisons.csv",
+      "source_file": "experiments/v2_capacity_billing/analysis/comparisons.csv",
+      "source_sha256": "0743f77a4691195b6ecf408494cef06755fdf47f475d96c688344abc914bc840",
+      "published_sha256": "78dd750c010c2158622239f45cfdede3a4b459f596f3da050f57c670c26f38c4",
+      "source_bytes": 54170,
+      "published_bytes": 53809,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 361,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_seed_results.csv",
+      "source_file": "experiments/v2_capacity_billing/analysis/seed_results.csv",
+      "source_sha256": "6a78e5c948cdef74871d577c199653fac77968f8d694d9c6bc377921272619dc",
+      "published_sha256": "05ec6dbbec9520b6c566e9831c8a16904fedb1e52fe735bc8709934d8c089993",
+      "source_bytes": 35774,
+      "published_bytes": 35473,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 301,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_type_results.csv",
+      "source_file": "experiments/v2_capacity_billing/analysis/type_results.csv",
+      "source_sha256": "f845b6e4a47cf6755d3b280ed4df5bec4f41c80734f4077327b2964c1a85649f",
+      "published_sha256": "2db065cb91026fb70d8b25bb2e61dac776b64d38596e5f50727c38f5a77d0f41",
+      "source_bytes": 190213,
+      "published_bytes": 188484,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 1729,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_protocol.json",
+      "source_file": "experiments/v2_capacity_billing/protocol.json",
+      "source_sha256": "fb45311bd78eff743766eab1472c22de67e4f7faf8a6cbe173fd8809e1248312",
+      "published_sha256": "364925566013ff7c817b77a7c11164d49a834a67e257cad17854a1174563435e",
+      "source_bytes": 1376,
+      "published_bytes": 1326,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 50,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_selection.json",
+      "source_file": "experiments/v2_capacity_billing/selection.json",
+      "source_sha256": "4e41461897fb587b037a4a8e76b996b8d1f825f58cff309bdfb1fff7699f9ea1",
+      "published_sha256": "502a2ee7a0beb5b498c1c7917858f679c404fe112b2c606efd0a07760df4e68b",
+      "source_bytes": 1926,
+      "published_bytes": 1861,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 65,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_analysis_freeze.json",
+      "source_file": "experiments/v2_capacity_billing/analysis_freeze.json",
+      "source_sha256": "24c5199323d141a143e2ff4ad0502816fb0fece12a37c8007533cd043c926289",
+      "published_sha256": "531d503af372c881f8f6f2f134682d65aac47fe1a793bfa8d93d8e31f1d9835b",
+      "source_bytes": 1612,
+      "published_bytes": 1561,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 51,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_pretest_freeze.json",
+      "source_file": "experiments/v2_capacity_billing/pretest_freeze.json",
+      "source_sha256": "d52568bc142c3560c0890130d11ba1b247b1f130b98ff7985758c7f90a5df8b2",
+      "published_sha256": "c2ad6c7f9ec066324bb5ae3133336cbad40a6395981f5549977428b5601e7297",
+      "source_bytes": 3489,
+      "published_bytes": 3458,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 31,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_price_sensitivity.json",
+      "source_file": "experiments/v2_capacity_billing/price_sensitivity.json",
+      "source_sha256": "7f49d2f6a25bf0aacd77848616290d9c76575e43599769457650fb494789a055",
+      "published_sha256": "83a4eb6cfe9cec9177c2782e7471365f8a69985811a1ca0c1e88206435ee625e",
+      "source_bytes": 26599,
+      "published_bytes": 25662,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 937,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_attack_summary.json",
+      "source_file": "experiments/v2_capacity_billing/attacks/summary.json",
+      "source_sha256": "fbe56600974feab6d18ce3f09dad74274c94f7a821fd18f7094a47338d82537a",
+      "published_sha256": "e5bf593ebab59b84eebc76dcc90ddcc2f4683a08cb1fe7aa3d0e3828602cc2fc",
+      "source_bytes": 13846,
+      "published_bytes": 13385,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 461,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_attack_protocol.json",
+      "source_file": "experiments/v2_capacity_billing/attacks/protocol.json",
+      "source_sha256": "6253b4d72d784ecebaf2fd73890949f5ab3c79d0a98d90b4709fe90c8e5e516e",
+      "published_sha256": "fecff9ba9c8402811a807a968b7d16872d159e3307d9c49c6d998c7b3408f623",
+      "source_bytes": 18421,
+      "published_bytes": 17669,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 752,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "capacity_attack_completion_audit.json",
+      "source_file": "experiments/v2_capacity_billing/attacks/completion_audit.json",
+      "source_sha256": "9dc409f60987c521d95f1fce7241e38a97c511f159c940f1ede060188749dd11",
+      "published_sha256": "9a69fe317544b9a23ad9fb32e20f182882238e2d003bf1d82d57e7b872e9b45f",
+      "source_bytes": 638,
+      "published_bytes": 621,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 17,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "mechanism_audit.json",
+      "source_file": "experiments/v2_audit/mechanism_audit.json",
+      "source_sha256": "f7f3b8512d81d0ff16e1e6d561926f14bccf6bd7e679ef6a6f70503ac648d5d6",
+      "published_sha256": "977a0f9086d40378d34fe63fc2283c4b067c905ea4d4f8c51fc0f9dcb195cc84",
+      "source_bytes": 373642,
+      "published_bytes": 358455,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 15187,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "environment_review.json",
+      "source_file": "experiments/v2_audit/environment_review.json",
+      "source_sha256": "7796c417d76669a31926a905a233b8bdedd75f84f6e3cd5b36b8c4a8db2e2ddc",
+      "published_sha256": "8fc8eaf3e41fc1a65bef7c86852e9e7cbef6cf359d229ee0c9105a5f531297e8",
+      "source_bytes": 1406,
+      "published_bytes": 1364,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 42,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_summary.json",
+      "source_file": "experiments/v2_threshold_constraints/summary.json",
+      "source_sha256": "2736b829377ed6c057d97d5d2c2cacfc8dfb0f79907dc8ad0d66a2e85ef85718",
+      "published_sha256": "e69a6c96531ee1f7f97b3e1d3982a48aa5ac1d6cd164d7ebdf98350e351caf19",
+      "source_bytes": 20213,
+      "published_bytes": 19677,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 536,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_summary.csv",
+      "source_file": "experiments/v2_threshold_constraints/summary.csv",
+      "source_sha256": "a4355d4c52be0f32f318f0c59d979accb271fb6d6d82769038bf1fc572c1b9d0",
+      "published_sha256": "966831ab19c77d9e903e3e96ee279a381e9d24fc399e3b6459c2e29bc046cce5",
+      "source_bytes": 6439,
+      "published_bytes": 6403,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 36,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_seed_results.csv",
+      "source_file": "experiments/v2_threshold_constraints/seed_results.csv",
+      "source_sha256": "68fda424c21207b8857601ceb0e46e6a940079cc7367687437182047f13f21b5",
+      "published_sha256": "c58431dd51661e16990118771f6cad60de445a3e83dd23a16762c91789f28008",
+      "source_bytes": 23198,
+      "published_bytes": 22917,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 281,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_attack_summary.json",
+      "source_file": "experiments/v2_threshold_constraints/attack_summary.json",
+      "source_sha256": "569c14c9ff1368a85b9871af336c1c21df33c9be317592671037c6b45020afa0",
+      "published_sha256": "8c2815cd23a9d4bc72598f32ec5c3f1472e71a741a7dac63380ab2b93c95f1ff",
+      "source_bytes": 8171,
+      "published_bytes": 7878,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 293,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_service_diagnostic.json",
+      "source_file": "experiments/v2_threshold_constraints/secondary_service_diagnostic.json",
+      "source_sha256": "285cfa43269d5c84f57810cdf404bdaf7126b021d8843e295f14daef19dd7308",
+      "published_sha256": "d7e9b98a501f3424973d4029a42fa16907f6a472f5024ef1cc9acc72d6c87eab",
+      "source_bytes": 7678,
+      "published_bytes": 7434,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 244,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_protocol.json",
+      "source_file": "experiments/v2_threshold_constraints/protocol.json",
+      "source_sha256": "46b2c1f5fbcba4c40d207fb6b67be17259889ed0a01b8b5cbd8762b27ce611c4",
+      "published_sha256": "d0352e4ad705bdccbaa858045ca6d038c5253374a5eed9775c8045559e5b425a",
+      "source_bytes": 2789,
+      "published_bytes": 2709,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 80,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "threshold_completion_audit.json",
+      "source_file": "experiments/v2_threshold_constraints/completion_audit.json",
+      "source_sha256": "f0106abf4c0cf07ac77842819a00e3fa96645d47307500bdd18d677f6611184d",
+      "published_sha256": "f1ed80f57cfbf1c394a77046571c50262c46df7dd73669facb6393491baf62ae",
+      "source_bytes": 602,
+      "published_bytes": 587,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 15,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "checkpoint_selection_audit.json",
+      "published_sha256": "fa73eb14157995572a0433630d3536bafd471ef271a4bd89961b83ae13b5ff63",
+      "published_bytes": 8885,
+      "derived_from": "Checkpoint metadata with per-checkpoint source hashes and NPZ metrics whose source hashes are recorded in capacity_analysis_summary.json",
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 0,
+        "numeric_values_changed": false
+      }
+    },
+    {
+      "published_file": "allocation_protocol.json",
+      "source_file": "experiments/v3_capacity_allocation/protocol.json",
+      "source_sha256": "d4498034505b66561fd40a26f6a6d0e266ac8120be313348795f190f3c63a241",
+      "published_sha256": "8a10106e1a447a5798daf623b28721c93d7b33429e395a11974fc1ed06d411d0",
+      "source_bytes": 4128,
+      "published_bytes": 4053,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 75,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_pretest_freeze.json",
+      "source_file": "experiments/v3_capacity_allocation/pretest_freeze.json",
+      "source_sha256": "16cb5b0e222c802e09cc34168687a290f58c7fd0a57720d5d832d9d87ca6d94d",
+      "published_sha256": "6f3df9bfff2f96a6045f83f1f9cd09fc56898a16eb2655e8cf05122810f18281",
+      "source_bytes": 2817,
+      "published_bytes": 2789,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 28,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_selection.json",
+      "source_file": "experiments/v3_capacity_allocation/selection.json",
+      "source_sha256": "f963b5d5f9ac61e5e2ba526da2d7ce5c0a670a474e8924330b22f2b928bd94df",
+      "published_sha256": "8dafd88de569b836e9abdf9850f1b971cbb6fc6b02da9a9bac555595bfc1efcc",
+      "source_bytes": 4944,
+      "published_bytes": 4790,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 154,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_summary.json",
+      "source_file": "experiments/v3_capacity_allocation/summary.json",
+      "source_sha256": "527b0ffb926808a7a09112b50b2718eeaf840a80cd1dbb49d2a08663ab808f70",
+      "published_sha256": "7e543f6e6646e5f80ccb438c152e8cd492bbb2ccaa6ae525a08604034eb53298",
+      "source_bytes": 371444,
+      "published_bytes": 361568,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 9876,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_validation.csv",
+      "source_file": "experiments/v3_capacity_allocation/validation.csv",
+      "source_sha256": "bbd7de7b2220669cc32ce08405c95831fd655e8d5fe3d193278864e8f59a3bd5",
+      "published_sha256": "9cdf3625a0778c4639641eb53017de59f34d10ac96f318bc7ef4e7f870acca53",
+      "source_bytes": 1703,
+      "published_bytes": 1689,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 14,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_metrics.csv",
+      "source_file": "experiments/v3_capacity_allocation/metrics.csv",
+      "source_sha256": "72e773c2f3c382797ce10931b18a8ee01a984bef3d0c7637dbb2d53e3b942a0d",
+      "published_sha256": "4bcedfd975b1074f6e31ef819fbfd0a0f0c06409c5de628d7df5639ad93ee4e1",
+      "source_bytes": 89524,
+      "published_bytes": 88723,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 801,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_comparisons.csv",
+      "source_file": "experiments/v3_capacity_allocation/comparisons.csv",
+      "source_sha256": "3416998d47d5b4dfb210baa1bb7e73f38394105b476e8646639bb38cbc51d0a2",
+      "published_sha256": "40c65759b0dcf6f61f71fc643ae0f790ad15b79341eed9b459b24484b1042b7e",
+      "source_bytes": 60315,
+      "published_bytes": 59834,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 481,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_type_results.csv",
+      "source_file": "experiments/v3_capacity_allocation/type_results.csv",
+      "source_sha256": "709c09a4c90e299f94a08e8cb3bc19db7aaf673b15e0db60ea48f5ccddd210ff",
+      "published_sha256": "83d0b55096f70f24c4d752c8e95055554febda7be3d5229239f0fd52bd5737d9",
+      "source_bytes": 18927,
+      "published_bytes": 18746,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 181,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_completion_audit.json",
+      "source_file": "experiments/v3_capacity_allocation/completion_audit.json",
+      "source_sha256": "b1454ae9789f321748ec44d5a690bd8d45d9d14da654db2068c46c943e25e450",
+      "published_sha256": "f66a09a0be822a230469377911be8ea9514de6188071ac892a7ef67418548248",
+      "source_bytes": 2400,
+      "published_bytes": 2376,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 24,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_execution_metadata.json",
+      "source_file": "experiments/v3_capacity_allocation/execution_metadata.json",
+      "source_sha256": "92c4c984c8fd60ff1f87eb5a75fb01ac400fd4b95e0726bf85d2b9877e5c5b7a",
+      "published_sha256": "d437e89b8f3731d0fbfd448eb44ae8aacd4783eeed895d5f59aa4b5c77c1dfd7",
+      "source_bytes": 658,
+      "published_bytes": 642,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 16,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    },
+    {
+      "published_file": "allocation_exploratory_result.md",
+      "source_file": "experiments/v3_capacity_allocation/exploratory_result.md",
+      "source_sha256": "02c0c3abfb787682b7c859a760fec439e8accaf78fc1a5d4b0d016d7cea28e4e",
+      "published_sha256": "ec56698ec817edfa855a0f09ddca6cb599f749fc44a7144c749a07e97322879e",
+      "source_bytes": 4204,
+      "published_bytes": 4145,
+      "sanitization": [],
+      "numeric_values_changed": false,
+      "line_ending_normalization": {
+        "format": "LF",
+        "CRLF_sequences_replaced": 59,
+        "numeric_values_changed": false
+      },
+      "analysis_scope": "Separate exploratory matching hypothesis proposed after V2 primary test results; does not replace V2 primary inference."
+    }
+  ],
+  "published_code_sha256": {
+    "code/adaptive_coalition_attack.py": "86477145b5d1d89295e1f20f17541bd6ace11ea8a6df46679f1b1e8064aa11fa",
+    "code/analyze_capacity_billing.py": "0ef270aa642178049bc1577e8f0f4b7ada91b447a50506eda069a2cdb38eb15a",
+    "code/analyze_threshold_experiment.py": "504db4864bcec634cc5e9c03e0a36b59bf91fd7b5236aa1b5e353c2ca45450b0",
+    "code/belief_baselines.py": "2d549a4ea50240fdba9ac6e789d718ff269074ee7dd32f42cab3668b76260712",
+    "code/capacity_allocation_steering.py": "3b8d321eba1f0a6bcf74211524c96e0bb2b8002ce7cf09672f4698cfbc5eb74b",
+    "code/capacity_billing_attacks.py": "84e888bd53fc17b8df13ab74ba51a80ffacc040f530537d6619fc1b49954a290",
+    "code/capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "code/exact_threshold_stress.py": "f0d68d1e6546a9cc2b783c6cfe27bbca575a341cc73d317e3e62be67dc80a903",
+    "code/make_threshold_figures.py": "4c6d179aec85cc1cbb7bd8f89ba54835da21c47423c1136e7ec4833fac687219",
+    "code/run_capacity_billing.py": "65d595e167561e8f56a7fa5634a2ec7defbf987844206d1358300d0f05e9004d",
+    "code/run_evaluation_grid.py": "785e9d2f6647d36852cc29ccc92829277ce59c0553c4185feefc26e19b3205f6",
+    "code/run_stress_evaluation.py": "fa3edeab9d03fcc19ec7910298a3aed98b64196290ad9dab6bf786d90cef57d2",
+    "code/run_threshold_experiment.py": "abf66d06273940011664381575db2d39af83e13acf0c617282a1dd9c932c38ca",
+    "code/run_training_grid.py": "7bf668b682b6dbc4a777972c6f27d530545739840d560e1f6d4ecfadd93ee626",
+    "code/schedule_baselines.py": "91604fffc892faf04aa9a16bfbd406f5bfc35d959ad0cd07d89749badec71076",
+    "code/steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "code/stress_batch_and_summary.py": "95cb15c5b47ff58c46d7ea80586dff121bdb77656cd2366769fe95f69f6eb5bb",
+    "code/v2_mechanism_audit.py": "3b6c851473e894e65dbbc65f27d6877725c17ac4e813a1d0cd5fa0c337abc8e6",
+    "code/v2_threshold_constraints.py": "4530e765b667c008213ef0e83d5f7a52a6e86d8d9ccc862cebe382329b5f2001",
+    "code/validate_micro_model.py": "84affb1f41cf5510bdd910904a7f9e00f8805800128d30baf3a43c2e06627636",
+    "scripts/run_experiment.py": "3a41fa98dd9edfc410e01284473258b07e07516cb881a33395b6f5df25850257",
+    "scripts/run_v2_capacity.py": "59863d38e2e7eb26f4ab86bfed83cdfd6b6a74ebdcfb21f8c2429d6355ecbfe9"
+  },
+  "published_code_provenance_scope": "Hashes of the Python sources present at publication, not a retrospective claim of a complete pretest dependency lock. The original capacity pretest freeze did not include every shared dependency. Frozen source records identify only what was actually frozen before test.",
+  "publication_finalized_utc": "2026-11-11T12:18:21.183557+00:00"
+}

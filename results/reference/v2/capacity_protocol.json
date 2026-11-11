@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-11T12:01:46.240633+00:00",
+  "primary_price": 0.78,
+  "capacity_weight": 1.0,
+  "price_fixed_all_400_rounds": true,
+  "dynamic_menu_rho": [
+    0.5,
+    1.0
+  ],
+  "fixed_comparators": [
+    0,
+    0.5,
+    0.6666666666666666,
+    1.0
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "training_steps_each": 1996800,
+  "validation_seed": 700031,
+  "test_seed": 700041,
+  "worlds_per_type": 100,
+  "primary_response": "canonical learning",
+  "service_labels": "completed_jobs and completed_value; offline training/evaluation only",
+  "service_targets": "no mean loss relative to V1 fixed rho=.5, price=1, alpha=.2",
+  "checkpoint_selection": "maximize revenue among J/V-feasible candidates; include same-mechanism validation-best fixed fallback; if no feasible candidate maximize minimum normalized service slack, then revenue",
+  "price_grid_exploratory": [
+    0.65,
+    0.68,
+    0.7,
+    0.72,
+    0.75,
+    0.78,
+    0.79,
+    0.8,
+    0.82
+  ],
+  "revenue_attribution": "new mechanism versus V1; steering versus best new fixed, reported separately",
+  "strong_coalition_scope": "four fixed markets, indivisible jobs, whole VM pooling, posted price independent of reports/history",
+  "all_seeds_mandatory": true,
+  "rebate_budget_spent": 0
+}

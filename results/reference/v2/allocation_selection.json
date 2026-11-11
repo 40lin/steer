@@ -1,0 +1,155 @@
+{
+  "validation_seed": 720031,
+  "case": "canonical",
+  "records": [
+    {
+      "method": "old_fixed",
+      "revenue": 1366.6437500000018,
+      "volume": 1730.87875,
+      "completed_jobs": 678.986875,
+      "completed_value": 3462.5277499999993,
+      "total_user_utility": 2095.8840000000027,
+      "active_buyers": 710.0575,
+      "underreport_count_active": 329.4075,
+      "overreport_count": 90.03875
+    },
+    {
+      "method": "uniform_r0",
+      "revenue": 1379.4538875000057,
+      "volume": 1768.530625,
+      "completed_jobs": 681.73875,
+      "completed_value": 3499.7490000000003,
+      "total_user_utility": 2120.295112499991,
+      "active_buyers": 706.678125,
+      "underreport_count_active": 252.410625,
+      "overreport_count": 122.81875
+    },
+    {
+      "method": "uniform_r1",
+      "revenue": 1353.5720250000022,
+      "volume": 1735.34875,
+      "completed_jobs": 676.144375,
+      "completed_value": 3453.6501249999997,
+      "total_user_utility": 2100.0780999999874,
+      "active_buyers": 710.138125,
+      "underreport_count_active": 251.974375,
+      "overreport_count": 136.92125
+    },
+    {
+      "method": "uniform_r2",
+      "revenue": 1204.3390125000042,
+      "volume": 1544.024375,
+      "completed_jobs": 585.884375,
+      "completed_value": 3243.286250000001,
+      "total_user_utility": 2038.9472374999893,
+      "active_buyers": 705.501875,
+      "underreport_count_active": 145.353125,
+      "overreport_count": 153.456875
+    },
+    {
+      "method": "uniform_r3",
+      "revenue": 1142.8637999999994,
+      "volume": 1465.21,
+      "completed_jobs": 570.581875,
+      "completed_value": 3137.9127500000013,
+      "total_user_utility": 1995.0489499999933,
+      "active_buyers": 705.77375,
+      "underreport_count_active": 120.393125,
+      "overreport_count": 192.15625
+    },
+    {
+      "method": "priority0_r0",
+      "revenue": 1391.8529625000042,
+      "volume": 1784.426875,
+      "completed_jobs": 691.601875,
+      "completed_value": 3513.6398750000035,
+      "total_user_utility": 2121.7869124999906,
+      "active_buyers": 711.750625,
+      "underreport_count_active": 275.880625,
+      "overreport_count": 126.268125
+    },
+    {
+      "method": "priority0_r1",
+      "revenue": 1358.1793875000023,
+      "volume": 1741.255625,
+      "completed_jobs": 680.010625,
+      "completed_value": 3457.887124999998,
+      "total_user_utility": 2099.707737499988,
+      "active_buyers": 711.518125,
+      "underreport_count_active": 256.083125,
+      "overreport_count": 137.4975
+    },
+    {
+      "method": "priority0_r2",
+      "revenue": 1210.9933875000038,
+      "volume": 1552.555625,
+      "completed_jobs": 590.231875,
+      "completed_value": 3244.830375000001,
+      "total_user_utility": 2033.8369874999883,
+      "active_buyers": 706.239375,
+      "underreport_count_active": 155.48125,
+      "overreport_count": 157.13625
+    },
+    {
+      "method": "priority0_r3",
+      "revenue": 1146.9509999999998,
+      "volume": 1470.45,
+      "completed_jobs": 572.8325,
+      "completed_value": 3134.012250000001,
+      "total_user_utility": 1987.0612499999918,
+      "active_buyers": 705.713125,
+      "underreport_count_active": 120.124375,
+      "overreport_count": 191.364375
+    },
+    {
+      "method": "priority1_r0",
+      "revenue": 1369.6819500000024,
+      "volume": 1756.0025,
+      "completed_jobs": 674.02125,
+      "completed_value": 3464.7927500000023,
+      "total_user_utility": 2095.1107999999863,
+      "active_buyers": 703.290625,
+      "underreport_count_active": 259.840625,
+      "overreport_count": 131.238125
+    },
+    {
+      "method": "priority1_r1",
+      "revenue": 1346.676337500002,
+      "volume": 1726.508125,
+      "completed_jobs": 671.81125,
+      "completed_value": 3437.153124999999,
+      "total_user_utility": 2090.4767874999875,
+      "active_buyers": 709.233125,
+      "underreport_count_active": 255.3625,
+      "overreport_count": 141.314375
+    },
+    {
+      "method": "priority1_r2",
+      "revenue": 1189.4590500000033,
+      "volume": 1524.9475,
+      "completed_jobs": 575.8725,
+      "completed_value": 3177.067125,
+      "total_user_utility": 1987.6080749999926,
+      "active_buyers": 704.00375,
+      "underreport_count_active": 154.928125,
+      "overreport_count": 167.74125
+    },
+    {
+      "method": "priority1_r3",
+      "revenue": 1127.8819499999981,
+      "volume": 1446.0025,
+      "completed_jobs": 561.068125,
+      "completed_value": 3079.67875,
+      "total_user_utility": 1951.796799999993,
+      "active_buyers": 704.961875,
+      "underreport_count_active": 122.02,
+      "overreport_count": 200.624375
+    }
+  ],
+  "selected_method": "priority0_r0",
+  "selected_validation_feasible": true,
+  "feasible_methods": [
+    "uniform_r0",
+    "priority0_r0"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-11T12:06:40.560824+00:00",
+  "hashes": {
+    "experiments/v2_capacity_billing/checkpoints/dynamic_0.pt": "53579161cc699a7173b4f30c263f31322892d10460f6c1257a04bfbb3c7ee281",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_1.pt": "d6afc81f00d0e891584eb8af99167a2420f06e82a69d2819ae5d16412b363b2a",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_2.pt": "1eb34152a3deacf2365e2bc954a494d0d0672dc17d4c5e2f08707033a3946eed",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_3.pt": "ebd7bc3960838777c8777441ddd70684e557af9b687cf6ecdbabd24aded94f54",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_4.pt": "78fb0d024f4f33fcf676ab11cec34addfeb554517822181e1a96635693a726fc",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_5.pt": "762a605189ac65b9596d7715c7a39fbb94bc41de1b9ca380213ff5139f55d83a",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_6.pt": "7e0e209305b49702dc79fb2e7d957d1d3df602b464fc94f262b644d770a0b959",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_7.pt": "073b3fc7b2b8ab44930c2c1276ba18b2760bba0c2658b7fdcbc950613994378b",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_8.pt": "577102625d194ff541758dd905a03702fe4866c4cae541977f30662fcd841be4",
+    "experiments/v2_capacity_billing/checkpoints/dynamic_9.pt": "80863aca9395877c3fa7d641ab3cca5b5a92c368c95408283b9f5d30e6f53be6",
+    "experiments/v2_capacity_billing/logs/dynamic_0.json": "e147648418301463bccb9c17b7f9779b28dd996251a143db005bc434eb4d006c",
+    "experiments/v2_capacity_billing/logs/dynamic_1.json": "ba41a1e9be15c082fece4845eefb289e335e23a4f69b31b81f450a02765d8444",
+    "experiments/v2_capacity_billing/logs/dynamic_2.json": "69a58c013e6af112706f7461da346f2022b456066f611e181b214704f744c4a3",
+    "experiments/v2_capacity_billing/logs/dynamic_3.json": "5df7f0c0f8bfbaee17e2181ead1659f227abf31df838ab380f42679ef83f2db1",
+    "experiments/v2_capacity_billing/logs/dynamic_4.json": "e901e326cc946a646eb14944fa5494a94f0d1c7f73577a7d3044cbe967253f88",
+    "experiments/v2_capacity_billing/logs/dynamic_5.json": "48e9d4bc9cdee275dcd218290da35c50c7ebf6fe94024b00076e9d6ded4eea29",
+    "experiments/v2_capacity_billing/logs/dynamic_6.json": "7728b117b116b4a50671387b57bb70a046dc6eee240fe73fae02cecb311c45e8",
+    "experiments/v2_capacity_billing/logs/dynamic_7.json": "621fca37e085ff369df007c682cf1da5aa8a8e8665ba7dc28c52621af9303b69",
+    "experiments/v2_capacity_billing/logs/dynamic_8.json": "352dbe5ffb4b7d395cc17d831c0c17ec9808aa0cc901f39e2ea766619b213e5f",
+    "experiments/v2_capacity_billing/logs/dynamic_9.json": "76f9f00650a7ebdc49ea7c17ab2cad3c07d891da1d5d90853fa563ac9240aeef",
+    "code/run_capacity_billing.py": "65d595e167561e8f56a7fa5634a2ec7defbf987844206d1358300d0f05e9004d",
+    "code/capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "code/analyze_capacity_billing.py": "0ef270aa642178049bc1577e8f0f4b7ada91b447a50506eda069a2cdb38eb15a",
+    "code/capacity_billing_attacks.py": "84e888bd53fc17b8df13ab74ba51a80ffacc040f530537d6619fc1b49954a290",
+    "experiments/v2_capacity_billing/analysis_freeze.json": "24c5199323d141a143e2ff4ad0502816fb0fece12a37c8007533cd043c926289",
+    "experiments/v2_capacity_billing/protocol.json": "fb45311bd78eff743766eab1472c22de67e4f7faf8a6cbe173fd8809e1248312",
+    "experiments/v2_capacity_billing/selection.json": "4e41461897fb587b037a4a8e76b996b8d1f825f58cff309bdfb1fff7699f9ea1"
+  }
+}

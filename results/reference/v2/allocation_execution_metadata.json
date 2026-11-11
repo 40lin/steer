@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "validation_seconds_from_runner": 14.70828859996982,
+  "test_generation_seconds_from_runner": 72.80467849993147,
+  "freeze_to_completion_seconds_from_file_times": 90.41798543930054,
+  "note": "The complete CLI also included the short pre-freeze self-test. File-time elapsed is recorded separately from exact runner timers.",
+  "validation_market_steps": 8320000,
+  "test_market_steps": 7200000,
+  "canonical_tabular_world_metrics_identical": {
+    "dynamic": true,
+    "old_fixed": true,
+    "priority0_r0": true,
+    "uniform_r0": true,
+    "priority1_r0": true
+  },
+  "source_code_unchanged_after_freeze": true
+}

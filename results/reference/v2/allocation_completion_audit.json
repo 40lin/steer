@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "source_hashes_match": true,
+  "frozen_validation_hashes_match": true,
+  "test_file_hashes": {
+    "experiments/v3_capacity_allocation/data/test/canonical/dynamic.npz": "84871346663212ce723983f11aa4c4aaa0077a2eb2a08645b2ea349bdfdcafc9",
+    "experiments/v3_capacity_allocation/data/test/canonical/old_fixed.npz": "432ca1d0d09bf132ce185abce4929931a3dc3ac4dea793f6a5be5dc786559c5a",
+    "experiments/v3_capacity_allocation/data/test/canonical/priority0_r0.npz": "047a005f07358353b4c8f0013a0d9bf188044c9d3b896104519db4d0cc723dcc",
+    "experiments/v3_capacity_allocation/data/test/canonical/uniform_r0.npz": "10cac30f0386226a09f22e8c29ef402506573224b5c995069d66ea795527978b",
+    "experiments/v3_capacity_allocation/data/test/canonical/priority1_r0.npz": "4e0779ef633784dea4a2660ae2f4b6cf8068ae1452680cf70efc17d68330c839",
+    "experiments/v3_capacity_allocation/data/test/tabular/dynamic.npz": "fcb35c2bc37133971cb319605f44385213e78f2c3e8444f2a9faa5c599162737",
+    "experiments/v3_capacity_allocation/data/test/tabular/old_fixed.npz": "432ca1d0d09bf132ce185abce4929931a3dc3ac4dea793f6a5be5dc786559c5a",
+    "experiments/v3_capacity_allocation/data/test/tabular/priority0_r0.npz": "047a005f07358353b4c8f0013a0d9bf188044c9d3b896104519db4d0cc723dcc",
+    "experiments/v3_capacity_allocation/data/test/tabular/uniform_r0.npz": "10cac30f0386226a09f22e8c29ef402506573224b5c995069d66ea795527978b",
+    "experiments/v3_capacity_allocation/data/test/tabular/priority1_r0.npz": "4e0779ef633784dea4a2660ae2f4b6cf8068ae1452680cf70efc17d68330c839",
+    "experiments/v3_capacity_allocation/data/test/exact/dynamic.npz": "8e8d4b73198c1a90c33d48c990cc6e5607c6374563cc1b15f29d5fc84d92c201",
+    "experiments/v3_capacity_allocation/data/test/exact/old_fixed.npz": "ee7b4233cf70bb20db08161adde8bbb5186b8eb66aef62f8f8cced525b3e72a7",
+    "experiments/v3_capacity_allocation/data/test/exact/priority0_r0.npz": "4ac366175b4316c2aa8871de796668014f1581bd540c411087b03d445b2d80fb",
+    "experiments/v3_capacity_allocation/data/test/exact/uniform_r0.npz": "38464cc1bbf1acc533e6bc69d6aa155ee56d8a4f85bac25e4a815ad6a519fd4f",
+    "experiments/v3_capacity_allocation/data/test/exact/priority1_r0.npz": "7a8a2b48e1f05d8d3ca03a0c0282e9b6cf8e557bc696cd8e55e856495b94bd54"
+  },
+  "bootstrap_type_resampling": false,
+  "training_seed_resampling": false,
+  "test_reselection": false
+}

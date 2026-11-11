@@ -1,0 +1,66 @@
+{
+  "primary_price": 0.78,
+  "targets_jobs_value": [
+    677.77125,
+    3458.4573750000004
+  ],
+  "old_fixed": {
+    "revenue": 1362.9157500000056,
+    "volume": 1728.14625,
+    "completed_jobs": 677.77125,
+    "completed_value": 3458.4573750000004,
+    "total_user_utility": 2095.541624999996,
+    "active_buyers": 709.944375,
+    "underreport_count_active": 329.823125,
+    "overreport_count": 89.329375
+  },
+  "fixed_records": [
+    {
+      "action": 0,
+      "revenue": 1377.2854875000041,
+      "volume": 1765.750625,
+      "completed_jobs": 680.485625,
+      "completed_value": 3497.414375,
+      "total_user_utility": 2120.1288874999877,
+      "active_buyers": 706.408125,
+      "underreport_count_active": 253.62375,
+      "overreport_count": 123.005
+    },
+    {
+      "action": 1,
+      "revenue": 1352.161687500003,
+      "volume": 1733.540625,
+      "completed_jobs": 675.7325,
+      "completed_value": 3452.7929999999997,
+      "total_user_utility": 2100.6313124999883,
+      "active_buyers": 710.570625,
+      "underreport_count_active": 251.741875,
+      "overreport_count": 136.196875
+    },
+    {
+      "action": 2,
+      "revenue": 1205.9662875000026,
+      "volume": 1546.110625,
+      "completed_jobs": 586.94,
+      "completed_value": 3243.461625,
+      "total_user_utility": 2037.4953374999907,
+      "active_buyers": 705.868125,
+      "underreport_count_active": 147.570625,
+      "overreport_count": 152.633125
+    },
+    {
+      "action": 3,
+      "revenue": 1142.659537500001,
+      "volume": 1464.948125,
+      "completed_jobs": 570.46625,
+      "completed_value": 3136.632,
+      "total_user_utility": 1993.9724624999922,
+      "active_buyers": 706.175,
+      "underreport_count_active": 120.363125,
+      "overreport_count": 193.03375
+    }
+  ],
+  "best_fixed_action": 0,
+  "best_fixed_feasible": true,
+  "validation_seed": 700031
+}

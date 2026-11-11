@@ -1,0 +1,3267 @@
+{
+  "canonical": {
+    "mechanism": {
+      "all": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 8.038999999997941,
+            "ci95_low": 2.4430309374984973,
+            "ci95_high": 13.685194999998254,
+            "one_sided95_low": 3.320517499998539,
+            "bootstrap_sd": 2.8756598719952664
+          },
+          "completed_jobs": {
+            "estimate": 2.8274999999998727,
+            "ci95_low": 1.3087343750001423,
+            "ci95_high": 4.314421875000038,
+            "one_sided95_low": 1.5643437499998243,
+            "bootstrap_sd": 0.7597894070401728
+          },
+          "completed_value": {
+            "estimate": 36.897124999999505,
+            "ci95_low": 31.248487499999293,
+            "ci95_high": 42.444034374999525,
+            "one_sided95_low": 32.18048750000037,
+            "bootstrap_sd": 2.850657627128951
+          },
+          "volume": {
+            "estimate": 38.3143749999997,
+            "ci95_low": 35.080515625000274,
+            "ci95_high": 41.54754687500034,
+            "one_sided95_low": 35.56868750000058,
+            "bootstrap_sd": 1.6453840961254296
+          },
+          "total_user_utility": {
+            "estimate": 28.85812499999065,
+            "ci95_low": 21.884797812490557,
+            "ci95_high": 35.636493437489676,
+            "one_sided95_low": 23.116651874990794,
+            "bootstrap_sd": 3.469763097871629
+          },
+          "revenue_gain_percent": {
+            "estimate": 0.5868335651789144,
+            "ci95_low": 0.17777506247142336,
+            "ci95_high": 1.0026954729629034,
+            "one_sided95_low": 0.24156294145775525,
+            "bootstrap_sd": 0.2110563374903443
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 19.720274999998082,
+            "ci95_low": 11.514409999997792,
+            "ci95_high": 28.04116062499776,
+            "one_sided95_low": 12.76416249999777,
+            "bootstrap_sd": 4.220928874977596
+          },
+          "completed_jobs": {
+            "estimate": 6.267500000000041,
+            "ci95_low": 3.572499999999877,
+            "ci95_high": 8.892499999999927,
+            "one_sided95_low": 4.053687500000035,
+            "bootstrap_sd": 1.3489075132543122
+          },
+          "completed_value": {
+            "estimate": 57.95525000000089,
+            "ci95_low": 50.205593750000574,
+            "ci95_high": 65.85800624999973,
+            "one_sided95_low": 51.409950000000734,
+            "bootstrap_sd": 3.983524519092838
+          },
+          "volume": {
+            "estimate": 45.1262499999998,
+            "ci95_low": 39.599968750000365,
+            "ci95_high": 50.49287500000006,
+            "one_sided95_low": 40.5997499999995,
+            "bootstrap_sd": 2.7518793427034196
+          },
+          "total_user_utility": {
+            "estimate": 38.23497499999121,
+            "ci95_low": 28.773638124992864,
+            "ci95_high": 47.69743499999078,
+            "one_sided95_low": 30.262503749991243,
+            "bootstrap_sd": 4.860137132375351
+          },
+          "revenue_gain_percent": {
+            "estimate": 1.4421098240532082,
+            "ci95_low": 0.836768378001555,
+            "ci95_high": 2.0617698960700244,
+            "one_sided95_low": 0.929438387824984,
+            "bootstrap_sd": 0.3126183230987019
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "independent": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -3.6422750000015185,
+            "ci95_low": -11.159486875001681,
+            "ci95_high": 3.957959374998674,
+            "one_sided95_low": -9.965902500001254,
+            "bootstrap_sd": 3.85007296328859
+          },
+          "completed_jobs": {
+            "estimate": -0.6125000000001819,
+            "ci95_low": -1.9925312499999477,
+            "ci95_high": 0.72128125000016,
+            "one_sided95_low": -1.769999999999874,
+            "bootstrap_sd": 0.6921270609748718
+          },
+          "completed_value": {
+            "estimate": 15.838999999999487,
+            "ci95_low": 7.687356250000005,
+            "ci95_high": 23.63088750000024,
+            "one_sided95_low": 8.913937500000634,
+            "bootstrap_sd": 4.0652346559868935
+          },
+          "volume": {
+            "estimate": 31.502500000000055,
+            "ci95_low": 27.99375000000054,
+            "ci95_high": 34.960031250000256,
+            "one_sided95_low": 28.564875000000292,
+            "bootstrap_sd": 1.7861453846476942
+          },
+          "total_user_utility": {
+            "estimate": 19.481274999989182,
+            "ci95_low": 9.504928124989886,
+            "ci95_high": 28.83589437498908,
+            "one_sided95_low": 11.07560374999091,
+            "bootstrap_sd": 4.969061879014772
+          },
+          "revenue_gain_percent": {
+            "estimate": -0.2654083432997745,
+            "ci95_low": -0.8090588713803829,
+            "ci95_high": 0.2897064185691539,
+            "one_sided95_low": -0.7229322706337169,
+            "bootstrap_sd": 0.2798455880416833
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -90.26830000000041,
+            "ci95_low": -108.88708749999975,
+            "ci95_high": -72.15227249999948,
+            "one_sided95_low": -105.76098249999998,
+            "bootstrap_sd": 9.34600761926118
+          },
+          "completed_jobs": {
+            "estimate": -2.2099999999999227,
+            "ci95_low": -4.747562499999944,
+            "ci95_high": 0.3524999999998556,
+            "one_sided95_low": -4.3175000000001145,
+            "bootstrap_sd": 1.2896155540713394
+          },
+          "completed_value": {
+            "estimate": -8.219999999999345,
+            "ci95_low": -23.267687499999898,
+            "ci95_high": 6.405437500000579,
+            "one_sided95_low": -20.74749999999949,
+            "bootstrap_sd": 7.527571896921175
+          },
+          "volume": {
+            "estimate": 0.6699999999998454,
+            "ci95_low": -3.9499999999998296,
+            "ci95_high": 5.445000000000169,
+            "one_sided95_low": -3.235124999999448,
+            "bootstrap_sd": 2.4051230884809196
+          },
+          "total_user_utility": {
+            "estimate": 82.04829999996764,
+            "ci95_low": 58.71565749996781,
+            "ci95_high": 105.1876024999666,
+            "one_sided95_low": 62.22535499996816,
+            "bootstrap_sd": 11.881766885204208
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.5708552445217645,
+            "ci95_low": -6.6437552255043455,
+            "ci95_high": -4.500463402338643,
+            "one_sided95_low": -6.470486238943159,
+            "bootstrap_sd": 0.5455319091406744
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 97.59294999999656,
+            "ci95_low": 95.22554499999592,
+            "ci95_high": 99.92751124999627,
+            "one_sided95_low": 95.58803499999654,
+            "bootstrap_sd": 1.2024417752117693
+          },
+          "completed_jobs": {
+            "estimate": 12.004999999999939,
+            "ci95_low": 10.754999999999937,
+            "ci95_high": 13.234999999999845,
+            "one_sided95_low": 10.949999999999928,
+            "bootstrap_sd": 0.6331089312951125
+          },
+          "completed_value": {
+            "estimate": 67.70599999999945,
+            "ci95_low": 65.12399999999957,
+            "ci95_high": 70.21605000000011,
+            "one_sided95_low": 65.53589999999971,
+            "bootstrap_sd": 1.30302794557328
+          },
+          "volume": {
+            "estimate": 119.56999999999971,
+            "ci95_low": 116.69750000000043,
+            "ci95_high": 122.36750000000006,
+            "one_sided95_low": 117.12500000000065,
+            "bootstrap_sd": 1.447862136175609
+          },
+          "total_user_utility": {
+            "estimate": -29.88695000000005,
+            "ci95_low": -31.250165000000056,
+            "ci95_high": -28.529348750000008,
+            "one_sided95_low": -31.015140000000073,
+            "bootstrap_sd": 0.6919954772400316
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.58577803882975,
+            "ci95_low": 9.339090893939476,
+            "ci95_high": 9.831317025356459,
+            "one_sided95_low": 9.377117147984496,
+            "bootstrap_sd": 0.12569522744959394
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 130.7978000000012,
+            "ci95_low": 122.76972750000107,
+            "ci95_high": 138.90921500000164,
+            "one_sided95_low": 124.09366750000093,
+            "bootstrap_sd": 4.12461230018038
+          },
+          "completed_jobs": {
+            "estimate": 24.092499999999745,
+            "ci95_low": 21.767312500000042,
+            "ci95_high": 26.40506250000019,
+            "one_sided95_low": 22.132375000000156,
+            "bootstrap_sd": 1.1881505408733855
+          },
+          "completed_value": {
+            "estimate": 120.46250000000009,
+            "ci95_low": 108.83656250000055,
+            "ci95_high": 132.02531250000095,
+            "one_sided95_low": 110.66187499999998,
+            "bootstrap_sd": 5.940752704366918
+          },
+          "volume": {
+            "estimate": 79.53750000000014,
+            "ci95_low": 72.69487500000038,
+            "ci95_high": 86.34756249999964,
+            "one_sided95_low": 73.77237500000004,
+            "bootstrap_sd": 3.5007055812870744
+          },
+          "total_user_utility": {
+            "estimate": -10.33530000000519,
+            "ci95_low": -20.963833750005666,
+            "ci95_high": 0.015518749995224516,
+            "one_sided95_low": -19.024742500004685,
+            "bootstrap_sd": 5.287794086766303
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.412056774078462,
+            "ci95_low": 8.785972838547702,
+            "ci95_high": 10.051307934024395,
+            "one_sided95_low": 8.88761470228505,
+            "bootstrap_sd": 0.3243464650026776
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -105.96645000000444,
+            "ci95_low": -115.95797125000558,
+            "ci95_high": -96.12117000000468,
+            "one_sided95_low": -114.40920750000502,
+            "bootstrap_sd": 5.079080838483379
+          },
+          "completed_jobs": {
+            "estimate": -22.577499999999986,
+            "ci95_low": -27.35506249999991,
+            "ci95_high": -17.939874999999947,
+            "one_sided95_low": -26.56312499999999,
+            "bootstrap_sd": 2.4184642667363714
+          },
+          "completed_value": {
+            "estimate": -32.35999999999967,
+            "ci95_low": -44.5905000000006,
+            "ci95_high": -20.51925000000001,
+            "one_sided95_low": -42.529999999999816,
+            "bootstrap_sd": 6.153686747264467
+          },
+          "volume": {
+            "estimate": -46.52000000000021,
+            "ci95_low": -56.02531249999964,
+            "ci95_high": -37.26149999999961,
+            "one_sided95_low": -54.45499999999972,
+            "bootstrap_sd": 4.799206627462214
+          },
+          "total_user_utility": {
+            "estimate": 73.60644999999886,
+            "ci95_low": 63.88369374999927,
+            "ci95_high": 82.47566124999932,
+            "one_sided95_low": 65.46999999999994,
+            "bootstrap_sd": 4.79293999966152
+          },
+          "revenue_gain_percent": {
+            "estimate": -7.300853540192316,
+            "ci95_low": -7.951279840715623,
+            "ci95_high": -6.653041907303592,
+            "one_sided95_low": -7.851714005459169,
+            "bootstrap_sd": 0.33240514080781425
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      }
+    },
+    "total": {
+      "all": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 8.038999999997714,
+            "ci95_low": 2.44303093749827,
+            "ci95_high": 13.685194999998254,
+            "one_sided95_low": 3.320517499998312,
+            "bootstrap_sd": 2.875659871995267
+          },
+          "completed_jobs": {
+            "estimate": 2.8274999999998727,
+            "ci95_low": 1.3087343750000344,
+            "ci95_high": 4.314421875000038,
+            "one_sided95_low": 1.5643437499998243,
+            "bootstrap_sd": 0.7597894070401733
+          },
+          "completed_value": {
+            "estimate": 36.897125000000415,
+            "ci95_low": 31.248487499999307,
+            "ci95_high": 42.44403437499996,
+            "one_sided95_low": 32.180487500000346,
+            "bootstrap_sd": 2.8506576271289537
+          },
+          "volume": {
+            "estimate": 38.3143749999997,
+            "ci95_low": 35.08051562500005,
+            "ci95_high": 41.54754687500012,
+            "one_sided95_low": 35.568687500000564,
+            "bootstrap_sd": 1.6453840961254296
+          },
+          "total_user_utility": {
+            "estimate": 28.858124999991105,
+            "ci95_low": 21.884797812490568,
+            "ci95_high": 35.636493437489676,
+            "one_sided95_low": 23.116651874990385,
+            "bootstrap_sd": 3.469763097871627
+          },
+          "revenue_gain_percent": {
+            "estimate": 0.5868335651788978,
+            "ci95_low": 0.17777506247140681,
+            "ci95_high": 1.0026954729629034,
+            "one_sided95_low": 0.24156294145775442,
+            "bootstrap_sd": 0.21105633749034436
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 19.720274999998765,
+            "ci95_low": 11.514409999997572,
+            "ci95_high": 28.04116062499777,
+            "one_sided95_low": 12.764162499997543,
+            "bootstrap_sd": 4.220928874977596
+          },
+          "completed_jobs": {
+            "estimate": 6.267500000000041,
+            "ci95_low": 3.5724999999998746,
+            "ci95_high": 8.89249999999993,
+            "one_sided95_low": 4.053687500000035,
+            "bootstrap_sd": 1.3489075132543127
+          },
+          "completed_value": {
+            "estimate": 57.95525000000043,
+            "ci95_low": 50.205593750001036,
+            "ci95_high": 65.85800624999929,
+            "one_sided95_low": 51.40994999999989,
+            "bootstrap_sd": 3.9835245190928323
+          },
+          "volume": {
+            "estimate": 45.1262499999998,
+            "ci95_low": 39.599968750000144,
+            "ci95_high": 50.49287500000007,
+            "one_sided95_low": 40.599749999999936,
+            "bootstrap_sd": 2.751879342703423
+          },
+          "total_user_utility": {
+            "estimate": 38.23497499999257,
+            "ci95_low": 28.773638124991987,
+            "ci95_high": 47.6974349999908,
+            "one_sided95_low": 30.262503749991673,
+            "bootstrap_sd": 4.860137132375351
+          },
+          "revenue_gain_percent": {
+            "estimate": 1.442109824053258,
+            "ci95_low": 0.8367683780015225,
+            "ci95_high": 2.061769896070009,
+            "one_sided95_low": 0.9294383878249831,
+            "bootstrap_sd": 0.31261832309870197
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "independent": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -3.6422750000033375,
+            "ci95_low": -11.159486875001676,
+            "ci95_high": 3.9579593749984525,
+            "one_sided95_low": -9.965902500001254,
+            "bootstrap_sd": 3.8500729632885875
+          },
+          "completed_jobs": {
+            "estimate": -0.6125000000001819,
+            "ci95_low": -1.9925312499999477,
+            "ci95_high": 0.7212812499999383,
+            "one_sided95_low": -1.769999999999874,
+            "bootstrap_sd": 0.6921270609748711
+          },
+          "completed_value": {
+            "estimate": 15.838999999999942,
+            "ci95_low": 7.687356250000426,
+            "ci95_high": 23.63088750000024,
+            "one_sided95_low": 8.913937499999793,
+            "bootstrap_sd": 4.065234655986898
+          },
+          "volume": {
+            "estimate": 31.502500000000055,
+            "ci95_low": 27.99375000000054,
+            "ci95_high": 34.960031250000256,
+            "one_sided95_low": 28.564875000000267,
+            "bootstrap_sd": 1.7861453846476913
+          },
+          "total_user_utility": {
+            "estimate": 19.481274999989182,
+            "ci95_low": 9.504928124990341,
+            "ci95_high": 28.83589437498907,
+            "one_sided95_low": 11.075603749990478,
+            "bootstrap_sd": 4.969061879014772
+          },
+          "revenue_gain_percent": {
+            "estimate": -0.26540834329990703,
+            "ci95_low": -0.8090588713803826,
+            "ci95_high": 0.2897064185691377,
+            "one_sided95_low": -0.7229322706337169,
+            "bootstrap_sd": 0.2798455880416831
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -90.26829999999995,
+            "ci95_low": -108.88708749999975,
+            "ci95_high": -72.15227249999994,
+            "one_sided95_low": -105.76098250000044,
+            "bootstrap_sd": 9.34600761926118
+          },
+          "completed_jobs": {
+            "estimate": -2.2099999999999227,
+            "ci95_low": -4.747562500000166,
+            "ci95_high": 0.3524999999997448,
+            "one_sided95_low": -4.317500000000121,
+            "bootstrap_sd": 1.2896155540713374
+          },
+          "completed_value": {
+            "estimate": -8.219999999999345,
+            "ci95_low": -23.26768749999992,
+            "ci95_high": 6.405437499999715,
+            "one_sided95_low": -20.747499999999583,
+            "bootstrap_sd": 7.5275718969211765
+          },
+          "volume": {
+            "estimate": 0.6699999999998454,
+            "ci95_low": -3.949999999999824,
+            "ci95_high": 5.445000000000391,
+            "one_sided95_low": -3.2351249999998912,
+            "bootstrap_sd": 2.4051230884809205
+          },
+          "total_user_utility": {
+            "estimate": 82.0482999999681,
+            "ci95_low": 58.71565749996824,
+            "ci95_high": 105.18760249996659,
+            "one_sided95_low": 62.225354999969454,
+            "bootstrap_sd": 11.881766885204195
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.570855244521735,
+            "ci95_low": -6.643755225504372,
+            "ci95_high": -4.500463402338616,
+            "one_sided95_low": -6.470486238943147,
+            "bootstrap_sd": 0.5455319091406744
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 97.5929499999952,
+            "ci95_low": 95.22554499999613,
+            "ci95_high": 99.9275112499965,
+            "one_sided95_low": 95.58803499999654,
+            "bootstrap_sd": 1.2024417752117689
+          },
+          "completed_jobs": {
+            "estimate": 12.004999999999939,
+            "ci95_low": 10.754999999999995,
+            "ci95_high": 13.234999999999959,
+            "one_sided95_low": 10.949999999999985,
+            "bootstrap_sd": 0.6331089312951129
+          },
+          "completed_value": {
+            "estimate": 67.70599999999945,
+            "ci95_low": 65.1239999999998,
+            "ci95_high": 70.21604999999988,
+            "one_sided95_low": 65.5358999999995,
+            "bootstrap_sd": 1.303027945573281
+          },
+          "volume": {
+            "estimate": 119.56999999999971,
+            "ci95_low": 116.6975000000002,
+            "ci95_high": 122.36749999999984,
+            "one_sided95_low": 117.12500000000021,
+            "bootstrap_sd": 1.4478621361756077
+          },
+          "total_user_utility": {
+            "estimate": -29.88695000000009,
+            "ci95_low": -31.25016500000004,
+            "ci95_high": -28.529348750000064,
+            "one_sided95_low": -31.015140000000073,
+            "bootstrap_sd": 0.6919954772400316
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.585778038829615,
+            "ci95_low": 9.339090893939455,
+            "ci95_high": 9.831317025356459,
+            "one_sided95_low": 9.377117147984498,
+            "bootstrap_sd": 0.12569522744959388
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 130.7978000000005,
+            "ci95_low": 122.76972750000084,
+            "ci95_high": 138.90921500000186,
+            "one_sided95_low": 124.09366750000115,
+            "bootstrap_sd": 4.124612300180377
+          },
+          "completed_jobs": {
+            "estimate": 24.092499999999745,
+            "ci95_low": 21.767312500000152,
+            "ci95_high": 26.405062500000078,
+            "one_sided95_low": 22.132374999999932,
+            "bootstrap_sd": 1.1881505408733843
+          },
+          "completed_value": {
+            "estimate": 120.46250000000009,
+            "ci95_low": 108.83656250000011,
+            "ci95_high": 132.02531250000052,
+            "one_sided95_low": 110.66187499999953,
+            "bootstrap_sd": 5.940752704366922
+          },
+          "volume": {
+            "estimate": 79.53750000000014,
+            "ci95_low": 72.69487500000017,
+            "ci95_high": 86.3475625000001,
+            "one_sided95_low": 73.77237500000004,
+            "bootstrap_sd": 3.5007055812870704
+          },
+          "total_user_utility": {
+            "estimate": -10.335300000004281,
+            "ci95_low": -20.963833750005666,
+            "ci95_high": 0.015518749995213148,
+            "one_sided95_low": -19.024742500005527,
+            "bootstrap_sd": 5.28779408676631
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.412056774078412,
+            "ci95_low": 8.785972838547686,
+            "ci95_high": 10.05130793402441,
+            "one_sided95_low": 8.88761470228505,
+            "bootstrap_sd": 0.32434646500267744
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -105.9664500000049,
+            "ci95_low": -115.95797125000513,
+            "ci95_high": -96.1211700000049,
+            "one_sided95_low": -114.40920750000501,
+            "bootstrap_sd": 5.079080838483376
+          },
+          "completed_jobs": {
+            "estimate": -22.577499999999986,
+            "ci95_low": -27.355062500000013,
+            "ci95_high": -17.939874999999947,
+            "one_sided95_low": -26.56312499999989,
+            "bootstrap_sd": 2.4184642667363727
+          },
+          "completed_value": {
+            "estimate": -32.35999999999967,
+            "ci95_low": -44.590499999999714,
+            "ci95_high": -20.519249999998657,
+            "one_sided95_low": -42.52999999999847,
+            "bootstrap_sd": 6.15368674726447
+          },
+          "volume": {
+            "estimate": -46.52000000000021,
+            "ci95_low": -56.02531249999965,
+            "ci95_high": -37.26149999999961,
+            "one_sided95_low": -54.45499999999972,
+            "bootstrap_sd": 4.7992066274622145
+          },
+          "total_user_utility": {
+            "estimate": 73.60645000000068,
+            "ci95_low": 63.88369374999928,
+            "ci95_high": 82.47566124999932,
+            "one_sided95_low": 65.46999999999991,
+            "bootstrap_sd": 4.792939999661515
+          },
+          "revenue_gain_percent": {
+            "estimate": -7.300853540192348,
+            "ci95_low": -7.951279840715607,
+            "ci95_high": -6.6530419073035745,
+            "one_sided95_low": -7.851714005459154,
+            "bootstrap_sd": 0.3324051408078141
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      }
+    },
+    "steering": {
+      "all": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -2.2737367544323206e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.0472456289274372e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.0275512256988141e-13
+          },
+          "completed_value": {
+            "estimate": 9.094947017729282e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.698917230628375e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.396882476975458e-13
+          },
+          "total_user_utility": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.1480718681262174e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.650106453392432e-14,
+            "ci95_low": -3.298991219235117e-14,
+            "ci95_high": 3.3006871602241196e-14,
+            "one_sided95_low": -1.6522144146107504e-14,
+            "bootstrap_sd": 1.485746232762846e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": 6.821210263296962e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.1157048200089352e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -1.1368683772161603e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.0559559513776508e-13
+          },
+          "completed_value": {
+            "estimate": -4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.959094323070338e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.409804521639588e-13
+          },
+          "total_user_utility": {
+            "estimate": 1.3642420526593924e-12,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.383444358738688e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 4.917320687317979e-14,
+            "ci95_low": -3.275635471495726e-14,
+            "ci95_high": 3.280423107049864e-14,
+            "one_sided95_low": -1.642699187867182e-14,
+            "bootstrap_sd": 1.5251517366565935e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "independent": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -1.8189894035458565e-12,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.050290741087969e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 9.466353485037747e-14
+          },
+          "completed_value": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.936666970572543e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.371233251438513e-13
+          },
+          "total_user_utility": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.269722437035195e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.3290037103244196e-13,
+            "ci95_low": -3.322601703046303e-14,
+            "ci95_high": 3.3222608365379306e-14,
+            "one_sided95_low": -3.3182318974137747e-14,
+            "bootstrap_sd": 1.4980137407602937e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.4112374949294584e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.210872313814702e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -1.8189894035458565e-12,
+            "ci95_high": 1.8189894035458565e-12,
+            "one_sided95_low": -1.8189894035458565e-12,
+            "bootstrap_sd": 8.479250414342853e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.5724234049025313e-13
+          },
+          "total_user_utility": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 5.262723586352143e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 2.9720131837669156e-14,
+            "ci95_low": -2.97535818945106e-14,
+            "ci95_high": 2.972915573026974e-14,
+            "one_sided95_low": -2.97206299174886e-14,
+            "bootstrap_sd": 1.5758020001887432e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -1.3642420526593924e-12,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.7839663071681136e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -5.684341886080802e-14,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -5.684341886080802e-14,
+            "bootstrap_sd": 7.538279285738517e-14
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.7642135985783772e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.265487481532636e-13
+          },
+          "total_user_utility": {
+            "estimate": -4.263256414560601e-14,
+            "ci95_low": -2.842170943040401e-14,
+            "ci95_high": 2.842170943040401e-14,
+            "one_sided95_low": -2.842170943040401e-14,
+            "bootstrap_sd": 1.689583103781073e-14
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.2227738989464298e-13,
+            "ci95_low": -2.0422755563654233e-14,
+            "ci95_high": 4.070955497112427e-14,
+            "one_sided95_low": -2.0404143346581428e-14,
+            "bootstrap_sd": 1.5990142916620702e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -6.821210263296962e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.373852780379236e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.2018847283956031e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.932749244623106e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.6099630572102727e-13
+          },
+          "total_user_utility": {
+            "estimate": 9.094947017729282e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 3.812697589826876e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -4.4862177938636476e-14,
+            "ci95_low": -2.993065680567176e-14,
+            "ci95_high": 2.989937870178076e-14,
+            "one_sided95_low": -2.9917712825951494e-14,
+            "bootstrap_sd": 1.5612612124386937e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -4.547473508864641e-13,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.06196866121031e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.0513932319736352e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 1.3642420526593924e-12,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 5.008436992250527e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.476661281862231e-13
+          },
+          "total_user_utility": {
+            "estimate": 1.8189894035458565e-12,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.6998634206532186e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -3.379867643585761e-14,
+            "ci95_low": -1.694470474816773e-14,
+            "ci95_high": 3.39249005743189e-14,
+            "one_sided95_low": -1.6902775220222056e-14,
+            "bootstrap_sd": 1.5324959505743205e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      }
+    }
+  },
+  "same_mechanism_fixed_selection_feasible": true,
+  "exact": {
+    "mechanism": {
+      "all": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.00000000000546,
+            "ci95_high": 200.00000000000637,
+            "one_sided95_low": 200.00000000000546,
+            "bootstrap_sd": 2.7585845353343847e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -200.0,
+            "ci95_low": -200.00000000000045,
+            "ci95_high": -199.9999999999991,
+            "one_sided95_low": -200.00000000000045,
+            "bootstrap_sd": 4.4491270290818615e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.70588235294153,
+            "ci95_high": 14.705882352941602,
+            "one_sided95_low": 14.70588235294153,
+            "bootstrap_sd": 2.187224511585455e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.00000000000546,
+            "ci95_high": 200.00000000000637,
+            "one_sided95_low": 200.00000000000546,
+            "bootstrap_sd": 2.7585845353343847e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -200.0,
+            "ci95_low": -200.00000000000045,
+            "ci95_high": -199.9999999999991,
+            "one_sided95_low": -200.00000000000045,
+            "bootstrap_sd": 4.4491270290818615e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.70588235294153,
+            "ci95_high": 14.705882352941602,
+            "one_sided95_low": 14.70588235294153,
+            "bootstrap_sd": 2.187224511585455e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_A": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.000000000005,
+            "ci95_high": 200.00000000000682,
+            "one_sided95_low": 200.00000000000523,
+            "bootstrap_sd": 4.641106461423621e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -200.0000000000041,
+            "ci95_low": -200.00000000001046,
+            "ci95_high": -200.00000000000546,
+            "one_sided95_low": -200.00000000001,
+            "bootstrap_sd": 1.2343971580880325e-12
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.705882352941494,
+            "ci95_high": 14.70588235294164,
+            "one_sided95_low": 14.70588235294151,
+            "bootstrap_sd": 3.668572775076651e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_B": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.000000000005,
+            "ci95_high": 200.00000000000682,
+            "one_sided95_low": 200.00000000000523,
+            "bootstrap_sd": 4.647396546409287e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999999847,
+            "ci95_low": -199.99999999999835,
+            "ci95_high": -199.99999999999812,
+            "one_sided95_low": -199.99999999999835,
+            "bootstrap_sd": 6.328663908534268e-14
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.705882352941494,
+            "ci95_high": 14.705882352941638,
+            "one_sided95_low": 14.70588235294151,
+            "bootstrap_sd": 3.6700202303924756e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.000000000005,
+            "ci95_high": 200.00000000000682,
+            "one_sided95_low": 200.00000000000523,
+            "bootstrap_sd": 4.599364918606922e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999999864,
+            "ci95_low": -199.99999999999818,
+            "ci95_high": -199.99999999999545,
+            "one_sided95_low": -199.99999999999773,
+            "bootstrap_sd": 6.876207976354533e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.705882352941494,
+            "ci95_high": 14.705882352941638,
+            "one_sided95_low": 14.705882352941508,
+            "bootstrap_sd": 3.633273078384868e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 200.0000000000066,
+            "ci95_low": 200.000000000005,
+            "ci95_high": 200.00000000000682,
+            "one_sided95_low": 200.00000000000523,
+            "bootstrap_sd": 4.617876212953037e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999999864,
+            "ci95_low": -199.99999999999818,
+            "ci95_high": -199.99999999999545,
+            "one_sided95_low": -199.99999999999773,
+            "bootstrap_sd": 6.918178315959039e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.70588235294163,
+            "ci95_low": 14.705882352941494,
+            "ci95_high": 14.705882352941638,
+            "one_sided95_low": 14.705882352941508,
+            "bootstrap_sd": 3.652056468370562e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      }
+    },
+    "total": {
+      "all": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000387,
+            "ci95_high": 200.00000000000477,
+            "one_sided95_low": 200.00000000000387,
+            "bootstrap_sd": 2.557348965919176e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999998636,
+            "ci95_low": -200.0,
+            "ci95_high": -199.99999999999818,
+            "one_sided95_low": -199.99999999999955,
+            "bootstrap_sd": 4.3041292261267996e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294141,
+            "ci95_high": 14.705882352941485,
+            "one_sided95_low": 14.70588235294141,
+            "bootstrap_sd": 2.1048384950677756e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000387,
+            "ci95_high": 200.00000000000477,
+            "one_sided95_low": 200.00000000000387,
+            "bootstrap_sd": 2.557348965919176e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999998636,
+            "ci95_low": -200.0,
+            "ci95_high": -199.99999999999818,
+            "one_sided95_low": -199.99999999999955,
+            "bootstrap_sd": 4.3041292261267996e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294141,
+            "ci95_high": 14.705882352941485,
+            "one_sided95_low": 14.70588235294141,
+            "bootstrap_sd": 2.1048384950677756e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000364,
+            "ci95_high": 200.00000000000523,
+            "one_sided95_low": 200.00000000000364,
+            "bootstrap_sd": 4.0585523473785716e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999998727,
+            "ci95_low": -200.0000000000059,
+            "ci95_high": -200.00000000000136,
+            "one_sided95_low": -200.00000000000546,
+            "bootstrap_sd": 1.138980633141942e-12
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294139,
+            "ci95_high": 14.70588235294152,
+            "one_sided95_low": 14.705882352941394,
+            "bootstrap_sd": 3.320293377499844e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000364,
+            "ci95_high": 200.00000000000523,
+            "one_sided95_low": 200.00000000000364,
+            "bootstrap_sd": 4.0226593129688336e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 1.1368683772161605e-15
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 2.273736754432321e-15
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.9999999999988,
+            "ci95_low": -199.99999999999832,
+            "ci95_high": -199.99999999999812,
+            "one_sided95_low": -199.99999999999832,
+            "bootstrap_sd": 6.086334099559979e-14
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294139,
+            "ci95_high": 14.705882352941517,
+            "one_sided95_low": 14.705882352941394,
+            "bootstrap_sd": 3.2902641590233424e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000364,
+            "ci95_high": 200.000000000005,
+            "one_sided95_low": 200.00000000000364,
+            "bootstrap_sd": 3.9707835750136046e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999997954,
+            "ci95_low": -199.99999999999864,
+            "ci95_high": -199.9999999999959,
+            "one_sided95_low": -199.99999999999864,
+            "bootstrap_sd": 7.903740295416366e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294139,
+            "ci95_high": 14.705882352941508,
+            "one_sided95_low": 14.705882352941394,
+            "bootstrap_sd": 3.266621783605961e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 199.99999999999818,
+            "ci95_low": 200.00000000000364,
+            "ci95_high": 200.00000000000523,
+            "one_sided95_low": 200.00000000000364,
+            "bootstrap_sd": 4.0904351295163314e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -199.99999999997954,
+            "ci95_low": -199.99999999999864,
+            "ci95_high": -199.9999999999959,
+            "one_sided95_low": -199.99999999999864,
+            "bootstrap_sd": 7.942348377430606e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 14.705882352941014,
+            "ci95_low": 14.70588235294139,
+            "ci95_high": 14.705882352941517,
+            "one_sided95_low": 14.705882352941392,
+            "bootstrap_sd": 3.35929209973302e-14
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      }
+    },
+    "steering": {
+      "all": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.0463630789890885e-12,
+            "ci95_high": -1.1368683772161603e-12,
+            "one_sided95_low": -2.0463630789890885e-12,
+            "bootstrap_sd": 2.5541140033612923e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": 1.3642420526593924e-11,
+            "ci95_low": 0.0,
+            "ci95_high": 1.3642420526593924e-12,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 3.753461515737891e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.3117712044801763e-13,
+            "ci95_high": -7.287617802667647e-14,
+            "one_sided95_low": -1.3117712044801763e-13,
+            "bootstrap_sd": 1.637252566257227e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.0463630789890885e-12,
+            "ci95_high": -1.1368683772161603e-12,
+            "one_sided95_low": -2.0463630789890885e-12,
+            "bootstrap_sd": 2.5541140033612923e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": 1.3642420526593924e-11,
+            "ci95_low": 0.0,
+            "ci95_high": 1.3642420526593924e-12,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 3.753461515737891e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.3117712044801763e-13,
+            "ci95_high": -7.287617802667647e-14,
+            "one_sided95_low": -1.3117712044801763e-13,
+            "bootstrap_sd": 1.637252566257227e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.2737367544323206e-12,
+            "ci95_high": -6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-12,
+            "bootstrap_sd": 3.9899216716106217e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": 1.6825651982799172e-11,
+            "ci95_low": 2.2737367544323206e-12,
+            "ci95_high": 5.9117155615240335e-12,
+            "one_sided95_low": 2.7284841053187847e-12,
+            "bootstrap_sd": 9.73292753504196e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.457523560533529e-13,
+            "ci95_high": -4.3725706816005896e-14,
+            "one_sided95_low": -1.4575235605335286e-13,
+            "bootstrap_sd": 2.5576420971862777e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.2737367544323206e-12,
+            "ci95_high": -6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-12,
+            "bootstrap_sd": 3.996488494582719e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 1.1368683772161605e-15
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 2.273736754432321e-15
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": -3.197442310920451e-13,
+            "ci95_low": -1.4210854715202004e-14,
+            "ci95_high": 3.552713678800501e-14,
+            "one_sided95_low": -1.4210854715202004e-14,
+            "bootstrap_sd": 1.364348239025615e-14
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.457523560533529e-13,
+            "ci95_high": -4.3725706816005896e-14,
+            "one_sided95_low": -1.4575235605335286e-13,
+            "bootstrap_sd": 2.561851599091468e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.2737367544323206e-12,
+            "ci95_high": -6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-12,
+            "bootstrap_sd": 4.0089572127307746e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": 1.9099388737231493e-11,
+            "ci95_low": -1.8189894035458565e-12,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -1.8189894035458565e-12,
+            "bootstrap_sd": 7.418525463697462e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.457523560533529e-13,
+            "ci95_high": -4.3725706816005896e-14,
+            "one_sided95_low": -1.4575235605335286e-13,
+            "bootstrap_sd": 2.5698443671350935e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -8.412825991399586e-12,
+            "ci95_low": -2.2737367544323206e-12,
+            "ci95_high": -6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-12,
+            "bootstrap_sd": 3.9807049687270806e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "one_sided95_low": 0.0,
+            "bootstrap_sd": 0.0
+          },
+          "total_user_utility": {
+            "estimate": 1.9099388737231493e-11,
+            "ci95_low": -1.8189894035458565e-12,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -1.8189894035458565e-12,
+            "bootstrap_sd": 7.547199722797101e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.392837173974061e-13,
+            "ci95_low": -1.457523560533529e-13,
+            "ci95_high": -4.37257068160059e-14,
+            "one_sided95_low": -1.4575235605335289e-13,
+            "bootstrap_sd": 2.551733954312213e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      }
+    }
+  },
+  "tabular": {
+    "mechanism": {
+      "all": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 8.038999999997941,
+            "ci95_low": 2.4299549999978867,
+            "ci95_high": 13.587587499998577,
+            "one_sided95_low": 3.3198487499977776,
+            "bootstrap_sd": 2.8464946703367477
+          },
+          "completed_jobs": {
+            "estimate": 2.8274999999998727,
+            "ci95_low": 1.368703124999979,
+            "ci95_high": 4.353140624999978,
+            "one_sided95_low": 1.5906250000001478,
+            "bootstrap_sd": 0.7604165536289055
+          },
+          "completed_value": {
+            "estimate": 36.897124999999505,
+            "ci95_low": 31.34875000000013,
+            "ci95_high": 42.49315625000041,
+            "one_sided95_low": 32.25331249999935,
+            "bootstrap_sd": 2.852722351681532
+          },
+          "volume": {
+            "estimate": 38.3143749999997,
+            "ci95_low": 35.17123437499922,
+            "ci95_high": 41.63760937500029,
+            "one_sided95_low": 35.63368750000042,
+            "bootstrap_sd": 1.63999632547912
+          },
+          "total_user_utility": {
+            "estimate": 28.85812499999065,
+            "ci95_low": 22.12662843749025,
+            "ci95_high": 35.64476468749069,
+            "one_sided95_low": 23.266010624990873,
+            "bootstrap_sd": 3.443294369123449
+          },
+          "revenue_gain_percent": {
+            "estimate": 0.5868335651789144,
+            "ci95_low": 0.1767535730962563,
+            "ci95_high": 0.9955572877337189,
+            "one_sided95_low": 0.24160781191683484,
+            "bootstrap_sd": 0.20891180214637217
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 19.720274999998082,
+            "ci95_low": 11.452186874997329,
+            "ci95_high": 27.961594374997745,
+            "one_sided95_low": 12.674973749998093,
+            "bootstrap_sd": 4.213669008535907
+          },
+          "completed_jobs": {
+            "estimate": 6.267500000000041,
+            "ci95_low": 3.6524687499998123,
+            "ci95_high": 9.025031250000202,
+            "one_sided95_low": 4.066124999999852,
+            "bootstrap_sd": 1.3549249865027189
+          },
+          "completed_value": {
+            "estimate": 57.95525000000089,
+            "ci95_low": 50.30494375000031,
+            "ci95_high": 66.14497500000083,
+            "one_sided95_low": 51.45246250000027,
+            "bootstrap_sd": 4.030968696675508
+          },
+          "volume": {
+            "estimate": 45.1262499999998,
+            "ci95_low": 39.7962500000001,
+            "ci95_high": 50.772593750000034,
+            "one_sided95_low": 40.64875000000004,
+            "bootstrap_sd": 2.763522385073375
+          },
+          "total_user_utility": {
+            "estimate": 38.23497499999121,
+            "ci95_low": 28.845450624991553,
+            "ci95_high": 47.95510562499078,
+            "one_sided95_low": 30.344002499991735,
+            "bootstrap_sd": 4.87815693814115
+          },
+          "revenue_gain_percent": {
+            "estimate": 1.4421098240532082,
+            "ci95_low": 0.8333011944294537,
+            "ci95_high": 2.055868820734222,
+            "one_sided95_low": 0.9227143479556505,
+            "bootstrap_sd": 0.3119904986649203
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "independent": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -3.6422750000015185,
+            "ci95_low": -10.89659250000157,
+            "ci95_high": 3.997821249998354,
+            "one_sided95_low": -9.737591250001582,
+            "bootstrap_sd": 3.8264820863998388
+          },
+          "completed_jobs": {
+            "estimate": -0.6125000000001819,
+            "ci95_low": -1.9687812500001087,
+            "ci95_high": 0.7337812499999894,
+            "one_sided95_low": -1.7474999999999454,
+            "bootstrap_sd": 0.6904308370016542
+          },
+          "completed_value": {
+            "estimate": 15.838999999999487,
+            "ci95_low": 7.816212499999404,
+            "ci95_high": 23.757556249999276,
+            "one_sided95_low": 9.200224999999431,
+            "bootstrap_sd": 4.054196106137709
+          },
+          "volume": {
+            "estimate": 31.502500000000055,
+            "ci95_low": 28.044906250000526,
+            "ci95_high": 34.99250000000052,
+            "one_sided95_low": 28.549937499999725,
+            "bootstrap_sd": 1.7761002213116306
+          },
+          "total_user_utility": {
+            "estimate": 19.481274999989182,
+            "ci95_low": 9.54984749998979,
+            "ci95_high": 28.87415437498846,
+            "one_sided95_low": 11.239221249989509,
+            "bootstrap_sd": 4.935914819045536
+          },
+          "revenue_gain_percent": {
+            "estimate": -0.2654083432997745,
+            "ci95_low": -0.7898097648542576,
+            "ci95_high": 0.29277406845289333,
+            "one_sided95_low": -0.7063565260194116,
+            "bootstrap_sd": 0.27816945865686704
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -90.26830000000041,
+            "ci95_low": -108.7944474999997,
+            "ci95_high": -72.27510500000004,
+            "one_sided95_low": -105.7717499999997,
+            "bootstrap_sd": 9.274565595265482
+          },
+          "completed_jobs": {
+            "estimate": -2.2099999999999227,
+            "ci95_low": -4.690062500000272,
+            "ci95_high": 0.3700624999998913,
+            "one_sided95_low": -4.295000000000073,
+            "bootstrap_sd": 1.298749416295782
+          },
+          "completed_value": {
+            "estimate": -8.219999999999345,
+            "ci95_low": -23.115062499999794,
+            "ci95_high": 6.457937499998677,
+            "one_sided95_low": -20.697625000000198,
+            "bootstrap_sd": 7.560414196102326
+          },
+          "volume": {
+            "estimate": 0.6699999999998454,
+            "ci95_low": -3.847499999999633,
+            "ci95_high": 5.510125000000436,
+            "one_sided95_low": -3.222624999999834,
+            "bootstrap_sd": 2.421416270614784
+          },
+          "total_user_utility": {
+            "estimate": 82.04829999996764,
+            "ci95_low": 58.52768374996638,
+            "ci95_high": 105.1666499999656,
+            "one_sided95_low": 62.4186174999684,
+            "bootstrap_sd": 11.857887121699239
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.5708552445217645,
+            "ci95_low": -6.635116801064848,
+            "ci95_high": -4.510235403758452,
+            "one_sided95_low": -6.4666988156539,
+            "bootstrap_sd": 0.541369584688244
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 97.59294999999656,
+            "ci95_low": 95.23666249999617,
+            "ci95_high": 99.92378749999651,
+            "one_sided95_low": 95.63224249999614,
+            "bootstrap_sd": 1.1978369627383543
+          },
+          "completed_jobs": {
+            "estimate": 12.004999999999939,
+            "ci95_low": 10.764999999999871,
+            "ci95_high": 13.240062499999942,
+            "one_sided95_low": 10.95999999999998,
+            "bootstrap_sd": 0.6282717705409853
+          },
+          "completed_value": {
+            "estimate": 67.70599999999945,
+            "ci95_low": 65.16200000000003,
+            "ci95_high": 70.28009999999985,
+            "one_sided95_low": 65.5758999999998,
+            "bootstrap_sd": 1.2964477849054812
+          },
+          "volume": {
+            "estimate": 119.56999999999971,
+            "ci95_low": 116.73500000000011,
+            "ci95_high": 122.38512499999976,
+            "one_sided95_low": 117.21500000000056,
+            "bootstrap_sd": 1.4397222723184817
+          },
+          "total_user_utility": {
+            "estimate": -29.88695000000005,
+            "ci95_low": -31.262870000000063,
+            "ci95_high": -28.52325250000005,
+            "one_sided95_low": -31.043112500000053,
+            "bootstrap_sd": 0.7018345031897109
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.58577803882975,
+            "ci95_low": 9.340473054505365,
+            "ci95_high": 9.830730958194872,
+            "one_sided95_low": 9.380504638342233,
+            "bootstrap_sd": 0.1255347716575816
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 130.7978000000012,
+            "ci95_low": 122.59048875000104,
+            "ci95_high": 138.6973537500014,
+            "one_sided95_low": 123.87938000000125,
+            "bootstrap_sd": 4.141548140981352
+          },
+          "completed_jobs": {
+            "estimate": 24.092499999999745,
+            "ci95_low": 21.835000000000033,
+            "ci95_high": 26.39999999999998,
+            "one_sided95_low": 22.182499999999884,
+            "bootstrap_sd": 1.1774325080778723
+          },
+          "completed_value": {
+            "estimate": 120.46250000000009,
+            "ci95_low": 109.17500000000017,
+            "ci95_high": 131.9999999999987,
+            "one_sided95_low": 110.91250000000079,
+            "bootstrap_sd": 5.887162540389351
+          },
+          "volume": {
+            "estimate": 79.53750000000014,
+            "ci95_low": 72.94462500000016,
+            "ci95_high": 86.37762500000005,
+            "one_sided95_low": 73.94224999999989,
+            "bootstrap_sd": 3.4677169275055766
+          },
+          "total_user_utility": {
+            "estimate": -10.33530000000519,
+            "ci95_low": -20.630998750005084,
+            "ci95_high": 0.05592624999542348,
+            "one_sided95_low": -18.93044000000491,
+            "bootstrap_sd": 5.270259561470942
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.412056774078462,
+            "ci95_low": 8.767427686148517,
+            "ci95_high": 10.037796843680194,
+            "one_sided95_low": 8.870197886900197,
+            "bootstrap_sd": 0.325668801307436
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "fixed_0",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -105.96645000000444,
+            "ci95_low": -115.90670125000513,
+            "ci95_high": -96.28059125000505,
+            "one_sided95_low": -114.29286750000529,
+            "bootstrap_sd": 5.032880596739417
+          },
+          "completed_jobs": {
+            "estimate": -22.577499999999986,
+            "ci95_low": -27.262750000000047,
+            "ci95_high": -17.839999999999918,
+            "one_sided95_low": -26.537624999999917,
+            "bootstrap_sd": 2.401655846568264
+          },
+          "completed_value": {
+            "estimate": -32.35999999999967,
+            "ci95_low": -44.31537500000097,
+            "ci95_high": -20.32975000000039,
+            "one_sided95_low": -42.40025000000012,
+            "bootstrap_sd": 6.130705674733305
+          },
+          "volume": {
+            "estimate": -46.52000000000021,
+            "ci95_low": -55.83749999999966,
+            "ci95_high": -37.13481249999977,
+            "one_sided95_low": -54.45512499999969,
+            "bootstrap_sd": 4.7632983091814305
+          },
+          "total_user_utility": {
+            "estimate": 73.60644999999886,
+            "ci95_low": 63.92428249999951,
+            "ci95_high": 82.85224375000051,
+            "one_sided95_low": 65.55390249999968,
+            "bootstrap_sd": 4.796490971067727
+          },
+          "revenue_gain_percent": {
+            "estimate": -7.300853540192316,
+            "ci95_low": -7.948202906371352,
+            "ci95_high": -6.6642433910283,
+            "one_sided95_low": -7.845428833949143,
+            "bootstrap_sd": 0.32917926029198297
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      }
+    },
+    "total": {
+      "all": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 8.038999999997714,
+            "ci95_low": 2.42995499999833,
+            "ci95_high": 13.587587499998794,
+            "one_sided95_low": 3.3198487499975613,
+            "bootstrap_sd": 2.846494670336749
+          },
+          "completed_jobs": {
+            "estimate": 2.8274999999998727,
+            "ci95_low": 1.36870312500009,
+            "ci95_high": 4.353140624999978,
+            "one_sided95_low": 1.5906250000000397,
+            "bootstrap_sd": 0.7604165536289055
+          },
+          "completed_value": {
+            "estimate": 36.897125000000415,
+            "ci95_low": 31.348750000000585,
+            "ci95_high": 42.4931562500004,
+            "one_sided95_low": 32.253312499999765,
+            "bootstrap_sd": 2.8527223516815385
+          },
+          "volume": {
+            "estimate": 38.3143749999997,
+            "ci95_low": 35.171234374999884,
+            "ci95_high": 41.63760937500028,
+            "one_sided95_low": 35.63368750000065,
+            "bootstrap_sd": 1.6399963254791188
+          },
+          "total_user_utility": {
+            "estimate": 28.858124999991105,
+            "ci95_low": 22.126628437490705,
+            "ci95_high": 35.64476468748982,
+            "one_sided95_low": 23.266010624990873,
+            "bootstrap_sd": 3.443294369123447
+          },
+          "revenue_gain_percent": {
+            "estimate": 0.5868335651788978,
+            "ci95_low": 0.17675357309625714,
+            "ci95_high": 0.9955572877337349,
+            "one_sided95_low": 0.24160781191683484,
+            "bootstrap_sd": 0.20891180214637228
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 19.720274999998765,
+            "ci95_low": 11.452186874997329,
+            "ci95_high": 27.96159437499797,
+            "one_sided95_low": 12.674973749997458,
+            "bootstrap_sd": 4.213669008535907
+          },
+          "completed_jobs": {
+            "estimate": 6.267500000000041,
+            "ci95_low": 3.6524687499999233,
+            "ci95_high": 9.025031249999984,
+            "one_sided95_low": 4.0661250000000795,
+            "bootstrap_sd": 1.3549249865027195
+          },
+          "completed_value": {
+            "estimate": 57.95525000000043,
+            "ci95_low": 50.304943749999396,
+            "ci95_high": 66.14497500000083,
+            "one_sided95_low": 51.45246250000073,
+            "bootstrap_sd": 4.030968696675505
+          },
+          "volume": {
+            "estimate": 45.1262499999998,
+            "ci95_low": 39.7962500000001,
+            "ci95_high": 50.77259375000004,
+            "one_sided95_low": 40.64875000000028,
+            "bootstrap_sd": 2.763522385073375
+          },
+          "total_user_utility": {
+            "estimate": 38.23497499999257,
+            "ci95_low": 28.845450624991543,
+            "ci95_high": 47.955105624990324,
+            "one_sided95_low": 30.344002499991348,
+            "bootstrap_sd": 4.878156938141152
+          },
+          "revenue_gain_percent": {
+            "estimate": 1.442109824053258,
+            "ci95_low": 0.833301194429454,
+            "ci95_high": 2.0558688207342555,
+            "one_sided95_low": 0.9227143479556671,
+            "bootstrap_sd": 0.3119904986649203
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "independent": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -3.6422750000033375,
+            "ci95_low": -10.896592500001356,
+            "ci95_high": 3.9978212499983483,
+            "one_sided95_low": -9.737591250001367,
+            "bootstrap_sd": 3.8264820863998397
+          },
+          "completed_jobs": {
+            "estimate": -0.6125000000001819,
+            "ci95_low": -1.9687812499999977,
+            "ci95_high": 0.7337812500000974,
+            "one_sided95_low": -1.7474999999999454,
+            "bootstrap_sd": 0.6904308370016518
+          },
+          "completed_value": {
+            "estimate": 15.838999999999942,
+            "ci95_low": 7.816212499999847,
+            "ci95_high": 23.757556249999265,
+            "one_sided95_low": 9.200224999999842,
+            "bootstrap_sd": 4.054196106137713
+          },
+          "volume": {
+            "estimate": 31.502500000000055,
+            "ci95_low": 28.0449062500003,
+            "ci95_high": 34.99250000000007,
+            "one_sided95_low": 28.54993749999951,
+            "bootstrap_sd": 1.7761002213116321
+          },
+          "total_user_utility": {
+            "estimate": 19.481274999989182,
+            "ci95_low": 9.5498474999898,
+            "ci95_high": 28.874154374988446,
+            "one_sided95_low": 11.23922124999035,
+            "bootstrap_sd": 4.935914819045532
+          },
+          "revenue_gain_percent": {
+            "estimate": -0.26540834329990703,
+            "ci95_low": -0.7898097648542418,
+            "ci95_high": 0.29277406845289294,
+            "one_sided95_low": -0.7063565260193967,
+            "bootstrap_sd": 0.2781694586568671
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -90.26829999999995,
+            "ci95_low": -108.79444749999993,
+            "ci95_high": -72.27510500000004,
+            "one_sided95_low": -105.77174999999971,
+            "bootstrap_sd": 9.274565595265484
+          },
+          "completed_jobs": {
+            "estimate": -2.2099999999999227,
+            "ci95_low": -4.690062500000167,
+            "ci95_high": 0.37006249999978047,
+            "one_sided95_low": -4.294999999999971,
+            "bootstrap_sd": 1.2987494162957791
+          },
+          "completed_value": {
+            "estimate": -8.219999999999345,
+            "ci95_low": -23.11506249999975,
+            "ci95_high": 6.457937499998655,
+            "one_sided95_low": -20.69762500000029,
+            "bootstrap_sd": 7.560414196102323
+          },
+          "volume": {
+            "estimate": 0.6699999999998454,
+            "ci95_low": -3.8474999999994166,
+            "ci95_high": 5.510125000000651,
+            "one_sided95_low": -3.2226249999994026,
+            "bootstrap_sd": 2.4214162706147877
+          },
+          "total_user_utility": {
+            "estimate": 82.0482999999681,
+            "ci95_low": 58.527683749966364,
+            "ci95_high": 105.16664999996517,
+            "one_sided95_low": 62.418617499967944,
+            "bootstrap_sd": 11.857887121699227
+          },
+          "revenue_gain_percent": {
+            "estimate": -5.570855244521735,
+            "ci95_low": -6.635116801064849,
+            "ci95_high": -4.510235403758452,
+            "one_sided95_low": -6.4666988156539125,
+            "bootstrap_sd": 0.5413695846882443
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 97.5929499999952,
+            "ci95_low": 95.2366624999964,
+            "ci95_high": 99.92378749999673,
+            "one_sided95_low": 95.63224249999615,
+            "bootstrap_sd": 1.1978369627383558
+          },
+          "completed_jobs": {
+            "estimate": 12.004999999999939,
+            "ci95_low": 10.764999999999928,
+            "ci95_high": 13.24006250000017,
+            "one_sided95_low": 10.95999999999998,
+            "bootstrap_sd": 0.6282717705409849
+          },
+          "completed_value": {
+            "estimate": 67.70599999999945,
+            "ci95_low": 65.16199999999981,
+            "ci95_high": 70.28009999999975,
+            "one_sided95_low": 65.57589999999958,
+            "bootstrap_sd": 1.296447784905484
+          },
+          "volume": {
+            "estimate": 119.56999999999971,
+            "ci95_low": 116.73500000000035,
+            "ci95_high": 122.38512499999999,
+            "one_sided95_low": 117.21500000000013,
+            "bootstrap_sd": 1.4397222723184842
+          },
+          "total_user_utility": {
+            "estimate": -29.88695000000009,
+            "ci95_low": -31.262870000000063,
+            "ci95_high": -28.523252500000062,
+            "one_sided95_low": -31.043112500000053,
+            "bootstrap_sd": 0.7018345031897111
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.585778038829615,
+            "ci95_low": 9.340473054505365,
+            "ci95_high": 9.830730958194916,
+            "one_sided95_low": 9.380504638342234,
+            "bootstrap_sd": 0.12553477165758176
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": 130.7978000000005,
+            "ci95_low": 122.59048875000126,
+            "ci95_high": 138.6973537500014,
+            "one_sided95_low": 123.87938000000125,
+            "bootstrap_sd": 4.141548140981345
+          },
+          "completed_jobs": {
+            "estimate": 24.092499999999745,
+            "ci95_low": 21.835000000000147,
+            "ci95_high": 26.399999999999977,
+            "one_sided95_low": 22.182500000000108,
+            "bootstrap_sd": 1.1774325080778694
+          },
+          "completed_value": {
+            "estimate": 120.46250000000009,
+            "ci95_low": 109.17499999999973,
+            "ci95_high": 131.9999999999991,
+            "one_sided95_low": 110.91250000000034,
+            "bootstrap_sd": 5.887162540389353
+          },
+          "volume": {
+            "estimate": 79.53750000000014,
+            "ci95_low": 72.94462499999993,
+            "ci95_high": 86.37762500000007,
+            "one_sided95_low": 73.94225000000012,
+            "bootstrap_sd": 3.4677169275055713
+          },
+          "total_user_utility": {
+            "estimate": -10.335300000004281,
+            "ci95_low": -20.63099875000511,
+            "ci95_high": 0.055926249994980096,
+            "one_sided95_low": -18.930440000005387,
+            "bootstrap_sd": 5.270259561470943
+          },
+          "revenue_gain_percent": {
+            "estimate": 9.412056774078412,
+            "ci95_low": 8.767427686148517,
+            "ci95_high": 10.03779684368016,
+            "one_sided95_low": 8.870197886900183,
+            "bootstrap_sd": 0.3256688013074355
+          }
+        },
+        "criteria": {
+          "revenue": true,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": true
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "old_fixed",
+        "endpoints": {
+          "revenue": {
+            "estimate": -105.9664500000049,
+            "ci95_low": -115.90670125000491,
+            "ci95_high": -96.28059125000482,
+            "one_sided95_low": -114.29286750000507,
+            "bootstrap_sd": 5.032880596739416
+          },
+          "completed_jobs": {
+            "estimate": -22.577499999999986,
+            "ci95_low": -27.262749999999926,
+            "ci95_high": -17.839999999999915,
+            "one_sided95_low": -26.537624999999913,
+            "bootstrap_sd": 2.4016558465682665
+          },
+          "completed_value": {
+            "estimate": -32.35999999999967,
+            "ci95_low": -44.315374999999605,
+            "ci95_high": -20.329749999999482,
+            "one_sided95_low": -42.400249999999666,
+            "bootstrap_sd": 6.130705674733297
+          },
+          "volume": {
+            "estimate": -46.52000000000021,
+            "ci95_low": -55.83749999999964,
+            "ci95_high": -37.13481249999955,
+            "one_sided95_low": -54.45512499999969,
+            "bootstrap_sd": 4.763298309181429
+          },
+          "total_user_utility": {
+            "estimate": 73.60645000000068,
+            "ci95_low": 63.92428249999994,
+            "ci95_high": 82.8522437500005,
+            "one_sided95_low": 65.55390249999968,
+            "bootstrap_sd": 4.79649097106773
+          },
+          "revenue_gain_percent": {
+            "estimate": -7.300853540192348,
+            "ci95_low": -7.948202906371352,
+            "ci95_high": -6.664243391028268,
+            "one_sided95_low": -7.845428833949142,
+            "bootstrap_sd": 0.3291792602919829
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": false,
+          "completed_value": false
+        },
+        "joint_pass": false
+      }
+    },
+    "steering": {
+      "all": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -2.2737367544323206e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.041645178175408e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.026420626624851e-13
+          },
+          "completed_value": {
+            "estimate": 9.094947017729282e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.614038054460588e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.367085952335502e-13
+          },
+          "total_user_utility": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.1870843383531637e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.650106453392432e-14,
+            "ci95_low": -3.299107282845152e-14,
+            "ci95_high": 3.300696474413905e-14,
+            "one_sided95_low": -1.652121008437552e-14,
+            "bootstrap_sd": 1.4816887200796764e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "coalition": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": 6.821210263296962e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.1145664402901848e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -1.1368683772161603e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.0570559206136831e-13
+          },
+          "completed_value": {
+            "estimate": -4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.952206235413345e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.400119367734697e-13
+          },
+          "total_user_utility": {
+            "estimate": 1.3642420526593924e-12,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.3160629722364544e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 4.917320687317979e-14,
+            "ci95_low": -3.275081543026765e-14,
+            "ci95_high": 3.280888371824142e-14,
+            "one_sided95_low": -1.642517365698397e-14,
+            "bootstrap_sd": 1.524366764076862e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "independent": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -1.8189894035458565e-12,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.0338664282331986e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 9.580920879652913e-14
+          },
+          "completed_value": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.936228804616639e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.371619162695593e-13
+          },
+          "total_user_utility": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.256037481862249e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.3290037103244196e-13,
+            "ci95_low": -3.322485844372002e-14,
+            "ci95_high": 3.3220583378103334e-14,
+            "one_sided95_low": -1.663420918081633e-14,
+            "bootstrap_sd": 1.4860036307859316e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_A": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.421096604076726e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.2171118330482957e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -1.8189894035458565e-12,
+            "ci95_high": 1.8189894035458565e-12,
+            "one_sided95_low": -1.8189894035458565e-12,
+            "bootstrap_sd": 8.514007312809001e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.5881027750078867e-13
+          },
+          "total_user_utility": {
+            "estimate": 4.547473508864641e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 5.323831355764385e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": 2.9720131837669156e-14,
+            "ci95_low": -2.975650616361782e-14,
+            "ci95_high": 2.9732901586625644e-14,
+            "one_sided95_low": -2.9725704464919454e-14,
+            "bootstrap_sd": 1.5823623066049115e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_B": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -1.3642420526593924e-12,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.8075676777090298e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -5.684341886080802e-14,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -5.684341886080802e-14,
+            "bootstrap_sd": 7.514701711553517e-14
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.77618827813058e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.2971415910566124e-13
+          },
+          "total_user_utility": {
+            "estimate": -4.263256414560601e-14,
+            "ci95_low": -2.842170943040401e-14,
+            "ci95_high": 2.842170943040401e-14,
+            "one_sided95_low": -2.842170943040401e-14,
+            "bootstrap_sd": 1.6671293062439862e-14
+          },
+          "revenue_gain_percent": {
+            "estimate": -1.2227738989464298e-13,
+            "ci95_low": -2.0422649147439e-14,
+            "ci95_high": 4.072745706382235e-14,
+            "one_sided95_low": -2.040203695875188e-14,
+            "bootstrap_sd": 1.6201473878318867e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_C": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -6.821210263296962e-13,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.374936205550499e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 1.2116314270690398e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 4.943306090960759e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -2.330580173293077e-13,
+            "ci95_high": 6.821210263296962e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.5790243856798487e-13
+          },
+          "total_user_utility": {
+            "estimate": 9.094947017729282e-13,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -9.094947017729282e-13,
+            "bootstrap_sd": 3.884352083279036e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -4.4862177938636476e-14,
+            "ci95_low": -2.992807748389596e-14,
+            "ci95_high": 2.99024045511141e-14,
+            "one_sided95_low": -2.991644821112127e-14,
+            "bootstrap_sd": 1.5619722052534315e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      },
+      "market_D": {
+        "method": "dynamic",
+        "reference": "fixed_0",
+        "endpoints": {
+          "revenue": {
+            "estimate": -4.547473508864641e-13,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -2.2737367544323206e-13,
+            "bootstrap_sd": 2.0452842281388184e-13
+          },
+          "completed_jobs": {
+            "estimate": 0.0,
+            "ci95_low": -2.2737367544323206e-13,
+            "ci95_high": 2.2737367544323206e-13,
+            "one_sided95_low": -1.1368683772161603e-13,
+            "bootstrap_sd": 1.0490078021873949e-13
+          },
+          "completed_value": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 1.3642420526593924e-12,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 5.016186244739956e-13
+          },
+          "volume": {
+            "estimate": 0.0,
+            "ci95_low": -4.547473508864641e-13,
+            "ci95_high": 4.547473508864641e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 2.4753106231300686e-13
+          },
+          "total_user_utility": {
+            "estimate": 1.8189894035458565e-12,
+            "ci95_low": -9.094947017729282e-13,
+            "ci95_high": 9.094947017729282e-13,
+            "one_sided95_low": -4.547473508864641e-13,
+            "bootstrap_sd": 3.7635475791608764e-13
+          },
+          "revenue_gain_percent": {
+            "estimate": -3.379867643585761e-14,
+            "ci95_low": -1.693808280684316e-14,
+            "ci95_high": 3.391702341497538e-14,
+            "one_sided95_low": -1.6900026486338306e-14,
+            "bootstrap_sd": 1.519933305842862e-14
+          }
+        },
+        "criteria": {
+          "revenue": false,
+          "completed_jobs": true,
+          "completed_value": true
+        },
+        "joint_pass": false
+      }
+    }
+  }
+}

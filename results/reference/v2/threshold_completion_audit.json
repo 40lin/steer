@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "frozen_source_mismatches": [],
+  "policy_evaluations": 120,
+  "fixed_rho_half_baselines": 3,
+  "extra_explanatory_rho0_baselines": 3,
+  "attack_platform_seeds": [
+    0,
+    4,
+    9
+  ],
+  "source_unchanged_during_tests": true,
+  "controller_validation_stream_reserved_but_unused": 420031,
+  "controller_selection": "No new controller selection or retraining; all four predeclared modes and ten seeds reported",
+  "supplemental_service_check": "Secondary explanatory check added after the policy evaluations; no effect on their parameters or chosen modes"
+}

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-11T12:14:40.470524+00:00",
+  "source_hashes": {
+    "code/capacity_allocation_steering.py": "3b8d321eba1f0a6bcf74211524c96e0bb2b8002ce7cf09672f4698cfbc5eb74b",
+    "code/capacity_billing_env.py": "9bb91a90dcd22e1d47fee5bd3715bf488e0ae3bd353d36fde7afaec59b6a2b13",
+    "code/steering_env.py": "aa6a8335d4c6069f59f9e31fa4934e55461f85ffbe111a81ddacf8784cc8ddfd",
+    "code/belief_baselines.py": "2d549a4ea50240fdba9ac6e789d718ff269074ee7dd32f42cab3668b76260712",
+    "code/analyze_threshold_experiment.py": "504db4864bcec634cc5e9c03e0a36b59bf91fd7b5236aa1b5e353c2ca45450b0"
+  },
+  "input_hashes": {
+    "experiments/v3_capacity_allocation/protocol.json": "d4498034505b66561fd40a26f6a6d0e266ac8120be313348795f190f3c63a241",
+    "experiments/v3_capacity_allocation/selection.json": "f963b5d5f9ac61e5e2ba526da2d7ce5c0a670a474e8924330b22f2b928bd94df",
+    "experiments/v3_capacity_allocation/data/validation/old_fixed.npz": "49cfcb3394e59df8b9f3f2761ca46c2b8857481a320fcca55fceb2bb4d44d66c",
+    "experiments/v3_capacity_allocation/data/validation/priority0_r0.npz": "42f9914e9cad5eb22fcf6339a3756b9333d567409139d0a4b3fedca951a7457e",
+    "experiments/v3_capacity_allocation/data/validation/priority0_r1.npz": "54e0a0c28f2de42d4d4ef9b481cc2e362e3b907d06b7f555a494d4ba436f808f",
+    "experiments/v3_capacity_allocation/data/validation/priority0_r2.npz": "4cf8cf6b99ffbe38e4d5518f7a228517d32717fa92838d8ffc477936f68ef968",
+    "experiments/v3_capacity_allocation/data/validation/priority0_r3.npz": "cedb6e7f27dadf52831a5d73921624d3a991ec7f1d88cf28dcbc2d3f97cd8fe8",
+    "experiments/v3_capacity_allocation/data/validation/priority1_r0.npz": "83cc8463090645e380eb2637f38622f234ecb5faab66ee7238a560ce6a96e173",
+    "experiments/v3_capacity_allocation/data/validation/priority1_r1.npz": "5df16648ce60a8a2c9ba91f86af4e7cd7551fd424cb746cc022265f0775e3e09",
+    "experiments/v3_capacity_allocation/data/validation/priority1_r2.npz": "4f9612e0c3d0799d5e8995d778b75e4864b0543b97df840c7cbb0e1fdcb6c54f",
+    "experiments/v3_capacity_allocation/data/validation/priority1_r3.npz": "5bdb47f001b44a843d397ccede29098ee1e62260f2f6041139f14d0f0f1a5ee6",
+    "experiments/v3_capacity_allocation/data/validation/uniform_r0.npz": "1efbe2f2ebcb8dd1dc45813a6960437e587c21abeafeb20a4028b0e46e6cec01",
+    "experiments/v3_capacity_allocation/data/validation/uniform_r1.npz": "415c37093caeeae277151c8675fe409aaa11bbe9135d1be6ee48b5b5f041724f",
+    "experiments/v3_capacity_allocation/data/validation/uniform_r2.npz": "7bbacdd6a5c29d1e5812ba9fbd00d5c57e0bcdd969099e415d7c06746f8ee421",
+    "experiments/v3_capacity_allocation/data/validation/uniform_r3.npz": "21208508b7b18f69da827cb21665299b397f7b38a63c06722b519ae6e65aa0dd"
+  },
+  "test_data_read": false,
+  "selected_method": "priority0_r0"
+}

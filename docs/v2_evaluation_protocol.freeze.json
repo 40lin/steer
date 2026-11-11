@@ -1,0 +1,9 @@
+{
+  "status": "v2_measurement_and_interpretation_rules_frozen",
+  "scope": "Metrics, comparisons and interpretation; candidate/execution manifests must be frozen separately before each test arm",
+  "created_utc": "2026-11-11T11:55:45.914352+00:00",
+  "file": "steer/docs/v2_evaluation_protocol.md",
+  "sha256": "9280c75380bc74329b6edf67e125f0c5ed226417d3bb21bc5e18c37b67d95c59",
+  "v1_results_known": true,
+  "v2_outputs_read_by_this_auditor": false
+}

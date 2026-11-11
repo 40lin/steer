@@ -1,0 +1,21 @@
+{
+  "status": "capacity_tariff_addendum_frozen",
+  "created_utc": "2026-11-11T12:00:01.659325+00:00",
+  "file": "steer/docs/v2_capacity_tariff_addendum.md",
+  "sha256": "cbbfd4c5e0c5bb47ef218cfc442b3a0feffbd4141204208748c0b8252215e5eb",
+  "parent_protocol_sha256": "9280c75380bc74329b6edf67e125f0c5ed226417d3bb21bc5e18c37b67d95c59",
+  "v2_capacity_tariff_random_outputs_read": false,
+  "primary_price": 0.78,
+  "exploratory_price_grid": [
+    0.65,
+    0.68,
+    0.7,
+    0.72,
+    0.75,
+    0.78,
+    0.79,
+    0.8,
+    0.82
+  ],
+  "note": "Execution manifest and candidate/software hashes still required before testing."
+}
